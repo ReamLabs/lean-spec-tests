@@ -1,2 +1,3 @@
-# lean-spec-tests
-Common tests for the Lean Consensus Client
+#  Lean Consensus Spec Tests
+
+This repository contains test vectors for the Ethereum [Lean Consensus Spec](https://github.com/leanEthereum/leanSpec).
