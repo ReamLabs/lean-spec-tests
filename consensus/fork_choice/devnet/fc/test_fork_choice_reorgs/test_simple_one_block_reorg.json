@@ -1,0 +1,151 @@
+{
+    "tests/consensus/devnet/fc/test_fork_choice_reorgs.py::test_simple_one_block_reorg[fork_Devnet][fork_devnet-fork_choice_test]": {
+        "network": "Devnet",
+        "anchorState": {
+            "config": {
+                "genesisTime": 0
+            },
+            "slot": 0,
+            "latestBlockHeader": {
+                "slot": 0,
+                "proposerIndex": 0,
+                "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "bodyRoot": "0xdba9671bac9513c9482f1416a53aabd2c6ce90d5a5f865ce5a55c775325c9136"
+            },
+            "latestJustified": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "latestFinalized": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "historicalBlockHashes": {
+                "data": []
+            },
+            "justifiedSlots": {
+                "data": []
+            },
+            "validators": {
+                "data": [
+                    {
+                        "pubkey": "0x4bb83259d65cd50278b7f84107f3de10cae4f80455600d29a65e595c3ecbfe4e92026d342f3016491bcb5f317855de399ab46a36"
+                    },
+                    {
+                        "pubkey": "0x974bb36f38ebce3169e0df214f74127de9b7bd63ea2bb734535b8f6bfceb06285b8db66a9304227667c45615f0979602f3f64c59"
+                    },
+                    {
+                        "pubkey": "0xd8123a3976b12e62236453329287ca713f247457b508832c4051b71c096a64645629410ed0254f7d0d168c691c369a7cb82e8c15"
+                    },
+                    {
+                        "pubkey": "0x25e41c6c6e749123ea039050894d670a4ce49239233f362d5ff78c053b699b7296da013b9f566f21c6b134217347293491408e29"
+                    }
+                ]
+            },
+            "justificationsRoots": {
+                "data": []
+            },
+            "justificationsValidators": {
+                "data": []
+            }
+        },
+        "anchorBlock": {
+            "slot": 0,
+            "proposerIndex": 0,
+            "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "stateRoot": "0x91c245fc7d56ea0e00584c66c7fc61275799cf2710ee6558823e2be90d6c15fd",
+            "body": {
+                "attestations": {
+                    "data": []
+                }
+            }
+        },
+        "steps": [
+            {
+                "valid": true,
+                "checks": {
+                    "headSlot": 1,
+                    "headRootLabel": "chain_base"
+                },
+                "stepType": "block",
+                "block": {
+                    "slot": 1,
+                    "proposer_index": 1,
+                    "parent_root": "0x5660f17625a22fa56ed7d8a9e822562fa5b73a3016fd1483dd0efec9f2cfcb64",
+                    "state_root": "0xa4312a08384931542e8aaccc387f0dc37a0913c1bdd0912b61b982f930338e39",
+                    "body": {
+                        "attestations": {
+                            "data": []
+                        }
+                    }
+                }
+            },
+            {
+                "valid": true,
+                "checks": {
+                    "headSlot": 2,
+                    "headRootLabel": "fork_a_2"
+                },
+                "stepType": "block",
+                "block": {
+                    "slot": 2,
+                    "proposer_index": 2,
+                    "parent_root": "0xa8a08cedf0896e2a1c26e14de2fe1fa1e298314a4fbd1b821fad819b73b44bde",
+                    "state_root": "0x589e358aab1d9aff4779c5c0be60b53ba2e1f991aea2ef48912184070b09fcc7",
+                    "body": {
+                        "attestations": {
+                            "data": []
+                        }
+                    }
+                }
+            },
+            {
+                "valid": true,
+                "checks": {
+                    "headSlot": 2,
+                    "headRootLabel": "fork_a_2"
+                },
+                "stepType": "block",
+                "block": {
+                    "slot": 2,
+                    "proposer_index": 2,
+                    "parent_root": "0xa8a08cedf0896e2a1c26e14de2fe1fa1e298314a4fbd1b821fad819b73b44bde",
+                    "state_root": "0x589e358aab1d9aff4779c5c0be60b53ba2e1f991aea2ef48912184070b09fcc7",
+                    "body": {
+                        "attestations": {
+                            "data": []
+                        }
+                    }
+                }
+            },
+            {
+                "valid": true,
+                "checks": {
+                    "headSlot": 3,
+                    "headRootLabel": "fork_b_3"
+                },
+                "stepType": "block",
+                "block": {
+                    "slot": 3,
+                    "proposer_index": 3,
+                    "parent_root": "0x61f31160817136123241c9f8faad939b8163de1ef5431454a791bf7e8a7692cf",
+                    "state_root": "0xd341158595789e36ddaf0235d26c875d5d994a414a11bb186ecddb22c97e33f1",
+                    "body": {
+                        "attestations": {
+                            "data": []
+                        }
+                    }
+                }
+            }
+        ],
+        "maxSlot": 3,
+        "_info": {
+            "hash": "0xccb084abe0ae6e466dbb20d30b0450d77fbf67b88b469081cc383a98980d1f30",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/devnet/fc/test_fork_choice_reorgs.py::test_simple_one_block_reorg[fork_Devnet]",
+            "description": "Simplest reorg: one-block fork overtakes another via extension.\n\nScenario\n--------\n- Slot 1: Common ancestor (chain_base)\n- Slot 2: Fork A created, becomes head\n- Slot 2: Fork B created (competing fork at same slot)\n- Slot 3: Fork B extended \u2192 triggers reorg from A to B\n\nExpected Behavior\n-----------------\n1. After fork_a_2: head = fork_a_2 (first fork created)\n2. After fork_b_2: head = fork_a_2 (equal weight, head remains unchanged)\n3. After fork_b_3: head = fork_b_3 (fork B heavier due to extension)\n\nReorg Details:\n    - **Depth**: 1 block (fork_a_2 becomes non-canonical)\n    - **Trigger**: Fork extension (proposer attestation)\n    - **Weight advantage**: Fork B has 2 proposer attestations vs 1\n\nWhy This Matters\n----------------\nThis is the most common reorg scenario in practice:\n- Two blocks proposed at nearly the same time\n- Network temporarily splits (half see A first, half see B first)\n- Next proposer builds on one fork, resolving the split\n- Fork choice converges to the extended fork\n\nTests the fundamental property: extending a fork makes it heavier.",
+            "fixtureFormat": "fork_choice_test"
+        }
+    }
+}
