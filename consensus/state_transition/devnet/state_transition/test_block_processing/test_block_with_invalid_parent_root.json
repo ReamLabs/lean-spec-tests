@@ -30,16 +30,20 @@
             "validators": {
                 "data": [
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     }
                 ]
             },
@@ -53,9 +57,9 @@
         "blocks": [
             {
                 "slot": 1,
-                "proposer_index": 1,
-                "parent_root": "0xdeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddead",
-                "state_root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "proposerIndex": 1,
+                "parentRoot": "0xdeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddeaddead",
+                "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                 "body": {
                     "attestations": {
                         "data": []
@@ -65,7 +69,7 @@
         ],
         "expectException": "AssertionError",
         "_info": {
-            "hash": "0x530aec2cd6fd3f2a92b3e54ad1becc0d68d1fb72621b6767e90df4324fb37ec0",
+            "hash": "0x8b16c1cd5e6a7fba8ed01402295273d0742a5c375147c1a8889df017017ff568",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/devnet/state_transition/test_block_processing.py::test_block_with_invalid_parent_root[fork_Devnet]",
             "description": "Test that blocks with wrong parent root are rejected.\n\nScenario\n--------\nAttempt to process a block where parent root doesn't match\nhash_tree_root(state.latest block header).\n\nExpected Behavior\n-----------------\nBlock processing fails with AssertionError: \"Block parent root mismatch\"\n\nWhy This Matters\n----------------\nMaintains chain integrity:\n- Blocks must reference correct parent\n- Prevents chain history forgery\n- Ensures linear chain continuity\n- Critical for fork resolution\n\nWithout this check, attackers could create invalid chain branches.",

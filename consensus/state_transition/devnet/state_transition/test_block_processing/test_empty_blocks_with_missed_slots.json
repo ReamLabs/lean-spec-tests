@@ -30,16 +30,20 @@
             "validators": {
                 "data": [
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     }
                 ]
             },
@@ -53,9 +57,9 @@
         "blocks": [
             {
                 "slot": 1,
-                "proposer_index": 1,
-                "parent_root": "0xc0d44f989da630e63b222085a226fea923e2cc5321ba4c4aa4978b528949827e",
-                "state_root": "0x57c159521023a7181e36310c0e30f3fa4b49449df06fbb40023ae6db29b9d200",
+                "proposerIndex": 1,
+                "parentRoot": "0x3fa63c7ac9858f673d7c1f843553bf1a2a7fb5fd050a806d8029ad5cd8e7c557",
+                "stateRoot": "0xcff2c49e60f9d9847c1c668b505aa03602f27018b4818195a365a97192a0cf0b",
                 "body": {
                     "attestations": {
                         "data": []
@@ -64,9 +68,9 @@
             },
             {
                 "slot": 2,
-                "proposer_index": 2,
-                "parent_root": "0xad26b6bd334c3210c3776ae2cb5ca6f27c89fdd7d1f9e9e08324f4c584b87134",
-                "state_root": "0xb229cd5597a4c28c8895b60113d6a6b86602d19aa364f1bdeb6ecd5f51ae0756",
+                "proposerIndex": 2,
+                "parentRoot": "0x6b92086b46fd1520c9b8b7dfe8b654203563d4c0d046ea305ed532bb631fe7a8",
+                "stateRoot": "0xd1fea41b0e7d5550ed3af3a621a6c8171dce3a1376b36fa37d3a21d761d61b67",
                 "body": {
                     "attestations": {
                         "data": []
@@ -75,9 +79,9 @@
             },
             {
                 "slot": 3,
-                "proposer_index": 3,
-                "parent_root": "0x60097245852f36359a7246aed4600ebbaf98fd62dc101cdc4a12f9089d858f05",
-                "state_root": "0xa657eb75b0473cac0f4ae137861e9aedd9cdf80b16cade35deb10d61482b8244",
+                "proposerIndex": 3,
+                "parentRoot": "0xb081538f568bb4e06404935a0c69b9e80ebd4c68dbb025901d2e387ca87fd973",
+                "stateRoot": "0x49dd61728f5e5dddaa3704c595a62d9705ed0f54359e4d31e35ccbe16067f900",
                 "body": {
                     "attestations": {
                         "data": []
@@ -86,9 +90,9 @@
             },
             {
                 "slot": 5,
-                "proposer_index": 1,
-                "parent_root": "0x4776ddd2c9b9191fcbb5f7042d8d73044eddb03e33db46cc1ef7a5f815b533ef",
-                "state_root": "0x0ab042aca2eb9918058e163f211fb45b277191138892aabe217225779e92337b",
+                "proposerIndex": 1,
+                "parentRoot": "0x65cbebbc96b85f27112ea3fc2f7126634dcd8b1a1a743ef178e09605bd193e55",
+                "stateRoot": "0x804edac8aafa926d76eda93ed7cf8d7b26ccb30afbbbbc4e3a891101288fec59",
                 "body": {
                     "attestations": {
                         "data": []
@@ -97,9 +101,9 @@
             },
             {
                 "slot": 6,
-                "proposer_index": 2,
-                "parent_root": "0x9e2a5c8ba870e1fa9c4f060fe222831633540f765ae5be794543ca98eabc5510",
-                "state_root": "0x973b97a4a49e7384044bbf46b30c6bf91eed88e16e8e813af3d639339abbec78",
+                "proposerIndex": 2,
+                "parentRoot": "0xa74eef4e68f39d9312b3c01288613d79df54d1abac37500d394c5fbca4701e74",
+                "stateRoot": "0xa0896a90a98041395ae6e3ac7e44764adbe53a7fbe858fa1cb246fdb7f2bda4d",
                 "body": {
                     "attestations": {
                         "data": []
@@ -113,7 +117,7 @@
             "historicalBlockHashesCount": 6
         },
         "_info": {
-            "hash": "0x7091790d76cd8b718ccc8855aae7620b2482fde40f5f5f8acd015d96272d0eb8",
+            "hash": "0x6028015ea1496a052c050b8f49d00f5e81a4b36b858b62af915e5ddd775e087e",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/devnet/state_transition/test_block_processing.py::test_empty_blocks_with_missed_slots[fork_Devnet]",
             "description": "Test processing blocks with empty body (no attestations) combined with missed slots.\n\nScenario\n --------\n Build chain of blocks with empty body + missed slot:\n - Slot 1: Block\n - Slot 2: Block, Empty body\n - Slot 3: BLock, Empty body\n - Slot 4: Missed\n - Slot 5: Block, Empty body\n - Slot 6: Block\n\n Expected Behavior\n -----------------\n 1. Blocks process at specified slots\n 2. Empty slots handled automatically\n 3. State advances to slot 6",

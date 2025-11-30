@@ -30,16 +30,20 @@
             "validators": {
                 "data": [
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                        "pubkey": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "index": 0
                     }
                 ]
             },
@@ -53,9 +57,9 @@
         "blocks": [
             {
                 "slot": 1,
-                "proposer_index": 1,
-                "parent_root": "0xc0d44f989da630e63b222085a226fea923e2cc5321ba4c4aa4978b528949827e",
-                "state_root": "0x57c159521023a7181e36310c0e30f3fa4b49449df06fbb40023ae6db29b9d200",
+                "proposerIndex": 1,
+                "parentRoot": "0x3fa63c7ac9858f673d7c1f843553bf1a2a7fb5fd050a806d8029ad5cd8e7c557",
+                "stateRoot": "0xcff2c49e60f9d9847c1c668b505aa03602f27018b4818195a365a97192a0cf0b",
                 "body": {
                     "attestations": {
                         "data": []
@@ -70,7 +74,7 @@
             "historicalBlockHashesCount": 1
         },
         "_info": {
-            "hash": "0x815f2a5f0d9b679d6f9d5c28d96cba4d4bb1ffe4d1edd19e8714ed84bf2a7f0f",
+            "hash": "0xad96c1b3aac41e4f72a09384989571f3f57b0069c040511101ab6e40112bbb6f",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/devnet/state_transition/test_block_processing.py::test_process_first_block_after_genesis[fork_Devnet]",
             "description": "Test processing the first block after genesis.\n\nScenario\n--------\nProcess a single block at slot 1 immediately after genesis.\n\nExpected Behavior\n-----------------\n1. State advances from slot 0 to slot 1\n2. Block header is validated and processed\n3. Latest block header updated to new block\n4. Historical roots updated with genesis\n5. Post-state at slot 1\n\nThis is the foundation for all subsequent blocks.",

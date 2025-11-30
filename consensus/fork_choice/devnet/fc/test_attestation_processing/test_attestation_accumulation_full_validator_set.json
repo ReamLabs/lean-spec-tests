@@ -30,16 +30,20 @@
             "validators": {
                 "data": [
                     {
-                        "pubkey": "0x4bb83259d65cd50278b7f84107f3de10cae4f80455600d29a65e595c3ecbfe4e92026d342f3016491bcb5f317855de399ab46a36"
+                        "pubkey": "0x0ea53c54f651d217baca67273a7289752b6a305a8ea4c457d9a2db38ff574d65931d4423c16a387bceea804960521e54d3148c51",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0x974bb36f38ebce3169e0df214f74127de9b7bd63ea2bb734535b8f6bfceb06285b8db66a9304227667c45615f0979602f3f64c59"
+                        "pubkey": "0xa090f079a84bc41649b39a67dcd2e54c2291770fb7f1d02a4a70727a9f8f47148e212c7a1851046fe543190b6069b170db0adc44",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0xd8123a3976b12e62236453329287ca713f247457b508832c4051b71c096a64645629410ed0254f7d0d168c691c369a7cb82e8c15"
+                        "pubkey": "0xa113e61510f3ca4efa4dea471de63c591023954c0cc1ee4931c31c434630be54fe63e7195f395d436ef4533561d3d6147b0b723f",
+                        "index": 0
                     },
                     {
-                        "pubkey": "0x25e41c6c6e749123ea039050894d670a4ce49239233f362d5ff78c053b699b7296da013b9f566f21c6b134217347293491408e29"
+                        "pubkey": "0x92078466d6857e27b4250235133bef3545fdc3775280a7602f75d70ac7121137656407119c1f547b475d8151e7e753352bb8e53f",
+                        "index": 0
                     }
                 ]
             },
@@ -54,7 +58,7 @@
             "slot": 0,
             "proposerIndex": 0,
             "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "stateRoot": "0x91c245fc7d56ea0e00584c66c7fc61275799cf2710ee6558823e2be90d6c15fd",
+            "stateRoot": "0x1159403490c5fdc31e13cb7d7e232b4c61ecf3efc315653b2dc17ce09516cd6b",
             "body": {
                 "attestations": {
                     "data": []
@@ -77,13 +81,33 @@
                 },
                 "stepType": "block",
                 "block": {
-                    "slot": 1,
-                    "proposer_index": 1,
-                    "parent_root": "0x5660f17625a22fa56ed7d8a9e822562fa5b73a3016fd1483dd0efec9f2cfcb64",
-                    "state_root": "0xa4312a08384931542e8aaccc387f0dc37a0913c1bdd0912b61b982f930338e39",
-                    "body": {
-                        "attestations": {
-                            "data": []
+                    "block": {
+                        "slot": 1,
+                        "proposerIndex": 1,
+                        "parentRoot": "0x02c3157a8b40dd4a5f7204e556394a2433bfc5595db35cb3fc062f47e60ba0e0",
+                        "stateRoot": "0xc39bbf989d98e3501918f381aedc3f1f641fabf7c009b3b89a56d72a6806b506",
+                        "body": {
+                            "attestations": {
+                                "data": []
+                            }
+                        }
+                    },
+                    "proposerAttestation": {
+                        "validatorId": 1,
+                        "data": {
+                            "slot": 1,
+                            "head": {
+                                "root": "0xa76a446931c1e2aa880f8523e8b05aa930a8e1dea8c9c90821d859636a420436",
+                                "slot": 1
+                            },
+                            "target": {
+                                "root": "0xa76a446931c1e2aa880f8523e8b05aa930a8e1dea8c9c90821d859636a420436",
+                                "slot": 1
+                            },
+                            "source": {
+                                "root": "0x02c3157a8b40dd4a5f7204e556394a2433bfc5595db35cb3fc062f47e60ba0e0",
+                                "slot": 0
+                            }
                         }
                     }
                 }
@@ -108,13 +132,33 @@
                 },
                 "stepType": "block",
                 "block": {
-                    "slot": 2,
-                    "proposer_index": 2,
-                    "parent_root": "0xa8a08cedf0896e2a1c26e14de2fe1fa1e298314a4fbd1b821fad819b73b44bde",
-                    "state_root": "0x589e358aab1d9aff4779c5c0be60b53ba2e1f991aea2ef48912184070b09fcc7",
-                    "body": {
-                        "attestations": {
-                            "data": []
+                    "block": {
+                        "slot": 2,
+                        "proposerIndex": 2,
+                        "parentRoot": "0xa76a446931c1e2aa880f8523e8b05aa930a8e1dea8c9c90821d859636a420436",
+                        "stateRoot": "0xeb80d913b5a7be41826b0bf3a25205d4d0fb6c35576f594a642b794cb14c23ba",
+                        "body": {
+                            "attestations": {
+                                "data": []
+                            }
+                        }
+                    },
+                    "proposerAttestation": {
+                        "validatorId": 2,
+                        "data": {
+                            "slot": 2,
+                            "head": {
+                                "root": "0xe58682cdbd5062a74dadb9d8554041f4b0a3f071053c718116d1e72fa99a1c94",
+                                "slot": 2
+                            },
+                            "target": {
+                                "root": "0xe58682cdbd5062a74dadb9d8554041f4b0a3f071053c718116d1e72fa99a1c94",
+                                "slot": 2
+                            },
+                            "source": {
+                                "root": "0xa76a446931c1e2aa880f8523e8b05aa930a8e1dea8c9c90821d859636a420436",
+                                "slot": 1
+                            }
                         }
                     }
                 }
@@ -144,13 +188,33 @@
                 },
                 "stepType": "block",
                 "block": {
-                    "slot": 3,
-                    "proposer_index": 3,
-                    "parent_root": "0x61f31160817136123241c9f8faad939b8163de1ef5431454a791bf7e8a7692cf",
-                    "state_root": "0xd341158595789e36ddaf0235d26c875d5d994a414a11bb186ecddb22c97e33f1",
-                    "body": {
-                        "attestations": {
-                            "data": []
+                    "block": {
+                        "slot": 3,
+                        "proposerIndex": 3,
+                        "parentRoot": "0xe58682cdbd5062a74dadb9d8554041f4b0a3f071053c718116d1e72fa99a1c94",
+                        "stateRoot": "0xf720286ef649346b1fdf403814589f50b200b6a5cf92686cce1c41311e83a7eb",
+                        "body": {
+                            "attestations": {
+                                "data": []
+                            }
+                        }
+                    },
+                    "proposerAttestation": {
+                        "validatorId": 3,
+                        "data": {
+                            "slot": 3,
+                            "head": {
+                                "root": "0xfac1f6c32c1307edc1e1333926253270a809c4587d7e80c05937131cb2063e6d",
+                                "slot": 3
+                            },
+                            "target": {
+                                "root": "0xfac1f6c32c1307edc1e1333926253270a809c4587d7e80c05937131cb2063e6d",
+                                "slot": 3
+                            },
+                            "source": {
+                                "root": "0xe58682cdbd5062a74dadb9d8554041f4b0a3f071053c718116d1e72fa99a1c94",
+                                "slot": 2
+                            }
                         }
                     }
                 }
@@ -185,13 +249,33 @@
                 },
                 "stepType": "block",
                 "block": {
-                    "slot": 4,
-                    "proposer_index": 0,
-                    "parent_root": "0x877ad547101c5af1756df32ab0871771210936668739e2511e1cf11dc9af6da4",
-                    "state_root": "0x2f32a2dfd50c99422971f15c92a033c9f1acd74af81709ff5b3f9ffcb21f8dcb",
-                    "body": {
-                        "attestations": {
-                            "data": []
+                    "block": {
+                        "slot": 4,
+                        "proposerIndex": 0,
+                        "parentRoot": "0xfac1f6c32c1307edc1e1333926253270a809c4587d7e80c05937131cb2063e6d",
+                        "stateRoot": "0xd73bb8e9b2a9303d8c35026a69907fc9ff929a44135766ebfe2e7f71e5067f31",
+                        "body": {
+                            "attestations": {
+                                "data": []
+                            }
+                        }
+                    },
+                    "proposerAttestation": {
+                        "validatorId": 0,
+                        "data": {
+                            "slot": 4,
+                            "head": {
+                                "root": "0xb231920dd47181d7f48723c558d862fd7df95d1b554dd6ee854114914b1ccf23",
+                                "slot": 4
+                            },
+                            "target": {
+                                "root": "0xb231920dd47181d7f48723c558d862fd7df95d1b554dd6ee854114914b1ccf23",
+                                "slot": 4
+                            },
+                            "source": {
+                                "root": "0xfac1f6c32c1307edc1e1333926253270a809c4587d7e80c05937131cb2063e6d",
+                                "slot": 3
+                            }
                         }
                     }
                 }
@@ -199,7 +283,7 @@
         ],
         "maxSlot": 4,
         "_info": {
-            "hash": "0xd62da07b549b1b6ca2d7f4f4e498bca9fa6c0b402807c11df482d3340aab4667",
+            "hash": "0x05718d79265e9047904aa6ae59905b2191b9b968854314d39a222a64c4cbb678",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/devnet/fc/test_attestation_processing.py::test_attestation_accumulation_full_validator_set[fork_Devnet]",
             "description": "All validators contribute attestations across both dictionaries.\n\nScenario\n--------\nProcess blocks at slots 1, 2, 3, 4 (complete validator rotation).\n\nExpected:\n    - After slot 1:  new attestations = 1, known attestations = 0\n    - After slot 2:  new attestations = 1, known attestations = 1\n    - After slot 3:  new attestations = 1, known attestations = 2\n    - After slot 4:  new attestations = 1, known attestations = 3  (total: 4 validators)\n\nWhy This Matters\n----------------\nWith 4 validators and consecutive blocks, each validator proposes once.\n\nAttestations accumulate across both dictionaries:\n- new: current slot's proposer\n- known: all previous proposers\n\nThe total (new + known) equals the number of unique validators who proposed.",
