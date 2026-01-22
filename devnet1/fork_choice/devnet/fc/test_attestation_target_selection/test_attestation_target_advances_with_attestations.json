@@ -1,0 +1,274 @@
+{
+    "tests/consensus/devnet/fc/test_attestation_target_selection.py::test_attestation_target_advances_with_attestations[fork_Devnet][fork_Devnet-fork_choice_test]": {
+        "network": "Devnet",
+        "anchorState": {
+            "config": {
+                "genesisTime": 0
+            },
+            "slot": 0,
+            "latestBlockHeader": {
+                "slot": 0,
+                "proposerIndex": 0,
+                "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "bodyRoot": "0xdba9671bac9513c9482f1416a53aabd2c6ce90d5a5f865ce5a55c775325c9136"
+            },
+            "latestJustified": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "latestFinalized": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "historicalBlockHashes": {
+                "data": []
+            },
+            "justifiedSlots": {
+                "data": []
+            },
+            "validators": {
+                "data": [
+                    {
+                        "pubkey": "0xdb1a44744d371515fcf59b41893f8e50278e1e439fbab656fa8a8b407520a866e621862938c02368d5c639238db3837bed5d3b22",
+                        "index": 0
+                    },
+                    {
+                        "pubkey": "0x029f7e118477000249d8656934595b7176e4005f51e9da6dabcb021a74b6c004a1c0171de8e4cd4be3b4cc322370ae1cdbaa0e65",
+                        "index": 0
+                    },
+                    {
+                        "pubkey": "0x844323451585041364861a759af89831a87ec3741247526762f1752ff08b856d41915718f898de2237c86f5b6e01397c8eb85b32",
+                        "index": 0
+                    },
+                    {
+                        "pubkey": "0x24ac0123186e97299f84b13410019966f51f0208d1eea30e0f985f3e16bd877bde8ae10e626d411be1b79749a8c4e242e4831a12",
+                        "index": 0
+                    }
+                ]
+            },
+            "justificationsRoots": {
+                "data": []
+            },
+            "justificationsValidators": {
+                "data": []
+            }
+        },
+        "anchorBlock": {
+            "slot": 0,
+            "proposerIndex": 0,
+            "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "stateRoot": "0xb8d93192626a5acb416ac3001f1dec3b1a9f1973c1094df8fb9107d9f534e3d0",
+            "body": {
+                "attestations": {
+                    "data": []
+                }
+            }
+        },
+        "steps": [
+            {
+                "valid": true,
+                "checks": {
+                    "headSlot": 1,
+                    "attestationTargetSlot": 0
+                },
+                "stepType": "block",
+                "block": {
+                    "block": {
+                        "slot": 1,
+                        "proposerIndex": 1,
+                        "parentRoot": "0x420645913d46f1a9971901a1cab0292c3fba7748ab3a9de61d5bea9a87dfa556",
+                        "stateRoot": "0xf537ae0c77928e8b0beaaeb8e271d120dacf2d81eb16eb9690ed645c2ab9b2c6",
+                        "body": {
+                            "attestations": {
+                                "data": []
+                            }
+                        }
+                    },
+                    "proposerAttestation": {
+                        "validatorId": 1,
+                        "data": {
+                            "slot": 1,
+                            "head": {
+                                "root": "0xc9338c5c8ba1e88c5275e540dc3c4f388b6a756d8817f1899465d61db3555e3c",
+                                "slot": 1
+                            },
+                            "target": {
+                                "root": "0xc9338c5c8ba1e88c5275e540dc3c4f388b6a756d8817f1899465d61db3555e3c",
+                                "slot": 1
+                            },
+                            "source": {
+                                "root": "0x420645913d46f1a9971901a1cab0292c3fba7748ab3a9de61d5bea9a87dfa556",
+                                "slot": 0
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "valid": true,
+                "checks": {
+                    "headSlot": 2,
+                    "attestationTargetSlot": 0
+                },
+                "stepType": "block",
+                "block": {
+                    "block": {
+                        "slot": 2,
+                        "proposerIndex": 2,
+                        "parentRoot": "0xc9338c5c8ba1e88c5275e540dc3c4f388b6a756d8817f1899465d61db3555e3c",
+                        "stateRoot": "0xe941610c8dd9ce026b91abed7297fbdf6ec469d361a6e6b7011968c2686d6f93",
+                        "body": {
+                            "attestations": {
+                                "data": []
+                            }
+                        }
+                    },
+                    "proposerAttestation": {
+                        "validatorId": 2,
+                        "data": {
+                            "slot": 2,
+                            "head": {
+                                "root": "0xe810e2555b01396fc11387b44ffa5e1b595d30e785b641ce8a5aa0c74a3dba18",
+                                "slot": 2
+                            },
+                            "target": {
+                                "root": "0xe810e2555b01396fc11387b44ffa5e1b595d30e785b641ce8a5aa0c74a3dba18",
+                                "slot": 2
+                            },
+                            "source": {
+                                "root": "0xc9338c5c8ba1e88c5275e540dc3c4f388b6a756d8817f1899465d61db3555e3c",
+                                "slot": 1
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "valid": true,
+                "checks": {
+                    "headSlot": 3,
+                    "attestationTargetSlot": 0
+                },
+                "stepType": "block",
+                "block": {
+                    "block": {
+                        "slot": 3,
+                        "proposerIndex": 3,
+                        "parentRoot": "0xe810e2555b01396fc11387b44ffa5e1b595d30e785b641ce8a5aa0c74a3dba18",
+                        "stateRoot": "0x9c5ca2e4a253ead01155fa3b7fbd54e1d60c6c2218f1faf5cea66bf16b3e1acc",
+                        "body": {
+                            "attestations": {
+                                "data": []
+                            }
+                        }
+                    },
+                    "proposerAttestation": {
+                        "validatorId": 3,
+                        "data": {
+                            "slot": 3,
+                            "head": {
+                                "root": "0x325a2736c5761241cdc8ef59db5118b450b7fa36f69d49c9edb45584934bde1f",
+                                "slot": 3
+                            },
+                            "target": {
+                                "root": "0x325a2736c5761241cdc8ef59db5118b450b7fa36f69d49c9edb45584934bde1f",
+                                "slot": 3
+                            },
+                            "source": {
+                                "root": "0xe810e2555b01396fc11387b44ffa5e1b595d30e785b641ce8a5aa0c74a3dba18",
+                                "slot": 2
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "valid": true,
+                "checks": {
+                    "headSlot": 4,
+                    "attestationTargetSlot": 1
+                },
+                "stepType": "block",
+                "block": {
+                    "block": {
+                        "slot": 4,
+                        "proposerIndex": 0,
+                        "parentRoot": "0x325a2736c5761241cdc8ef59db5118b450b7fa36f69d49c9edb45584934bde1f",
+                        "stateRoot": "0x82ec7acd4ef8189adba8a225795fa2cd86a29054f7f81a46495879d20b309790",
+                        "body": {
+                            "attestations": {
+                                "data": []
+                            }
+                        }
+                    },
+                    "proposerAttestation": {
+                        "validatorId": 0,
+                        "data": {
+                            "slot": 4,
+                            "head": {
+                                "root": "0x9096683fed17afa70a55e60bdbfd0fa2e3ffe90362b3ea35b2b98609af4bad8d",
+                                "slot": 4
+                            },
+                            "target": {
+                                "root": "0x9096683fed17afa70a55e60bdbfd0fa2e3ffe90362b3ea35b2b98609af4bad8d",
+                                "slot": 4
+                            },
+                            "source": {
+                                "root": "0x325a2736c5761241cdc8ef59db5118b450b7fa36f69d49c9edb45584934bde1f",
+                                "slot": 3
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "valid": true,
+                "checks": {
+                    "headSlot": 5,
+                    "attestationTargetSlot": 2
+                },
+                "stepType": "block",
+                "block": {
+                    "block": {
+                        "slot": 5,
+                        "proposerIndex": 1,
+                        "parentRoot": "0x9096683fed17afa70a55e60bdbfd0fa2e3ffe90362b3ea35b2b98609af4bad8d",
+                        "stateRoot": "0x75f45aafdde945b83a1055dcb464ba3d95a58c0a696fce48acb2a4a976576124",
+                        "body": {
+                            "attestations": {
+                                "data": []
+                            }
+                        }
+                    },
+                    "proposerAttestation": {
+                        "validatorId": 1,
+                        "data": {
+                            "slot": 5,
+                            "head": {
+                                "root": "0x4e1f9d2ca9493419afe4413e921a0c812495924445e4aab5c8e22bc431c3e928",
+                                "slot": 5
+                            },
+                            "target": {
+                                "root": "0x4e1f9d2ca9493419afe4413e921a0c812495924445e4aab5c8e22bc431c3e928",
+                                "slot": 5
+                            },
+                            "source": {
+                                "root": "0x9096683fed17afa70a55e60bdbfd0fa2e3ffe90362b3ea35b2b98609af4bad8d",
+                                "slot": 4
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "maxSlot": 5,
+        "_info": {
+            "hash": "0x802f46b0fadb218d697a8e2e77c4178d146ef1ec48eec3473aec6a780e8a02c6",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/devnet/fc/test_attestation_target_selection.py::test_attestation_target_advances_with_attestations[fork_Devnet]",
+            "description": "Attestation target advances as attestation weight accumulates.\n\nScenario\n--------\nBuild a longer chain (slots 1-5) where attestations cause target advancement.\n\nExpected:\n    - Initial blocks: target stays at genesis (slot 0)\n    - Later blocks: target advances as attestations accumulate\n    - Target remains behind head for safety\n\nWhy This Matters\n----------------\nAs validators attest to blocks, the safe target advances, which in turn\nallows the attestation target to move forward.\n\nThis demonstrates the dynamic nature of target selection: conservative initially,\nbut advancing as consensus strengthens through attestation accumulation.\n\nThe target advances only when sufficient attestation weight supports it.",
+            "fixtureFormat": "fork_choice_test"
+        }
+    }
+}

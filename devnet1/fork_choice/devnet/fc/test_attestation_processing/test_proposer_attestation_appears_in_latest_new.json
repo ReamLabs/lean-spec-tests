@@ -1,0 +1,127 @@
+{
+    "tests/consensus/devnet/fc/test_attestation_processing.py::test_proposer_attestation_appears_in_latest_new[fork_Devnet][fork_Devnet-fork_choice_test]": {
+        "network": "Devnet",
+        "anchorState": {
+            "config": {
+                "genesisTime": 0
+            },
+            "slot": 0,
+            "latestBlockHeader": {
+                "slot": 0,
+                "proposerIndex": 0,
+                "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "bodyRoot": "0xdba9671bac9513c9482f1416a53aabd2c6ce90d5a5f865ce5a55c775325c9136"
+            },
+            "latestJustified": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "latestFinalized": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "historicalBlockHashes": {
+                "data": []
+            },
+            "justifiedSlots": {
+                "data": []
+            },
+            "validators": {
+                "data": [
+                    {
+                        "pubkey": "0xfa533a323a6f23198f666b0621f7de3fe57d1b0d26b26e170b19c6786d26fb3d9ab67e2c02780f32f688a90ff2af6814adb70c5c",
+                        "index": 0
+                    },
+                    {
+                        "pubkey": "0xc1810e612831d94da5dcc35a64960c7dbe7939741f917177374c9d16ac323a552fb73c4d3be7495aadf4b95e857e720bff39ac56",
+                        "index": 0
+                    },
+                    {
+                        "pubkey": "0x503e4d4d7258717a8d7cd74a28be5475385074537773524f6352ae6de2b8af4c0e3f89276ba26f6f5ba6700a2eadd1698d53b33a",
+                        "index": 0
+                    },
+                    {
+                        "pubkey": "0x1855e26774d3f90559e90b241c7fab4e80ab1d57b963e717600bb1444c18c10ec958d76a3e02ca057054d86923a8046c0bc91b1b",
+                        "index": 0
+                    }
+                ]
+            },
+            "justificationsRoots": {
+                "data": []
+            },
+            "justificationsValidators": {
+                "data": []
+            }
+        },
+        "anchorBlock": {
+            "slot": 0,
+            "proposerIndex": 0,
+            "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "stateRoot": "0x68a1010ccd524822f67ea6400eae8cc8dc21d957474d13a97ea101b897b7a917",
+            "body": {
+                "attestations": {
+                    "data": []
+                }
+            }
+        },
+        "steps": [
+            {
+                "valid": true,
+                "checks": {
+                    "headSlot": 1,
+                    "attestationChecks": [
+                        {
+                            "validator": 1,
+                            "attestationSlot": 1,
+                            "headSlot": 1,
+                            "sourceSlot": 0,
+                            "targetSlot": 1,
+                            "location": "new"
+                        }
+                    ]
+                },
+                "stepType": "block",
+                "block": {
+                    "block": {
+                        "slot": 1,
+                        "proposerIndex": 1,
+                        "parentRoot": "0x60bc94e6d42e3b0d69379184487760c47d2c0fda9457ab2f828f022274253850",
+                        "stateRoot": "0x2cffbad50f98bb9b0e52319f172a6a8669c63a5703659c1ae8961f20623769c0",
+                        "body": {
+                            "attestations": {
+                                "data": []
+                            }
+                        }
+                    },
+                    "proposerAttestation": {
+                        "validatorId": 1,
+                        "data": {
+                            "slot": 1,
+                            "head": {
+                                "root": "0x9f75828b7c7da1dacb0e3936caf5b3a37aa20c6a4555c44ae21b023d00ca6c7b",
+                                "slot": 1
+                            },
+                            "target": {
+                                "root": "0x9f75828b7c7da1dacb0e3936caf5b3a37aa20c6a4555c44ae21b023d00ca6c7b",
+                                "slot": 1
+                            },
+                            "source": {
+                                "root": "0x60bc94e6d42e3b0d69379184487760c47d2c0fda9457ab2f828f022274253850",
+                                "slot": 0
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "maxSlot": 1,
+        "_info": {
+            "hash": "0x835915d3583af9930dca122c119b206cbc0bd0230a4f788b0c7152800a5854d3",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/devnet/fc/test_attestation_processing.py::test_proposer_attestation_appears_in_latest_new[fork_Devnet]",
+            "description": "Proposer attestation appears in latest_new after block processing.\n\nScenario\n--------\nProcess one block at slot 1 (proposer: validator 1).\n\nExpected:\n    - validator 1's attestation has correct slot and checkpoint slots\n\nWhy This Matters\n----------------\nNew proposer attestations enter the pipeline through `latest_new_attestations`,\nnot directly into `latest_known_attestations`.\n\nThis baseline test verifies the entry point of the attestation pipeline.\nAll new attestations must enter through the \"new\" stage before graduating to \"known\".",
+            "fixtureFormat": "fork_choice_test"
+        }
+    }
+}
