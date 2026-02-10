@@ -1,0 +1,58 @@
+{
+    "tests/consensus/devnet/ssz/test_xmss_containers.py::test_hash_tree_opening_multiple[fork_Devnet][fork_Devnet-ssz]": {
+        "network": "Devnet",
+        "leanEnv": "prod",
+        "typeName": "HashTreeOpening",
+        "value": {
+            "siblings": {
+                "data": [
+                    {
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "data": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            }
+        },
+        "serialized": "0x04000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "root": "0x435de88f44162d2b1008db5948234e6305a8b077e166002316917a61ec474bd3",
+        "_info": {
+            "hash": "0x2fc5274bbce9e516b101e1a75fd9f6d23b8ade0dd4b1eab4a72d14de8e59e349",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/devnet/ssz/test_xmss_containers.py::test_hash_tree_opening_multiple[fork_Devnet]",
+            "description": "SSZ roundtrip for HashTreeOpening with multiple siblings.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}
