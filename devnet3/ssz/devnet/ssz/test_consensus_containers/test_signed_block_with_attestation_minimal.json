@@ -1,0 +1,55 @@
+{
+    "tests/consensus/devnet/ssz/test_consensus_containers.py::test_signed_block_with_attestation_minimal[fork_Devnet][fork_Devnet-ssz]": {
+        "network": "Devnet",
+        "leanEnv": "prod",
+        "typeName": "SignedBlockWithAttestation",
+        "value": {
+            "message": {
+                "block": {
+                    "slot": 1,
+                    "proposerIndex": 0,
+                    "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "body": {
+                        "attestations": {
+                            "data": []
+                        }
+                    }
+                },
+                "proposerAttestation": {
+                    "validatorId": 0,
+                    "data": {
+                        "slot": 0,
+                        "head": {
+                            "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                            "slot": 0
+                        },
+                        "target": {
+                            "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                            "slot": 0
+                        },
+                        "source": {
+                            "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                            "slot": 0
+                        }
+                    }
+                }
+            },
+            "signature": {
+                "attestationSignatures": {
+                    "data": []
+                },
+                "proposerSignature": "0x24000000000000000000000000000000000000000000000000000000000000002800000004000000"
+            }
+        },
+        "serialized": "0x08000000ec0000008c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005400000004000000080000000800000024000000000000000000000000000000000000000000000000000000000000002800000004000000",
+        "root": "0xd58a392349abe7cab7623991341c12b6e79cf1ffd104aed83dfc9f07c7bbf531",
+        "_info": {
+            "hash": "0x0f3b671816de000d9dd2f69d2c91659426c2fce9ffc1c915b618c8bf68add4e5",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/devnet/ssz/test_consensus_containers.py::test_signed_block_with_attestation_minimal[fork_Devnet]",
+            "description": "SSZ roundtrip for SignedBlockWithAttestation with minimal values.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

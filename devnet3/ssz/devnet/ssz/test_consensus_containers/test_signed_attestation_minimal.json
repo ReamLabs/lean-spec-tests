@@ -1,0 +1,35 @@
+{
+    "tests/consensus/devnet/ssz/test_consensus_containers.py::test_signed_attestation_minimal[fork_Devnet][fork_Devnet-ssz]": {
+        "network": "Devnet",
+        "leanEnv": "prod",
+        "typeName": "SignedAttestation",
+        "value": {
+            "validatorId": 0,
+            "message": {
+                "slot": 0,
+                "head": {
+                    "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "slot": 0
+                },
+                "target": {
+                    "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "slot": 0
+                },
+                "source": {
+                    "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "slot": 0
+                }
+            },
+            "signature": "0x24000000000000000000000000000000000000000000000000000000000000002800000004000000"
+        },
+        "serialized": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000024000000000000000000000000000000000000000000000000000000000000002800000004000000",
+        "root": "0xea68b5e064fd86e847fbc22014886b3e14d48e1685b62b6f4184d4b5cf86341f",
+        "_info": {
+            "hash": "0x78064ad4226564bb4d58c9d16fa0ef92c370558555b77eaec29ad4f82a5ed289",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/devnet/ssz/test_consensus_containers.py::test_signed_attestation_minimal[fork_Devnet]",
+            "description": "SSZ roundtrip for SignedAttestation with minimal values.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}
