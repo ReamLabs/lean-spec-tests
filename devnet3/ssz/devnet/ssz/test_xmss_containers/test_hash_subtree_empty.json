@@ -11,9 +11,8 @@
             }
         },
         "serialized": "0x0400000000000000000000000000000014000000",
-        "root": "0xdc564c4539e8ce7c7a1475130b75a1138e78e377db2b442297475ecde9446e06",
         "_info": {
-            "hash": "0x55baa372bc281189102fb43d986a2305b166210496eabb74d55bbfaa97356cb2",
+            "hash": "0x83517887c6eb67f9ff00461bfb4ee801a032c3f9779279fd12966b5bc854f927",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/devnet/ssz/test_xmss_containers.py::test_hash_subtree_empty[fork_Devnet]",
             "description": "SSZ roundtrip for HashSubTree with no layers.",

@@ -10,9 +10,8 @@
             "proposerSignature": "0x24000000000000000000000000000000000000000000000000000000000000002800000004000000"
         },
         "serialized": "0x080000000800000024000000000000000000000000000000000000000000000000000000000000002800000004000000",
-        "root": "0x3b2bf13b89da74823f75c6a96b1fbb1751341f449ac2faec144ba9a5f712de94",
         "_info": {
-            "hash": "0x66e356c859cd5266cdee1789d9ed1be35c65d05dd21050f36fefb22fc9b1c9f0",
+            "hash": "0xc10a05fb7e3c469f924bc3be4130a5926d28d399e20fa0b20e9ff01f7a3e2285",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/devnet/ssz/test_consensus_containers.py::test_block_signatures_empty[fork_Devnet]",
             "description": "SSZ roundtrip for BlockSignatures with no attestation signatures.",
