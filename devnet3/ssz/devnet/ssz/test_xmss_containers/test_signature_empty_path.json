@@ -5,9 +5,8 @@
         "typeName": "Signature",
         "value": "0x24000000000000000000000000000000000000000000000000000000000000002800000004000000",
         "serialized": "0x24000000000000000000000000000000000000000000000000000000000000002800000004000000",
-        "root": "0xf7dc848c10a0957d0152075bda258b8b53438aa9f8b3f97cec57be22ee9f58be",
         "_info": {
-            "hash": "0xf359ea01a61e44f4df810974eba62fe8f6c65c6666c0be380ea4800a41382087",
+            "hash": "0xefd6049af716c2b7fc4776ce59f5ff8d749679672d2905d4d5d0fa46abb03bef",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/devnet/ssz/test_xmss_containers.py::test_signature_empty_path[fork_Devnet]",
             "description": "SSZ roundtrip for Signature with empty authentication path.",
