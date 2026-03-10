@@ -1,5 +1,5 @@
 {
-    "tests/consensus/devnet/state_transition/test_block_processing.py::test_block_with_wrong_slot[fork_Devnet][fork_Devnet-state_transition_test]": {
+    "tests/consensus/devnet/state_transition/test_block_processing.py::test_block_with_wrong_slot[fork_Devnet][fork_devnet-state_transition_test]": {
         "network": "Devnet",
         "leanEnv": "prod",
         "pre": {
@@ -11,7 +11,7 @@
                 "slot": 0,
                 "proposerIndex": 0,
                 "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-                "stateRoot": "0x1548aed67cff3c3c02bf84906531c1558ecd4492175212f2ee7e8a6754e99d25",
+                "stateRoot": "0x3b5d9432f27ccd30f13fee1fd226575f0f73d5207dfa2c6ee9614adbd8730add",
                 "bodyRoot": "0xdba9671bac9513c9482f1416a53aabd2c6ce90d5a5f865ce5a55c775325c9136"
             },
             "latestJustified": {
@@ -31,19 +31,19 @@
             "validators": {
                 "data": [
                     {
-                        "pubkey": "0x2c7aa65d0b45c01e3ba7155997d3001613775f1e1b85fd1ab65dcd72c65e105f2552c43a311a290af56fa0262dfebe10745ea837",
+                        "pubkey": "0x0f46274ecd8e276e43c6e243b34d843dadf82b5d2905b53440b29004fc33dd562382bc7d37b7106d8a552d0925b2d17b22fea300",
                         "index": 0
                     },
                     {
-                        "pubkey": "0x67047f6113b87f6aea3a0e6c108a8d7dcc4b5e479dda2a1cb79397705340bd6227f1ea63ee39c91fff4599375b749425ae65922e",
+                        "pubkey": "0x79ac5f47737a783fce3d9b467109513d41dd483fdfe3e51431d5bc5e2d26a056a08350537c613a36914456131cdbff6d3cba7916",
                         "index": 1
                     },
                     {
-                        "pubkey": "0x235cec31602fa34e41069453a2a56568d4c3ff62e31066659b90722e595e93255637eb0d42f98542e79c60031c2f05396bc74146",
+                        "pubkey": "0x1c2b9c1a568711044d6bcc074361f41aae528a62db2f5c025deb2108c6eb6e5c857d2452b130eb602ae36e37ab1f4c0882437470",
                         "index": 2
                     },
                     {
-                        "pubkey": "0xc7adde03d418565797f15a5b060ed4073d34856dd5941f77077e1d509952a674df084f0c5b57331e8af15364d8a29914f4a90178",
+                        "pubkey": "0xf568004c2b1acd10ba05f95a1d1c4016f0bedf5e3fdb8c41b193785f8e70c90680c2f626da0176096a923d725a688c6183b1c57d",
                         "index": 3
                     }
                 ]
@@ -59,7 +59,7 @@
             {
                 "slot": 2,
                 "proposerIndex": 2,
-                "parentRoot": "0xe8626f2aa0da826506456b41d8bc0abdd09875df71a21c08fae337f17152b23c",
+                "parentRoot": "0x1210030f69c4c69dbe89bed55117e3813863e7ca853bc4fe004e096c860d299e",
                 "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                 "body": {
                     "attestations": {
@@ -71,7 +71,7 @@
         "expectException": "AssertionError",
         "expectExceptionMessage": "Block slot mismatch",
         "_info": {
-            "hash": "0x4d79e8bd893bd5e8d42ff3247ba12692b98a5c2cfb2a2c155c9959058f992683",
+            "hash": "0x8117ae199f617a5862b1af225169b893b8bcc18fc996f1a528414a26f487c53c",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/devnet/state_transition/test_block_processing.py::test_block_with_wrong_slot[fork_Devnet]",
             "description": "Test that blocks with mismatched slot are rejected.\n\nScenario\n--------\nAttempt to process a block at slot 1, but the block claims to be\nat slot 2.\n\nExpected Behavior\n-----------------\nBlock processing fails with AssertionError: \"Block slot mismatch\"\n\nWhy This Matters\n----------------\nEnsures temporal consistency:\n- Blocks can't lie about their slot\n- Prevents time manipulation attacks\n- Maintains protocol timing integrity\n- Essential for slot-based consensus",

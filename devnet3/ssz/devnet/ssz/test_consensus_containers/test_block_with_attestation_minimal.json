@@ -1,5 +1,5 @@
 {
-    "tests/consensus/devnet/ssz/test_consensus_containers.py::test_block_with_attestation_minimal[fork_Devnet][fork_Devnet-ssz]": {
+    "tests/consensus/devnet/ssz/test_consensus_containers.py::test_block_with_attestation_minimal[fork_Devnet][fork_devnet-ssz]": {
         "network": "Devnet",
         "leanEnv": "prod",
         "typeName": "BlockWithAttestation",
