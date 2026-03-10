@@ -1,5 +1,5 @@
 {
-    "tests/consensus/devnet/ssz/test_consensus_containers.py::test_checkpoint_typical[fork_Devnet][fork_Devnet-ssz]": {
+    "tests/consensus/devnet/ssz/test_consensus_containers.py::test_checkpoint_typical[fork_Devnet][fork_devnet-ssz]": {
         "network": "Devnet",
         "leanEnv": "prod",
         "typeName": "Checkpoint",
