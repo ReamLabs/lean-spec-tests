@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_idontwant_multiple_ids[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "gossipsub_rpc",
         "input": {
             "subscriptions": [],
@@ -21,7 +21,7 @@
             "encoded": "0x1a2e2a2c0a14aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a14bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
         },
         "_info": {
-            "hash": "0x6fe39296ecc8788eefba787cac7f0a673dc96b4d65435e4ac1c4f362a6740a34",
+            "hash": "0x9a7434381853873c957421e75b077d9f40ad1f46c15e8c80f4469a29d7aa00a8",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_idontwant_multiple_ids[fork_Lstar]",
             "description": "IDONTWANT declining two messages.",

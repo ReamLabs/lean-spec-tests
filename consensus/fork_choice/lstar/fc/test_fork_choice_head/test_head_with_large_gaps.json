@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/fc/test_fork_choice_head.py::test_head_with_large_gaps[fork_Lstar][fork_Lstar-fork_choice_test]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "anchorState": {
             "config": {
                 "genesisTime": 0
@@ -31,23 +31,23 @@
             "validators": {
                 "data": [
                     {
-                        "attestationPubkey": "0x80a6f13b39b9c26cd91edb542bdb9e051b61223a15f5de18e53e6a361720cd65c06a114e87531241cc535f39156f0f2cf0877647",
-                        "proposalPubkey": "0xdedd8e5a890a2c339ffbca1ce85b710384670508df73ce33116bcd60befbef5a560e6304e3635a58e12b6b542c1bc6583a16455a",
+                        "attestationPubkey": "0x1865a50c6478a3173882ff01f2b7904a2b96b64a8ad63d04ea53b34a539bfd672ffffd40f2e93c2900311f068cf9641b81fd364d",
+                        "proposalPubkey": "0xef30711e272be66f8850f13c393f5c7dc302f6112d3d04672b715b0caef8b823cccac138b5ab9644845cc6262dd8076f49bacf3d",
                         "index": 0
                     },
                     {
-                        "attestationPubkey": "0x7612d36fb7667d1c2f19a821d6a63b3cc17f214baedecb57e6eed4600dabf055185de12c6418db6b79f71004303bfe3a753c9727",
-                        "proposalPubkey": "0x1dcca64f8f9956470c2a427ca669d9359f22f202387ba24440e77200ec57983515451279124ee834a62f77560b1c166b0eb2885b",
+                        "attestationPubkey": "0xce45954436b2b4038330ba17071d9c482f56e43cfd3c21414a0f326635cc6132523b995e346e4e2df535e6742a5bb506e0c91365",
+                        "proposalPubkey": "0x2fdc4e5caacbdf3117a6687b09e7f46a132bd54f0e9b8730d3e57c655a60557a488ae4078e248244fadeab6d506a79355b563142",
                         "index": 1
                     },
                     {
-                        "attestationPubkey": "0xd703e67ce93c9b61b2ae88063ce60f13822efe03d8f089582615032e2b44346fa0199c2320dca35012ec1d414dc3b835da11cd73",
-                        "proposalPubkey": "0x9ee9237afcc3d75c0a8271412f2ac10f03c0da760e545a21cc7eb8331381f62bec027d1dac093b7a09057c187dd46e6231c0c007",
+                        "attestationPubkey": "0xa6cece462ea48c5e5a31d1576d6d7c7367fdf851a94dd738442c93570f88556ca04991462fedb17191054f65eeb9eb3777a8d27c",
+                        "proposalPubkey": "0xcfe9915524913f40da7ad5649bf69f450d72b952d2296627072e50524f7e8b775c61c17c36283b210521db7517ef097ca996de10",
                         "index": 2
                     },
                     {
-                        "attestationPubkey": "0xe41f343f892528158dccae5404bd7262106386597fd4a35ae2c682374c6f15706dd8062ddac61b1851020e0918e7970917e30b06",
-                        "proposalPubkey": "0x57ffb567b826fb60dd07da58f6939b05aa93cd4bb2d9794308d3232878caa5076e9628292e96406c2d8faa3f8108922cdcf37e56",
+                        "attestationPubkey": "0xa9536c0b365edf64b9f2a50b7e0c84157697d444bcfeaa72f966070ca539090b00ac6d5e154aa3279c5f624bfa96fd025b66ba09",
+                        "proposalPubkey": "0x951ee23a3065d322d64174463ac89b4fa863ed648a44c02e331e7511da875b4c4fb27c3c2689272634fed634d67b256868f3be59",
                         "index": 3
                     }
                 ]
@@ -63,7 +63,7 @@
             "slot": 0,
             "proposerIndex": 0,
             "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "stateRoot": "0xad7e1d3a2ead95871b7f17cba5d8426713c7f7adab203523eb66bfd5e10006bf",
+            "stateRoot": "0xde06920f4007f9d3925ba77bfdc1e0fa970537181be1d99a96e7c3880c7d4c3f",
             "body": {
                 "attestations": {
                     "data": []
@@ -80,8 +80,8 @@
                 "block": {
                     "slot": 1,
                     "proposerIndex": 1,
-                    "parentRoot": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
-                    "stateRoot": "0x3ab4c11439a6bee61c3a7917f77fcc49cf7e7bcfcea1d74775de1ebdf8578c11",
+                    "parentRoot": "0xd123d3d19ba32a08df9b3bf9e55e4447d1a3a3b4f905583d013b8f05c77d585e",
+                    "stateRoot": "0xf9adceb604bbff70c983cb92794e97000925712faa73c1fd33818d3ad6488b7b",
                     "body": {
                         "attestations": {
                             "data": []
@@ -98,8 +98,8 @@
                 "block": {
                     "slot": 10,
                     "proposerIndex": 2,
-                    "parentRoot": "0x0fa9821f2e05c2f95150f84cd7fe339ee56710354396600bbf0b01ac3d20c2be",
-                    "stateRoot": "0xa734516c480182a32d1135913df5f62469cf1d7493b63be119713b520ecca352",
+                    "parentRoot": "0x6214b969cc3f585a85432ed9dcd3884d4842fb561a3b303a35a771475d58aa88",
+                    "stateRoot": "0xf5e58f1b4a61a7b9ac3ae11409afa89d07640d5f352fcfadf01c496ce81f75de",
                     "body": {
                         "attestations": {
                             "data": []
@@ -116,8 +116,8 @@
                 "block": {
                     "slot": 20,
                     "proposerIndex": 0,
-                    "parentRoot": "0x05b06bc97a39c9b0c89c7820253d75f22cdcde31c59673cc5b1c429579bc6d83",
-                    "stateRoot": "0xc1d3ed84ca48aa02eb645bdcb93c6bdf7732d4ef29277851502cdb8e8db85451",
+                    "parentRoot": "0x7462bf3ee385024e0ccdeb9574619890d96c956aab45674cbb90e32310107bbc",
+                    "stateRoot": "0x47b7647bbea5da141514ed15f745614a3b1561ecc59704eab59cd55f91b6c8be",
                     "body": {
                         "attestations": {
                             "data": []
@@ -134,8 +134,8 @@
                 "block": {
                     "slot": 30,
                     "proposerIndex": 2,
-                    "parentRoot": "0xf87fc4262b38b09dc1b0febf79bca7bd9c4da3110c20930362d4cf37c38e2ae7",
-                    "stateRoot": "0x8f2ffbf250b46619e4994c3f6ae3a4809f51520e59d3d9a6c40376311347b96d",
+                    "parentRoot": "0x672a2b96f888dfad3df4ddf4ab6cb2f981edd17815cf71f1267c71c9080f8137",
+                    "stateRoot": "0xd5e79d2a991d24405d54a772142421b1d8d61ff6fac3cf0dd3062027be982c35",
                     "body": {
                         "attestations": {
                             "data": []
@@ -146,7 +146,7 @@
         ],
         "maxSlot": 30,
         "_info": {
-            "hash": "0x44457b194245f2fbeb26042300c2606953406a2c011841f4d347f56ec908ce5e",
+            "hash": "0x945e0c3f7a5f9c6bc6074434d0388e2fa8986d50657b135f88cb875b09a6e656",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/fc/test_fork_choice_head.py::test_head_with_large_gaps[fork_Lstar]",
             "description": "Fork choice head handles large gaps between blocks.\n\n    Scenario\n    --------\n    Build blocks at slots 1, 10, 20, 30 (gaps of 9-10 slots).\n\n    Expected Behavior:\n        - Head advances despite large gaps\n        - Fork choice is gap-size independent\n        - Head reaches the furthest block\n\n    Why This Matters\n    ----------------\n    Large gaps can occur during:\n    - Extended network partitions\n    - Chain reorganizations\n    - Periods of high validator downtime\n    - Initial sync after being offline\n\n    The fork choice algorithm must remain correct regardless of gap size.\n    Distance between blocks should not affect the correctness of head selection -\n    only the tree structure matters.\n\n    This test verifies that even with dramatic gaps (representing severe network\n    conditions), fork choice still identifies the correct head.",

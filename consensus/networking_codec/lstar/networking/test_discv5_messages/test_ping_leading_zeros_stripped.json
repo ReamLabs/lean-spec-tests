@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discv5_messages.py::test_ping_leading_zeros_stripped[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "discv5_message",
         "input": {
             "type": "ping",
@@ -12,7 +12,7 @@
             "encoded": "0x01c20101"
         },
         "_info": {
-            "hash": "0x06158c5e6b47759aa493eb0fc2b8916511e35c22d7a415bf456115b586f496ae",
+            "hash": "0xa7418e049b1b4961380cc2a0c1300ff3639aefa7414e8fb2dc22419b6419726d",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discv5_messages.py::test_ping_leading_zeros_stripped[fork_Lstar]",
             "description": "PING with 4-byte request_id containing leading zeros. Stripped to minimal encoding.",

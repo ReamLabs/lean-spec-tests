@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_with_extensions[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "enr",
         "input": {
             "enrString": "enr:-PK4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFh2F0dG5ldHOIgQAAAAAAAICEZXRoMpASNFZ4q83vAGQAAAAAAAAAgmlkgnY0gmlwhAoAAAGDaXA2kCABDbgAAAAAAAAAAAAAAAGNaXNfYWdncmVnYXRvcgGEcXVpY4IjKYVxdWljNoIjKolzZWNwMjU2azGhA8pjTK4NSay0Adikxrb-jFW3DRFb9AB2nMFADzJYzTE4iHN5bmNuZXRzCoN1ZHCCdl-EdWRwNoJ2YA"
@@ -38,7 +38,7 @@
             "isValid": true
         },
         "_info": {
-            "hash": "0x03288d69fdf1abaedc63fd27708d0eff351bd56dc0dbbd9bb52664f82ad23e16",
+            "hash": "0x64396e94eac6807c50f6ecbe808e204b9c5319d9aa71a34fb18881973c463698",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_with_extensions[fork_Lstar]",
             "description": "ENR with all extension keys: eth2, subnets, IPv6, QUIC, udp6, quic6, is_aggregator.",

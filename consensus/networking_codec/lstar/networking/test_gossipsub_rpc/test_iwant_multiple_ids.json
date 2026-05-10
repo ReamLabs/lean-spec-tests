@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_iwant_multiple_ids[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "gossipsub_rpc",
         "input": {
             "subscriptions": [],
@@ -21,7 +21,7 @@
             "encoded": "0x1a2e122c0a14aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0a14bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
         },
         "_info": {
-            "hash": "0x682d940a0ddf7cef8eec59bdcc5017b2e8e7f7c64556437b70277f5a610f7a69",
+            "hash": "0xa919b96647aa934efd8540846d5d23c8a9e7b0afb2bcb150fc3eee8e5a7c6a17",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_iwant_multiple_ids[fork_Lstar]",
             "description": "IWANT requesting two messages by ID.",

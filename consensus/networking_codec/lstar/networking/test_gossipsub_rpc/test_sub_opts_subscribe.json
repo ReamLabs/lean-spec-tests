@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_sub_opts_subscribe[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "gossipsub_rpc",
         "input": {
             "subscriptions": [
@@ -16,7 +16,7 @@
             "encoded": "0x0a2e0801122a2f6c65616e636f6e73656e7375732f307831323334353637382f626c6f636b2f73737a5f736e61707079"
         },
         "_info": {
-            "hash": "0x376e00d065b5a30e75a1ddd77762854d040ee0e682d70638288e56d3941c6beb",
+            "hash": "0x1f0b1e1e4c3cbf193735438e4470129969286dbc163af72c1c00c7c3d9ef17d4",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_sub_opts_subscribe[fork_Lstar]",
             "description": "SubOpts encoding for a topic subscription.",

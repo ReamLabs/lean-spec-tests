@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_graft_accept[fork_Lstar][fork_Lstar-gossipsub_handler]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "handlerName": "graft",
         "params": {
             "d": 4,
@@ -50,7 +50,7 @@
             }
         },
         "_info": {
-            "hash": "0x032c3f4d27fcda72b3f1d1845aa5754a2861ecaabda1364d6596077a54f40922",
+            "hash": "0x37d70968344a00fdac2b64bc2959573f199fbd119926b9aa8cb6538c74249672",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_graft_accept[fork_Lstar]",
             "description": "Accept GRAFT when subscribed and mesh has capacity.",

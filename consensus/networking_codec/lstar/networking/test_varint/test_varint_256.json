@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_varint.py::test_varint_256[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "varint",
         "input": {
             "value": 256
@@ -11,7 +11,7 @@
             "byteLength": 2
         },
         "_info": {
-            "hash": "0x76e349d6a881501170f09ddb5a3b239a616bdcccec3bbea4b2900cada2902a5d",
+            "hash": "0x96dae5edacc2a6a0daa3250e58237ab680ccbca77369377239c4acf65013b307",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_varint.py::test_varint_256[fork_Lstar]",
             "description": "Varint 256. First value past Uint8 range.",

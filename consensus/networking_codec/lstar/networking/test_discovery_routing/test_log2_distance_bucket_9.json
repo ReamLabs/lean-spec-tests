@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discovery_routing.py::test_log2_distance_bucket_9[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "log2_distance",
         "input": {
             "nodeA": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -11,7 +11,7 @@
             "distance": 9
         },
         "_info": {
-            "hash": "0x0fd18386e3bf4f9166cb86f4ec0ec2ac06bbd3793c727a00d4fb8cfe5094dccf",
+            "hash": "0xa2648323edd946eaed806fbf982edce1befd477fd9584690bf0dff983206837b",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discovery_routing.py::test_log2_distance_bucket_9[fork_Lstar]",
             "description": "0x0100 in last two bytes lands in bucket 9.",

@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_basic_types.py::test_bytelist_small[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "ByteListMiB",
         "value": {
             "data": "0x01020304"
@@ -9,7 +9,7 @@
         "serialized": "0x01020304",
         "root": "0xdf49c607e30c985f98ef047826c336958b6231efafe497061dc337f8f6cf53b2",
         "_info": {
-            "hash": "0xcb10e537bd5d1175c4bbd4633bc623b4052e3fc85f5508f2d2d3495689a03d6f",
+            "hash": "0x15014a6cf73324c9fd2d097e72f6df0d005806d9b76723c24c94bc38845a5188",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_basic_types.py::test_bytelist_small[fork_Lstar]",
             "description": "Byte list with 4 bytes. Fits within a single 32-byte chunk.",

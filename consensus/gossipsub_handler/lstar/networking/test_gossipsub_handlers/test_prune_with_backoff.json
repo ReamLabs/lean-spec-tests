@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_prune_with_backoff[fork_Lstar][fork_Lstar-gossipsub_handler]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "handlerName": "prune",
         "params": {
             "d": 4,
@@ -51,7 +51,7 @@
             }
         },
         "_info": {
-            "hash": "0xe7456b2294ddae41005ca80d09eb31e0838e69b3ab0691cc1463da3b13650c0f",
+            "hash": "0x960070a606613e5ebab649768e68c2141811e1c73f6ada3e3413b5edf5773b1c",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_prune_with_backoff[fork_Lstar]",
             "description": "PRUNE removes peer from mesh and sets backoff timer.",

@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/state_transition/test_block_processing.py::test_blocks_with_gaps[fork_Lstar][fork_Lstar-state_transition_test]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "pre": {
             "config": {
                 "genesisTime": 0
@@ -31,23 +31,23 @@
             "validators": {
                 "data": [
                     {
-                        "attestationPubkey": "0x80a6f13b39b9c26cd91edb542bdb9e051b61223a15f5de18e53e6a361720cd65c06a114e87531241cc535f39156f0f2cf0877647",
-                        "proposalPubkey": "0xdedd8e5a890a2c339ffbca1ce85b710384670508df73ce33116bcd60befbef5a560e6304e3635a58e12b6b542c1bc6583a16455a",
+                        "attestationPubkey": "0x1865a50c6478a3173882ff01f2b7904a2b96b64a8ad63d04ea53b34a539bfd672ffffd40f2e93c2900311f068cf9641b81fd364d",
+                        "proposalPubkey": "0xef30711e272be66f8850f13c393f5c7dc302f6112d3d04672b715b0caef8b823cccac138b5ab9644845cc6262dd8076f49bacf3d",
                         "index": 0
                     },
                     {
-                        "attestationPubkey": "0x7612d36fb7667d1c2f19a821d6a63b3cc17f214baedecb57e6eed4600dabf055185de12c6418db6b79f71004303bfe3a753c9727",
-                        "proposalPubkey": "0x1dcca64f8f9956470c2a427ca669d9359f22f202387ba24440e77200ec57983515451279124ee834a62f77560b1c166b0eb2885b",
+                        "attestationPubkey": "0xce45954436b2b4038330ba17071d9c482f56e43cfd3c21414a0f326635cc6132523b995e346e4e2df535e6742a5bb506e0c91365",
+                        "proposalPubkey": "0x2fdc4e5caacbdf3117a6687b09e7f46a132bd54f0e9b8730d3e57c655a60557a488ae4078e248244fadeab6d506a79355b563142",
                         "index": 1
                     },
                     {
-                        "attestationPubkey": "0xd703e67ce93c9b61b2ae88063ce60f13822efe03d8f089582615032e2b44346fa0199c2320dca35012ec1d414dc3b835da11cd73",
-                        "proposalPubkey": "0x9ee9237afcc3d75c0a8271412f2ac10f03c0da760e545a21cc7eb8331381f62bec027d1dac093b7a09057c187dd46e6231c0c007",
+                        "attestationPubkey": "0xa6cece462ea48c5e5a31d1576d6d7c7367fdf851a94dd738442c93570f88556ca04991462fedb17191054f65eeb9eb3777a8d27c",
+                        "proposalPubkey": "0xcfe9915524913f40da7ad5649bf69f450d72b952d2296627072e50524f7e8b775c61c17c36283b210521db7517ef097ca996de10",
                         "index": 2
                     },
                     {
-                        "attestationPubkey": "0xe41f343f892528158dccae5404bd7262106386597fd4a35ae2c682374c6f15706dd8062ddac61b1851020e0918e7970917e30b06",
-                        "proposalPubkey": "0x57ffb567b826fb60dd07da58f6939b05aa93cd4bb2d9794308d3232878caa5076e9628292e96406c2d8faa3f8108922cdcf37e56",
+                        "attestationPubkey": "0xa9536c0b365edf64b9f2a50b7e0c84157697d444bcfeaa72f966070ca539090b00ac6d5e154aa3279c5f624bfa96fd025b66ba09",
+                        "proposalPubkey": "0x951ee23a3065d322d64174463ac89b4fa863ed648a44c02e331e7511da875b4c4fb27c3c2689272634fed634d67b256868f3be59",
                         "index": 3
                     }
                 ]
@@ -63,8 +63,8 @@
             {
                 "slot": 1,
                 "proposerIndex": 1,
-                "parentRoot": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
-                "stateRoot": "0x3ab4c11439a6bee61c3a7917f77fcc49cf7e7bcfcea1d74775de1ebdf8578c11",
+                "parentRoot": "0xd123d3d19ba32a08df9b3bf9e55e4447d1a3a3b4f905583d013b8f05c77d585e",
+                "stateRoot": "0xf9adceb604bbff70c983cb92794e97000925712faa73c1fd33818d3ad6488b7b",
                 "body": {
                     "attestations": {
                         "data": []
@@ -74,8 +74,8 @@
             {
                 "slot": 4,
                 "proposerIndex": 0,
-                "parentRoot": "0x0fa9821f2e05c2f95150f84cd7fe339ee56710354396600bbf0b01ac3d20c2be",
-                "stateRoot": "0x40fed68282a1c6a5eae83924b03047fef0a8daffe3d018efbd84620cbb036939",
+                "parentRoot": "0x6214b969cc3f585a85432ed9dcd3884d4842fb561a3b303a35a771475d58aa88",
+                "stateRoot": "0x46c994001b551ab09edd23c2ab621a475b74e4d417eccd41ac2168686f5992ce",
                 "body": {
                     "attestations": {
                         "data": []
@@ -85,8 +85,8 @@
             {
                 "slot": 8,
                 "proposerIndex": 0,
-                "parentRoot": "0x0c00a5f909070da8e03e2b17f82046aa0b33d8b145c7e406d29dfb1fd55f5565",
-                "stateRoot": "0x0b232c8ea3733704b507441d865729e82b49c43d9854883795629c69ba95d4e3",
+                "parentRoot": "0xcf4c33cfbff486c9faf8116cfd6afd3133a89cce25d2dfe95f8b35411974a7dc",
+                "stateRoot": "0x81817d072478fb6acbac718e29cf53df8b5b2cee05c0410c2cb16643810242b9",
                 "body": {
                     "attestations": {
                         "data": []
@@ -101,7 +101,7 @@
             "historicalBlockHashesCount": 8
         },
         "_info": {
-            "hash": "0x194d408207eddd5c34803971166622db4d2a670c19dab2cbcb00abd51e6c0367",
+            "hash": "0x11c542cdd7f3d3b33cc7ab69f8cd81723956fc95aefd7cbd4a80b19a8f0ea86c",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/state_transition/test_block_processing.py::test_blocks_with_gaps[fork_Lstar]",
             "description": "Test blocks separated by empty slots.\n\n    Scenario\n    --------\n    Build chain with gaps:\n    - Slot 1: Block\n    - Slots 2-3: Empty\n    - Slot 4: Block\n    - Slots 5-7: Empty\n    - Slot 8: Block\n\n    Expected Behavior\n    -----------------\n    1. Blocks process at specified slots\n    2. Empty slots handled automatically\n    3. Parent linkage spans gaps correctly\n    4. State advances to slot 8\n\n    Why This Matters\n    ----------------\n    Missed proposals are common:\n    - Validators offline\n    - Network partitions\n    - Missed attestations\n\n    This validates resilience to gaps.",

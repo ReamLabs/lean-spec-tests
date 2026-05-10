@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/fc/test_fork_choice_reorgs.py::test_three_way_fork_competition[fork_Lstar][fork_Lstar-fork_choice_test]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "anchorState": {
             "config": {
                 "genesisTime": 0
@@ -31,43 +31,43 @@
             "validators": {
                 "data": [
                     {
-                        "attestationPubkey": "0x80a6f13b39b9c26cd91edb542bdb9e051b61223a15f5de18e53e6a361720cd65c06a114e87531241cc535f39156f0f2cf0877647",
-                        "proposalPubkey": "0xdedd8e5a890a2c339ffbca1ce85b710384670508df73ce33116bcd60befbef5a560e6304e3635a58e12b6b542c1bc6583a16455a",
+                        "attestationPubkey": "0x1865a50c6478a3173882ff01f2b7904a2b96b64a8ad63d04ea53b34a539bfd672ffffd40f2e93c2900311f068cf9641b81fd364d",
+                        "proposalPubkey": "0xef30711e272be66f8850f13c393f5c7dc302f6112d3d04672b715b0caef8b823cccac138b5ab9644845cc6262dd8076f49bacf3d",
                         "index": 0
                     },
                     {
-                        "attestationPubkey": "0x7612d36fb7667d1c2f19a821d6a63b3cc17f214baedecb57e6eed4600dabf055185de12c6418db6b79f71004303bfe3a753c9727",
-                        "proposalPubkey": "0x1dcca64f8f9956470c2a427ca669d9359f22f202387ba24440e77200ec57983515451279124ee834a62f77560b1c166b0eb2885b",
+                        "attestationPubkey": "0xce45954436b2b4038330ba17071d9c482f56e43cfd3c21414a0f326635cc6132523b995e346e4e2df535e6742a5bb506e0c91365",
+                        "proposalPubkey": "0x2fdc4e5caacbdf3117a6687b09e7f46a132bd54f0e9b8730d3e57c655a60557a488ae4078e248244fadeab6d506a79355b563142",
                         "index": 1
                     },
                     {
-                        "attestationPubkey": "0xd703e67ce93c9b61b2ae88063ce60f13822efe03d8f089582615032e2b44346fa0199c2320dca35012ec1d414dc3b835da11cd73",
-                        "proposalPubkey": "0x9ee9237afcc3d75c0a8271412f2ac10f03c0da760e545a21cc7eb8331381f62bec027d1dac093b7a09057c187dd46e6231c0c007",
+                        "attestationPubkey": "0xa6cece462ea48c5e5a31d1576d6d7c7367fdf851a94dd738442c93570f88556ca04991462fedb17191054f65eeb9eb3777a8d27c",
+                        "proposalPubkey": "0xcfe9915524913f40da7ad5649bf69f450d72b952d2296627072e50524f7e8b775c61c17c36283b210521db7517ef097ca996de10",
                         "index": 2
                     },
                     {
-                        "attestationPubkey": "0xe41f343f892528158dccae5404bd7262106386597fd4a35ae2c682374c6f15706dd8062ddac61b1851020e0918e7970917e30b06",
-                        "proposalPubkey": "0x57ffb567b826fb60dd07da58f6939b05aa93cd4bb2d9794308d3232878caa5076e9628292e96406c2d8faa3f8108922cdcf37e56",
+                        "attestationPubkey": "0xa9536c0b365edf64b9f2a50b7e0c84157697d444bcfeaa72f966070ca539090b00ac6d5e154aa3279c5f624bfa96fd025b66ba09",
+                        "proposalPubkey": "0x951ee23a3065d322d64174463ac89b4fa863ed648a44c02e331e7511da875b4c4fb27c3c2689272634fed634d67b256868f3be59",
                         "index": 3
                     },
                     {
-                        "attestationPubkey": "0x8276347211a4c768a823454b927ee07a8895a24ccf0a7d2f08b298122476c746d4df7c63754e521d62343044ff48e30bb090e472",
-                        "proposalPubkey": "0x3a527d4a67783d7ae9077b250565370cf6c5f34e5f038362a9308f414cb68657fa888a161182dd0b4456771885a2b82861fe170c",
+                        "attestationPubkey": "0x7ab53f4ae84443794fbf6b3954c5cd0a39ae8c6ad082632aaf9fa6370088716ebabaea2fd70f992a6a61751dae412b59a6793d1a",
+                        "proposalPubkey": "0x1a9c0e78e7a25a467f45c15ef26f1443d68fe009ee12cc131c03ff212e7c33639911757afbe4716956244d698c2e45768fba6f6a",
                         "index": 4
                     },
                     {
-                        "attestationPubkey": "0x3e956459bc3031258823bc4cf7e24f3c00cc7341a633d138997149635cf7096f5bf13468a9c5be7c67ab357b62724446819b1513",
-                        "proposalPubkey": "0x92614a0d3a3c1801cce44829ba31ad3738c748509278b32b384561072216840f218791726fc46a56ca2fff3802e4852ad975e730",
+                        "attestationPubkey": "0x85a3bc578781b006590af92e92250368b4582903f678f452817c621ed02dd659c3ccc600729f046076944932a550f2570e5cea67",
+                        "proposalPubkey": "0xfbfef9639780891a892fbd313a32b97bbd0c47410bff3251dc57ad107d776a29bac496001d3cff7dbe630e7e19a7fa21f92bf32b",
                         "index": 5
                     },
                     {
-                        "attestationPubkey": "0xeb3a4219238a832b42395107025de92b78534b615f717b2e657b1615d53eef16e00ff86909c67d60a1b57f3c938fb27369973a09",
-                        "proposalPubkey": "0xb9dacc060827fa328d44b65461fc74305f6586664e83f8436f435754df6bd5060c570e5985ca6b779213f717bb57742757a9cb75",
+                        "attestationPubkey": "0x05a274119e01a42ba51a1c15cfa75d5939fdde312fa8dc1a636fda6ab22a7a523a326e228abdf609e26dc84f61ae1b73a7b4942b",
+                        "proposalPubkey": "0xd760cf65b7404717e5aa0f76b7baaf5ec7cde91e3fb52139f0f57920d700aa0e81c83b248a5a6f2ef2fee22ee8e4cc7554974356",
                         "index": 6
                     },
                     {
-                        "attestationPubkey": "0xb943ea3a05d88c48bb793031dd29a90b922ea654b2a7ed55ea5956396cb951321a24987c07bee00ff4c56823809bac214472884e",
-                        "proposalPubkey": "0xcf02f74f4e96a556ad3c90422cb7e874c88e5d365dedf754178f74110247ec7d39f0df2b9385cb0b0d837278fb64572b1419b05d",
+                        "attestationPubkey": "0x922fbc32c3bd1e64f15bd31903c7571e7b0fb008eb3d332fa6ae473b222f7d14d0d3ef649b9fc978f3c4d51532c394003f61b920",
+                        "proposalPubkey": "0xdaad0a067f13797359323377c8faa24d83a12f3f804900450fb9067d4a5afa76edf1ce444ad9fc2e0b0eed76ce73251e757cc95d",
                         "index": 7
                     }
                 ]
@@ -83,7 +83,7 @@
             "slot": 0,
             "proposerIndex": 0,
             "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "stateRoot": "0xc32b558cace8a84fc5e7289f22c70ff47c6f875dced8afd9b620616ca0a2425c",
+            "stateRoot": "0x3c976fa8e12cabbb07b0e9b68336823c27ab8c7e29b109daf0e6f1b83a8b4432",
             "body": {
                 "attestations": {
                     "data": []
@@ -101,8 +101,8 @@
                 "block": {
                     "slot": 1,
                     "proposerIndex": 1,
-                    "parentRoot": "0xf0842b4c0bdd1150e152945f9f5425d9bce43c1e63fb9d84212100bd7b6efa53",
-                    "stateRoot": "0xf2342977f514384dbdc09b994916774ffb1aa2a4ce7d7dd2045827acbf4ee565",
+                    "parentRoot": "0xd567e95979f6ce2186cbada494967c77142153c6e5ab38f2bd7a23ee6b92170b",
+                    "stateRoot": "0x80deded2a2ed11f2996b669e0868117550f4f82c870c91d27044760f856ebc33",
                     "body": {
                         "attestations": {
                             "data": []
@@ -121,8 +121,8 @@
                 "block": {
                     "slot": 2,
                     "proposerIndex": 2,
-                    "parentRoot": "0xf46d4a15b8a3d7f14ea6f60dfa50d2dd7d3ff70b3b850e4df3d2f262637a3974",
-                    "stateRoot": "0xaef0b9fd0d7788b0312224984dc7d57761389c279f5899c0dd4592bcb311848e",
+                    "parentRoot": "0x27b480a4764dd47c8c99403d54e69f8223a077f134dee706edc3bf6264554849",
+                    "stateRoot": "0x0bdae6de8e97f3067e85b8d6e142ce16974af8ac0fb3e91afd502d6e85b7579f",
                     "body": {
                         "attestations": {
                             "data": []
@@ -143,8 +143,8 @@
                 "block": {
                     "slot": 3,
                     "proposerIndex": 3,
-                    "parentRoot": "0xf46d4a15b8a3d7f14ea6f60dfa50d2dd7d3ff70b3b850e4df3d2f262637a3974",
-                    "stateRoot": "0xe2e8ebd6b8f1b68a38fe1d95f79167c90c1e9ecdd163b341bc18dfe6e3cef587",
+                    "parentRoot": "0x27b480a4764dd47c8c99403d54e69f8223a077f134dee706edc3bf6264554849",
+                    "stateRoot": "0xe019af85d182287a95037fc8ba9fabfae9975030b0dc1be031a55512542a2ce0",
                     "body": {
                         "attestations": {
                             "data": []
@@ -166,8 +166,8 @@
                 "block": {
                     "slot": 4,
                     "proposerIndex": 4,
-                    "parentRoot": "0xf46d4a15b8a3d7f14ea6f60dfa50d2dd7d3ff70b3b850e4df3d2f262637a3974",
-                    "stateRoot": "0x8e4ed2c83a8825010f4af4be4fa7239047b27983af7fabdef6664fdb2afa3bec",
+                    "parentRoot": "0x27b480a4764dd47c8c99403d54e69f8223a077f134dee706edc3bf6264554849",
+                    "stateRoot": "0xc58a0f5aa864c5d4bc9b3799548b228a1c483c24eb0d4e55783684808204224a",
                     "body": {
                         "attestations": {
                             "data": []
@@ -186,8 +186,8 @@
                 "block": {
                     "slot": 5,
                     "proposerIndex": 5,
-                    "parentRoot": "0xd3570832221c63bc561e5c95586231b9375c494272732fe0984ff3dce834a260",
-                    "stateRoot": "0x2735a89429c75babba0f4a9845bb502621e29422d576ff431ecd178a8c9c84f4",
+                    "parentRoot": "0x41db0c81ee35f02490621867baebb388b8acfd0aa0e77f5b8a4d165b1b274b30",
+                    "stateRoot": "0x0a9ec56d43c0c0a4fb6cf310632cca7404ad83e8f34aa29ff32dffff05c977b9",
                     "body": {
                         "attestations": {
                             "data": [
@@ -200,15 +200,15 @@
                                     "data": {
                                         "slot": 4,
                                         "head": {
-                                            "root": "0xd3570832221c63bc561e5c95586231b9375c494272732fe0984ff3dce834a260",
+                                            "root": "0x41db0c81ee35f02490621867baebb388b8acfd0aa0e77f5b8a4d165b1b274b30",
                                             "slot": 4
                                         },
                                         "target": {
-                                            "root": "0xd3570832221c63bc561e5c95586231b9375c494272732fe0984ff3dce834a260",
+                                            "root": "0x41db0c81ee35f02490621867baebb388b8acfd0aa0e77f5b8a4d165b1b274b30",
                                             "slot": 4
                                         },
                                         "source": {
-                                            "root": "0xf0842b4c0bdd1150e152945f9f5425d9bce43c1e63fb9d84212100bd7b6efa53",
+                                            "root": "0xd567e95979f6ce2186cbada494967c77142153c6e5ab38f2bd7a23ee6b92170b",
                                             "slot": 0
                                         }
                                     }
@@ -229,8 +229,8 @@
                 "block": {
                     "slot": 6,
                     "proposerIndex": 6,
-                    "parentRoot": "0x2e0fd807e29cee184c4db61ef57d0dc2f1861e07cf172bedc37ef81c6ce71d3a",
-                    "stateRoot": "0xd74d93fc8035f68cac7c0fba1dc39a0879e614943c620a22a06b95d1d22d7abf",
+                    "parentRoot": "0xc47ad5ff2438f96f2e55922b55440d0dfc8249165a8ff4b9400700fe2180db4b",
+                    "stateRoot": "0x903d8268627683f939b44ba06260cba7ea18106aa06878a7ca024ed5d4f41f78",
                     "body": {
                         "attestations": {
                             "data": [
@@ -243,15 +243,15 @@
                                     "data": {
                                         "slot": 4,
                                         "head": {
-                                            "root": "0xd3570832221c63bc561e5c95586231b9375c494272732fe0984ff3dce834a260",
+                                            "root": "0x41db0c81ee35f02490621867baebb388b8acfd0aa0e77f5b8a4d165b1b274b30",
                                             "slot": 4
                                         },
                                         "target": {
-                                            "root": "0xd3570832221c63bc561e5c95586231b9375c494272732fe0984ff3dce834a260",
+                                            "root": "0x41db0c81ee35f02490621867baebb388b8acfd0aa0e77f5b8a4d165b1b274b30",
                                             "slot": 4
                                         },
                                         "source": {
-                                            "root": "0xf0842b4c0bdd1150e152945f9f5425d9bce43c1e63fb9d84212100bd7b6efa53",
+                                            "root": "0xd567e95979f6ce2186cbada494967c77142153c6e5ab38f2bd7a23ee6b92170b",
                                             "slot": 0
                                         }
                                     }
@@ -272,8 +272,8 @@
                 "block": {
                     "slot": 7,
                     "proposerIndex": 7,
-                    "parentRoot": "0x9132a52232b7ce57f79a139c617902f505244273575f8d633df17c9b41e48c5b",
-                    "stateRoot": "0x44f4abc168d6028ae304c672b99164c090afaa6541240291446ac2aa3c812c43",
+                    "parentRoot": "0x08622a375dd437ef8647c321609bec5f37bd3b974a80ef705a5a94f988841040",
+                    "stateRoot": "0xe53d3233f091d9e0254bf637f769360cfa31d73239b3e44b9bc78cc7ea97b4cf",
                     "body": {
                         "attestations": {
                             "data": [
@@ -286,15 +286,15 @@
                                     "data": {
                                         "slot": 4,
                                         "head": {
-                                            "root": "0xd3570832221c63bc561e5c95586231b9375c494272732fe0984ff3dce834a260",
+                                            "root": "0x41db0c81ee35f02490621867baebb388b8acfd0aa0e77f5b8a4d165b1b274b30",
                                             "slot": 4
                                         },
                                         "target": {
-                                            "root": "0xd3570832221c63bc561e5c95586231b9375c494272732fe0984ff3dce834a260",
+                                            "root": "0x41db0c81ee35f02490621867baebb388b8acfd0aa0e77f5b8a4d165b1b274b30",
                                             "slot": 4
                                         },
                                         "source": {
-                                            "root": "0xf0842b4c0bdd1150e152945f9f5425d9bce43c1e63fb9d84212100bd7b6efa53",
+                                            "root": "0xd567e95979f6ce2186cbada494967c77142153c6e5ab38f2bd7a23ee6b92170b",
                                             "slot": 0
                                         }
                                     }
@@ -310,15 +310,15 @@
                                     "data": {
                                         "slot": 6,
                                         "head": {
-                                            "root": "0x9132a52232b7ce57f79a139c617902f505244273575f8d633df17c9b41e48c5b",
+                                            "root": "0x08622a375dd437ef8647c321609bec5f37bd3b974a80ef705a5a94f988841040",
                                             "slot": 6
                                         },
                                         "target": {
-                                            "root": "0x9132a52232b7ce57f79a139c617902f505244273575f8d633df17c9b41e48c5b",
+                                            "root": "0x08622a375dd437ef8647c321609bec5f37bd3b974a80ef705a5a94f988841040",
                                             "slot": 6
                                         },
                                         "source": {
-                                            "root": "0xf0842b4c0bdd1150e152945f9f5425d9bce43c1e63fb9d84212100bd7b6efa53",
+                                            "root": "0xd567e95979f6ce2186cbada494967c77142153c6e5ab38f2bd7a23ee6b92170b",
                                             "slot": 0
                                         }
                                     }
@@ -332,7 +332,7 @@
         ],
         "maxSlot": 7,
         "_info": {
-            "hash": "0x6bf82e1886f175d92dd6d0c516745e8aadcb8f0154dc9e68e9b8a7820e53aaa1",
+            "hash": "0x2a2c9a074a12ecf9c2fb26ca4b194e2d562f6ab2ed5415ffa82a94d9d1647ca1",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/fc/test_fork_choice_reorgs.py::test_three_way_fork_competition[fork_Lstar]",
             "description": "Three competing forks with progressive elimination until one wins.\n\n    Scenario\n    --------\n    Three forks (A, B, C) compete from a common ancestor, each at a distinct\n    slot. Fork choice progressively eliminates weaker forks as stronger ones\n    extend.\n\n    Fork Topology:\n                       base (slot 1)\n                      /    |                            /     |                      fork_a_2  fork_b_3  fork_c_4\n              (slot 2)  (slot 3)  (slot 4)\n                |          |         |\n                |          |         +--- fork_c_5 (slot 5)\n                |          +--- fork_b_6 (slot 6)\n                |          +--- fork_b_7 (slot 7) \u2190 Winner\n                +--- abandoned\n\n    Expected Behavior\n    -----------------\n    1. Three forks created at slots 2, 3, 4 (equal weight, three-way tie)\n    2. Fork C extends to slot 5 with attestation \u2192 becomes head\n    3. Fork B extends to slot 6 (no attestation) \u2192 fork C still leads\n    4. Fork B extends to slot 7 with 2 attestations \u2192 wins\n    5. Forks A and C become non-canonical\n\n    Why This Matters\n    ----------------\n    Multi-fork scenarios can occur during:\n    - Network partitions splitting validators 3+ ways\n    - Rapid block production creating multiple conflicting proposals\n    - Byzantine validators intentionally creating competing forks\n\n    Properties verified:\n    - Fork choice handles 3+ simultaneous competing forks\n    - Head selection remains consistent and deterministic\n    - Progressive elimination works correctly\n    - Final winner is objectively the heaviest fork",

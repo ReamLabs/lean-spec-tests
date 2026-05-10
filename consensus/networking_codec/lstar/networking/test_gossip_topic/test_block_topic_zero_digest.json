@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossip_topic.py::test_block_topic_zero_digest[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "gossip_topic",
         "input": {
             "kind": "block",
@@ -11,7 +11,7 @@
             "topicString": "/leanconsensus/00000000/block/ssz_snappy"
         },
         "_info": {
-            "hash": "0xcf10aa1ea97c09153c78da68963db58cff67d207a8170b9cadce79003ede09b2",
+            "hash": "0x841aecc006ee4319cd9cb903b02122523eb3140574772245873ad9dc67cf597a",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossip_topic.py::test_block_topic_zero_digest[fork_Lstar]",
             "description": "Block topic with all-zero fork digest.",

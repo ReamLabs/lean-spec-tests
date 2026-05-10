@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/chain/test_slot_clock.py::test_current_interval_800ms[fork_Lstar][fork_Lstar-slot_clock]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "current_interval",
         "input": {
             "genesisTime": 1700000000,
@@ -16,7 +16,7 @@
             "interval": 1
         },
         "_info": {
-            "hash": "0xc25e0a1eccee862ae6f9fc7f4141deb2cf47e1bcc05c3f50f9a5d2330bde5cec",
+            "hash": "0x4b7bf81d08f2ffbe255adbc184bb1515baaec17cbc44e9f52e01ba65c9706c5b",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/chain/test_slot_clock.py::test_current_interval_800ms[fork_Lstar]",
             "description": "800 ms into slot: interval 1.",

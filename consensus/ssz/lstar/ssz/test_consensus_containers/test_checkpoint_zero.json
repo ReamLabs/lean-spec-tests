@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_consensus_containers.py::test_checkpoint_zero[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "Checkpoint",
         "value": {
             "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -10,7 +10,7 @@
         "serialized": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000",
         "root": "0xf5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
         "_info": {
-            "hash": "0xc25b3d681efeb0f41b5f560fe80cc8f443d02a9af4a2657905bbc0bb9e72e507",
+            "hash": "0x51ea9ab0b99ff2050f1148f043186e6c4b96adcb12bc88e3d84645be88a5cbfc",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_consensus_containers.py::test_checkpoint_zero[fork_Lstar]",
             "description": "SSZ roundtrip for Checkpoint with zero values.",

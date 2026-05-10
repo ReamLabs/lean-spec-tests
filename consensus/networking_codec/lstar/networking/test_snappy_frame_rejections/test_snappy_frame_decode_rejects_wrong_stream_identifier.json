@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_snappy_frame_rejections.py::test_snappy_frame_decode_rejects_wrong_stream_identifier[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "expectException": "SnappyDecompressionError",
         "codecName": "decode_failure",
         "input": {
@@ -14,7 +14,7 @@
             "errorMessage": "Invalid stream identifier"
         },
         "_info": {
-            "hash": "0xfd8c100ea187bd5bb695ed71f4f41fb7610868cb88c8e7ec4478d444fa5f80cf",
+            "hash": "0x1f136b582bd1e92c1788a89e6739a3c339874c23132a00a81b79c2842608e10f",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_snappy_frame_rejections.py::test_snappy_frame_decode_rejects_wrong_stream_identifier[fork_Lstar]",
             "description": "A stream whose opening bytes do not spell the snappy magic is rejected.\n\n    A valid framed snappy stream starts with the ten-byte sequence\n    `ff 06 00 00 73 4e 61 50 70 59` (\"sNaPpY\"). Ten zero bytes satisfy\n    the length check but carry the wrong magic, so the decoder rejects\n    the stream at the identifier check.",

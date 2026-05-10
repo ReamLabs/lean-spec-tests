@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_consensus_containers.py::test_block_empty_body[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "Block",
         "value": {
             "slot": 0,
@@ -17,7 +17,7 @@
         "serialized": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005400000004000000",
         "root": "0xed01b1825c7b112c8b9c6e0f41c4d49e400fc120425582e533c332a6ac46082e",
         "_info": {
-            "hash": "0x8be118535097521274983b34aaacee2114dd7c8d761046cc6072842798834263",
+            "hash": "0x840db78005323011f49695f508ae2798c5b73466f020361683908c2e3f6a7c57",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_consensus_containers.py::test_block_empty_body[fork_Lstar]",
             "description": "SSZ roundtrip for Block with empty body.",

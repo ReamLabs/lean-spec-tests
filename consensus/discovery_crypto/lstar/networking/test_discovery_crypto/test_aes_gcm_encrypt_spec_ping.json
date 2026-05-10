@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discovery_crypto.py::test_aes_gcm_encrypt_spec_ping[fork_Lstar][fork_Lstar-discovery_crypto]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "aes_gcm_encrypt",
         "input": {
             "key": "0x9f2d77db7004bf8a1a85107ac686990b",
@@ -13,7 +13,7 @@
             "ciphertext": "0xa5d12a2da4fa47081eedb4b9ff5c2c253d25470c"
         },
         "_info": {
-            "hash": "0x4634f16dcc810a537eb01d833f4eff766738fcad1d0c95c7c460de43d352d3f2",
+            "hash": "0x8854b96d84627cc48b46f1a245cfbd0bc700cde55b2f7507b8e0a94c8e6e06d7",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discovery_crypto.py::test_aes_gcm_encrypt_spec_ping[fork_Lstar]",
             "description": "AES-GCM encrypt a PING message with spec key and nonce.",

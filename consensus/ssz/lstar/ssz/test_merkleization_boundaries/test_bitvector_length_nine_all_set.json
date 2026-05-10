@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_merkleization_boundaries.py::test_bitvector_length_nine_all_set[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "BoundaryBitvector9",
         "value": {
             "data": [
@@ -19,7 +19,7 @@
         "serialized": "0xff01",
         "root": "0xff01000000000000000000000000000000000000000000000000000000000000",
         "_info": {
-            "hash": "0xaa19ca74a33032356f716116999952b379b2b3579bed2e6962591c5feec545df",
+            "hash": "0xe8a630f62cb01d5c1c8c509ea574f0db92c297968df6059c7a740d5dadf6182f",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_merkleization_boundaries.py::test_bitvector_length_nine_all_set[fork_Lstar]",
             "description": "Nine-bit vector straddles the single-byte boundary.",

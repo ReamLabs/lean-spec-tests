@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/state_transition/test_block_processing.py::test_block_at_very_large_slot_with_many_skipped[fork_Lstar][fork_Lstar-state_transition_test]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "pre": {
             "config": {
                 "genesisTime": 0
@@ -31,23 +31,23 @@
             "validators": {
                 "data": [
                     {
-                        "attestationPubkey": "0x80a6f13b39b9c26cd91edb542bdb9e051b61223a15f5de18e53e6a361720cd65c06a114e87531241cc535f39156f0f2cf0877647",
-                        "proposalPubkey": "0xdedd8e5a890a2c339ffbca1ce85b710384670508df73ce33116bcd60befbef5a560e6304e3635a58e12b6b542c1bc6583a16455a",
+                        "attestationPubkey": "0x1865a50c6478a3173882ff01f2b7904a2b96b64a8ad63d04ea53b34a539bfd672ffffd40f2e93c2900311f068cf9641b81fd364d",
+                        "proposalPubkey": "0xef30711e272be66f8850f13c393f5c7dc302f6112d3d04672b715b0caef8b823cccac138b5ab9644845cc6262dd8076f49bacf3d",
                         "index": 0
                     },
                     {
-                        "attestationPubkey": "0x7612d36fb7667d1c2f19a821d6a63b3cc17f214baedecb57e6eed4600dabf055185de12c6418db6b79f71004303bfe3a753c9727",
-                        "proposalPubkey": "0x1dcca64f8f9956470c2a427ca669d9359f22f202387ba24440e77200ec57983515451279124ee834a62f77560b1c166b0eb2885b",
+                        "attestationPubkey": "0xce45954436b2b4038330ba17071d9c482f56e43cfd3c21414a0f326635cc6132523b995e346e4e2df535e6742a5bb506e0c91365",
+                        "proposalPubkey": "0x2fdc4e5caacbdf3117a6687b09e7f46a132bd54f0e9b8730d3e57c655a60557a488ae4078e248244fadeab6d506a79355b563142",
                         "index": 1
                     },
                     {
-                        "attestationPubkey": "0xd703e67ce93c9b61b2ae88063ce60f13822efe03d8f089582615032e2b44346fa0199c2320dca35012ec1d414dc3b835da11cd73",
-                        "proposalPubkey": "0x9ee9237afcc3d75c0a8271412f2ac10f03c0da760e545a21cc7eb8331381f62bec027d1dac093b7a09057c187dd46e6231c0c007",
+                        "attestationPubkey": "0xa6cece462ea48c5e5a31d1576d6d7c7367fdf851a94dd738442c93570f88556ca04991462fedb17191054f65eeb9eb3777a8d27c",
+                        "proposalPubkey": "0xcfe9915524913f40da7ad5649bf69f450d72b952d2296627072e50524f7e8b775c61c17c36283b210521db7517ef097ca996de10",
                         "index": 2
                     },
                     {
-                        "attestationPubkey": "0xe41f343f892528158dccae5404bd7262106386597fd4a35ae2c682374c6f15706dd8062ddac61b1851020e0918e7970917e30b06",
-                        "proposalPubkey": "0x57ffb567b826fb60dd07da58f6939b05aa93cd4bb2d9794308d3232878caa5076e9628292e96406c2d8faa3f8108922cdcf37e56",
+                        "attestationPubkey": "0xa9536c0b365edf64b9f2a50b7e0c84157697d444bcfeaa72f966070ca539090b00ac6d5e154aa3279c5f624bfa96fd025b66ba09",
+                        "proposalPubkey": "0x951ee23a3065d322d64174463ac89b4fa863ed648a44c02e331e7511da875b4c4fb27c3c2689272634fed634d67b256868f3be59",
                         "index": 3
                     }
                 ]
@@ -63,8 +63,8 @@
             {
                 "slot": 500,
                 "proposerIndex": 0,
-                "parentRoot": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
-                "stateRoot": "0x9530c02d22bc3848c1701403eb6a146498a5ad0b7fba528dd37a0f8380723cb5",
+                "parentRoot": "0xd123d3d19ba32a08df9b3bf9e55e4447d1a3a3b4f905583d013b8f05c77d585e",
+                "stateRoot": "0xd44149e679c7eb6c06ed6c8ef1b2fe85a3a618b123ee31de9c6279e57ce3c95b",
                 "body": {
                     "attestations": {
                         "data": []
@@ -580,7 +580,7 @@
             }
         },
         "_info": {
-            "hash": "0xd163acf03b147ff246729cd97ced5fac7aa96c9a26c46ff11b821094fed3f8f6",
+            "hash": "0xf2896750e56ed2c32cc19a4a8027e78157f00e7dc7eaa6d9517a0d9b70074a5d",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/state_transition/test_block_processing.py::test_block_at_very_large_slot_with_many_skipped[fork_Lstar]",
             "description": "State transition handles hundreds of empty slots without error.\n\n    Scenario\n    --------\n    Jump directly from genesis to slot 500, simulating:\n    - Network bootstrap after very long downtime\n    - Integer overflow boundary testing at scale\n    - Memory usage stress test for slot processing\n\n    Expected Behavior\n    -----------------\n    1. Process 499 empty slots: 1\u21922\u2192...\u2192499\u2192500\n    2. Block at slot 500 processes correctly\n    3. historical_block_hashes has 500 entries:\n       - Genesis parent root\n       - 499 ZERO_HASH entries for skipped slots\n    4. justified_slots tracks slots 1..499 = 499 entries (all False)\n    5. No integer overflow or memory issues",

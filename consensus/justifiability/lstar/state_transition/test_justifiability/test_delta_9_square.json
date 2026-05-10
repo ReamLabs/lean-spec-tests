@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/state_transition/test_justifiability.py::test_delta_9_square[fork_Lstar][fork_Lstar-justifiability]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "slot": 9,
         "finalizedSlot": 0,
         "output": {
@@ -9,7 +9,7 @@
             "isJustifiable": true
         },
         "_info": {
-            "hash": "0xf69840ad6e6529a8a235e36b932d18aadcaff0c89a666067d68352da5fa7717c",
+            "hash": "0x6547d1131f526b2fce27073522f95330b16cb4478f3fbf69cb2e6e37a72db789",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/state_transition/test_justifiability.py::test_delta_9_square[fork_Lstar]",
             "description": "Delta 9: perfect square (3^2).",

@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discovery_routing.py::test_log2_distance_spec_nodes[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "log2_distance",
         "input": {
             "nodeA": "0xaaaa8419e9f49d0083561b48287df592939a8d19947d8c0ef88f2a4856a69fbb",
@@ -11,7 +11,7 @@
             "distance": 253
         },
         "_info": {
-            "hash": "0xd374169bcab04ef701e549cb330b2f42d1fdd9797d91b4540ed049bbf81dd4fe",
+            "hash": "0xb4b44592c0d9dbc179d87ff9df10cbf3304d6aa2796750c0b8d596ad1f21e799",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discovery_routing.py::test_log2_distance_spec_nodes[fork_Lstar]",
             "description": "Log2 distance between official spec nodes A and B is 253.",

@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/chain/test_slot_clock.py::test_from_unix_time_ten_slots[fork_Lstar][fork_Lstar-slot_clock]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "from_unix_time",
         "input": {
             "unixSeconds": 1700000040,
@@ -16,7 +16,7 @@
             "interval": 50
         },
         "_info": {
-            "hash": "0xa50e25ee74201fa1d72765427bf9b28667abb0eaa8140a8d8e8a705eeababe4c",
+            "hash": "0x3630be637efafa0083e3cd1d592c9d6316a072addba4756e59d5a1eee0303c34",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/chain/test_slot_clock.py::test_from_unix_time_ten_slots[fork_Lstar]",
             "description": "Ten slots = 40 seconds = 50 intervals.",

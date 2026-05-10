@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_consensus_containers.py::test_block_header_zero[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "BlockHeader",
         "value": {
             "slot": 0,
@@ -13,7 +13,7 @@
         "serialized": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
         "root": "0xc78009fdf07fc56a11f122370658a353aaa542ed63e44c4bc15ff4cd105ab33c",
         "_info": {
-            "hash": "0x354b529b7a912310d1ba9e144dde8f120f036f867735aefd86c2715e82870ac2",
+            "hash": "0x2a6cf6859c7cfa4c8f0ce80c81f319af42af0a08ba4dab132829fc89d767cf59",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_consensus_containers.py::test_block_header_zero[fork_Lstar]",
             "description": "SSZ roundtrip for BlockHeader with zero values.",

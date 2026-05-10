@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_varint.py::test_varint_uint32_max[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "varint",
         "input": {
             "value": 4294967295
@@ -11,7 +11,7 @@
             "byteLength": 5
         },
         "_info": {
-            "hash": "0xa01948016417a4242205300055c6a1c7a9057fdf46d7023eda6b4655247d0426",
+            "hash": "0x48717805f8e25511a82246ba6229a20597f242f933f10c90eba78f8475661288",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_varint.py::test_varint_uint32_max[fork_Lstar]",
             "description": "Varint 2^32 - 1. Maximum 32-bit unsigned integer.",

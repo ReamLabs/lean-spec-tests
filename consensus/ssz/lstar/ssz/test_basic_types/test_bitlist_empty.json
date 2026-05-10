@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_basic_types.py::test_bitlist_empty[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "SampleBitlist16",
         "value": {
             "data": []
@@ -9,7 +9,7 @@
         "serialized": "0x01",
         "root": "0xf5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
         "_info": {
-            "hash": "0x36f98cb1a69a9c3be8883a42cb00f60d962e6929e794251fdbecca3f645ca01f",
+            "hash": "0x5cecddf6fc7a78b2464b4d116a90b856ba8dfa8149548b184e8b97454783e8da",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_basic_types.py::test_bitlist_empty[fork_Lstar]",
             "description": "Empty bitlist. Sentinel-only encoding (0x01).",

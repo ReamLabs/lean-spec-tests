@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/poseidon1/test_permutation_width16.py::test_permutation_width16_all_zero[fork_Lstar][fork_Lstar-poseidon_permutation]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "width": 16,
         "input": {
             "inputState": [
@@ -44,7 +44,7 @@
             ]
         },
         "_info": {
-            "hash": "0x301f31ea7cb12e2ec83b5b53484208806bb318d45871f37f22a6d37654a61223",
+            "hash": "0xa56254550889c14b8ab077b39d2e005f4f51fb54990dbcdfa6139e0c0f006cbe",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/poseidon1/test_permutation_width16.py::test_permutation_width16_all_zero[fork_Lstar]",
             "description": "Input state of all zeros pins the round-constant-only output.\n\n    With a zero state, the only contribution to every S-box input is the\n    round-constants stream. The output state therefore depends purely on\n    the round constants and the MDS matrix, making this vector a\n    sensitive diff for tables-of-constants drift.",

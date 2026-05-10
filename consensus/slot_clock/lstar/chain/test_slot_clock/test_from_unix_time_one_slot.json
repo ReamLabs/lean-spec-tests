@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/chain/test_slot_clock.py::test_from_unix_time_one_slot[fork_Lstar][fork_Lstar-slot_clock]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "from_unix_time",
         "input": {
             "unixSeconds": 1700000004,
@@ -16,7 +16,7 @@
             "interval": 5
         },
         "_info": {
-            "hash": "0xb3430a8cdd7061493d356a2315cfb310d2ad6ac2882dc580ffa265fdd45be4dc",
+            "hash": "0xff7bd013b85f5069f1509f34a990668b9b4d267a575c07190b5559e0758e8e8a",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/chain/test_slot_clock.py::test_from_unix_time_one_slot[fork_Lstar]",
             "description": "One slot = 4 seconds = 4000 ms. 4000 / 800 = 5 intervals.",

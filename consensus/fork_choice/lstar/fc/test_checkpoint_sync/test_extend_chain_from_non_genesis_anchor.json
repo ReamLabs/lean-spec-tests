@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/fc/test_checkpoint_sync.py::test_extend_chain_from_non_genesis_anchor[fork_Lstar][fork_Lstar-fork_choice_test]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "anchorState": {
             "config": {
                 "genesisTime": 0
@@ -10,30 +10,30 @@
             "latestBlockHeader": {
                 "slot": 10,
                 "proposerIndex": 2,
-                "parentRoot": "0xfd93573d06f9c4debf35868545a5ce4246980c5f7d2536fef23788433ce4b480",
+                "parentRoot": "0xfd74f8b1f912c604ebd18dd6c73ff48c7c986b9ecc727ab2c598003578bc7330",
                 "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                 "bodyRoot": "0xdba9671bac9513c9482f1416a53aabd2c6ce90d5a5f865ce5a55c775325c9136"
             },
             "latestJustified": {
-                "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                "root": "0xd123d3d19ba32a08df9b3bf9e55e4447d1a3a3b4f905583d013b8f05c77d585e",
                 "slot": 0
             },
             "latestFinalized": {
-                "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                "root": "0xd123d3d19ba32a08df9b3bf9e55e4447d1a3a3b4f905583d013b8f05c77d585e",
                 "slot": 0
             },
             "historicalBlockHashes": {
                 "data": [
-                    "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
-                    "0x0fa9821f2e05c2f95150f84cd7fe339ee56710354396600bbf0b01ac3d20c2be",
-                    "0xab5e8d9684b9604dbbe546a4362f3f884fba1a0f28b965c4d825f5dc8a98e81f",
-                    "0x6f9fdb04b07a5e2b119625c88d81121bc2e6ab3a16c60ba43fd34f73297aca34",
-                    "0x735e0081533d6d6b3fedab1e1a5cf0ad7862a47370654e6b763b257f56fdbd58",
-                    "0x98e26fb559cfbaea18d336bec2a3c1488a11007fd623d3079b49c4f7c4bf2d19",
-                    "0xfc2fb8a182afb7c076577a630a6f4698e52835ffcac585d4ca003de0b04f86d3",
-                    "0x8d20d5b67183c3a95ed8f464d55041f31d367aae0cb1aed4f7bcff643bbd3757",
-                    "0xd5621dc0811bee91da37e1aa6f26b2f9957407e59c35fa04848aa793fa057ed0",
-                    "0xfd93573d06f9c4debf35868545a5ce4246980c5f7d2536fef23788433ce4b480"
+                    "0xd123d3d19ba32a08df9b3bf9e55e4447d1a3a3b4f905583d013b8f05c77d585e",
+                    "0x6214b969cc3f585a85432ed9dcd3884d4842fb561a3b303a35a771475d58aa88",
+                    "0x6b7c8df5d3628c2425caf72e487418f09c4b34b2693dcccddcba29e28219d5ab",
+                    "0x58fed81517132bb2c1eacd474215d3e01298e12d6022946e516e3585cbc20104",
+                    "0x807ac72b883d201702dd1b1b5e5b8037e6168e872fec98479b578bb85030b3a7",
+                    "0x82e00334e07349f73c463ec75c13a618a58f17e03de4ff52091f7602d03351d0",
+                    "0xd657bdd96167b131ae65a86508b93628514d71116bd49eb5d2181dc1f6ac4aa4",
+                    "0x838a7722e40ffcbf06b299322e1395f63b79faf42171ab3520fd154d41ad8c4f",
+                    "0x5afded61c201baa9455b78e83bce217e369ab4e7f66337851ae9b323e555826f",
+                    "0xfd74f8b1f912c604ebd18dd6c73ff48c7c986b9ecc727ab2c598003578bc7330"
                 ]
             },
             "justifiedSlots": {
@@ -52,23 +52,23 @@
             "validators": {
                 "data": [
                     {
-                        "attestationPubkey": "0x80a6f13b39b9c26cd91edb542bdb9e051b61223a15f5de18e53e6a361720cd65c06a114e87531241cc535f39156f0f2cf0877647",
-                        "proposalPubkey": "0xdedd8e5a890a2c339ffbca1ce85b710384670508df73ce33116bcd60befbef5a560e6304e3635a58e12b6b542c1bc6583a16455a",
+                        "attestationPubkey": "0x1865a50c6478a3173882ff01f2b7904a2b96b64a8ad63d04ea53b34a539bfd672ffffd40f2e93c2900311f068cf9641b81fd364d",
+                        "proposalPubkey": "0xef30711e272be66f8850f13c393f5c7dc302f6112d3d04672b715b0caef8b823cccac138b5ab9644845cc6262dd8076f49bacf3d",
                         "index": 0
                     },
                     {
-                        "attestationPubkey": "0x7612d36fb7667d1c2f19a821d6a63b3cc17f214baedecb57e6eed4600dabf055185de12c6418db6b79f71004303bfe3a753c9727",
-                        "proposalPubkey": "0x1dcca64f8f9956470c2a427ca669d9359f22f202387ba24440e77200ec57983515451279124ee834a62f77560b1c166b0eb2885b",
+                        "attestationPubkey": "0xce45954436b2b4038330ba17071d9c482f56e43cfd3c21414a0f326635cc6132523b995e346e4e2df535e6742a5bb506e0c91365",
+                        "proposalPubkey": "0x2fdc4e5caacbdf3117a6687b09e7f46a132bd54f0e9b8730d3e57c655a60557a488ae4078e248244fadeab6d506a79355b563142",
                         "index": 1
                     },
                     {
-                        "attestationPubkey": "0xd703e67ce93c9b61b2ae88063ce60f13822efe03d8f089582615032e2b44346fa0199c2320dca35012ec1d414dc3b835da11cd73",
-                        "proposalPubkey": "0x9ee9237afcc3d75c0a8271412f2ac10f03c0da760e545a21cc7eb8331381f62bec027d1dac093b7a09057c187dd46e6231c0c007",
+                        "attestationPubkey": "0xa6cece462ea48c5e5a31d1576d6d7c7367fdf851a94dd738442c93570f88556ca04991462fedb17191054f65eeb9eb3777a8d27c",
+                        "proposalPubkey": "0xcfe9915524913f40da7ad5649bf69f450d72b952d2296627072e50524f7e8b775c61c17c36283b210521db7517ef097ca996de10",
                         "index": 2
                     },
                     {
-                        "attestationPubkey": "0xe41f343f892528158dccae5404bd7262106386597fd4a35ae2c682374c6f15706dd8062ddac61b1851020e0918e7970917e30b06",
-                        "proposalPubkey": "0x57ffb567b826fb60dd07da58f6939b05aa93cd4bb2d9794308d3232878caa5076e9628292e96406c2d8faa3f8108922cdcf37e56",
+                        "attestationPubkey": "0xa9536c0b365edf64b9f2a50b7e0c84157697d444bcfeaa72f966070ca539090b00ac6d5e154aa3279c5f624bfa96fd025b66ba09",
+                        "proposalPubkey": "0x951ee23a3065d322d64174463ac89b4fa863ed648a44c02e331e7511da875b4c4fb27c3c2689272634fed634d67b256868f3be59",
                         "index": 3
                     }
                 ]
@@ -83,8 +83,8 @@
         "anchorBlock": {
             "slot": 10,
             "proposerIndex": 2,
-            "parentRoot": "0xfd93573d06f9c4debf35868545a5ce4246980c5f7d2536fef23788433ce4b480",
-            "stateRoot": "0xf4e387ed605861d8072c8bebc2429fb6353e04ac9dd2a7bd35542dad9d4b30ed",
+            "parentRoot": "0xfd74f8b1f912c604ebd18dd6c73ff48c7c986b9ecc727ab2c598003578bc7330",
+            "stateRoot": "0xe66bad9640c6082a63647b0aca0d422416273d2fc17bccdb9ad073a1434eeb19",
             "body": {
                 "attestations": {
                     "data": []
@@ -110,8 +110,8 @@
                 "block": {
                     "slot": 11,
                     "proposerIndex": 3,
-                    "parentRoot": "0x129151054f200d376ecde24f6e48897af6051d0984543866f532b7ac32f946bb",
-                    "stateRoot": "0x9847da988443990d5169a9dd5a96c6839dae2b4825023e59df59c32cd2ae96b9",
+                    "parentRoot": "0xb39012e794e6beac0b7c68f64e1490e81d7b289f995627458fe19565f1ba6ca0",
+                    "stateRoot": "0xcb7ec91a3d3d05b5b919ebc53fa9c2f623d7609f654fb53b58f4ee48da9b36cb",
                     "body": {
                         "attestations": {
                             "data": []
@@ -139,8 +139,8 @@
                 "block": {
                     "slot": 12,
                     "proposerIndex": 0,
-                    "parentRoot": "0x40cc03b08c29f4ae4c138bd97cdd1cdcd25892c24e7243ba16c7e9fa55bed1f6",
-                    "stateRoot": "0x1289df87892aadf2664b6f6021af064b0c7c0216a393b898f4ebed399d284c0c",
+                    "parentRoot": "0xd348629c4ec0088c34a3a7c4881a807fc5385c2b1fb432f3c3c6c1c5b367666e",
+                    "stateRoot": "0x405205148a571b6569eeb121db15f1b68f9634594605c0c960d2a9a08a268c86",
                     "body": {
                         "attestations": {
                             "data": []
@@ -169,8 +169,8 @@
                 "block": {
                     "slot": 13,
                     "proposerIndex": 1,
-                    "parentRoot": "0x1afa84cd719956c35dd61f657284bcbe10db424ffd4e32ceec45ac7caa6adc2c",
-                    "stateRoot": "0x49183c96bac20ed45c5f99c9b947220ef49b8665c1b98c28053b41eba93c4f9d",
+                    "parentRoot": "0x6fecf9889a08f50859e0e62ea40d5db9559273745d23f83b3a09f8c181577818",
+                    "stateRoot": "0xfb23de25ad7e35880deb08a99f22c3acb0ceb818e17bef5d1f3b9c5a5e1d5182",
                     "body": {
                         "attestations": {
                             "data": []
@@ -182,7 +182,7 @@
         ],
         "maxSlot": 13,
         "_info": {
-            "hash": "0xa36b3cc4ad196da82e51a961c9aa5c5c2e7d6682aa87d2d13ec9761fb1ce99be",
+            "hash": "0x5eaf2a92a29751c8c3b3908d65fb6dd942dfe7ade7086afccb1b45db7b4eb85c",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/fc/test_checkpoint_sync.py::test_extend_chain_from_non_genesis_anchor[fork_Lstar]",
             "description": "Blocks at slots above the anchor extend the canonical chain.\n\n    Scenario\n    --------\n    Start from a mid-chain anchor at slot 10 and append three blocks::\n\n        anchor(10) -> block_11 -> block_12 -> block_13\n                                                  ^\n                                                 head\n\n    Invariants checked after each block\n    -----------------------------------\n\n    - Head advances to the newly added block.\n    - Justified and finalized checkpoints stay pinned to the anchor root.\n      None of these empty blocks carry supermajority attestations, so no\n      justification advance is possible.\n    - Every block built on the anchor is retained in the store.\n\n    Why This Matters\n    ----------------\n    Post-anchor blocks must resolve their parents through the store's\n    anchor-rooted block map. This exercises the state lookup, the state\n    transition, and the head recomputation against a non-genesis base.",

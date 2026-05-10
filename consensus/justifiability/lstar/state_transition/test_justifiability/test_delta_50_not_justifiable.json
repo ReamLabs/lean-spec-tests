@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/state_transition/test_justifiability.py::test_delta_50_not_justifiable[fork_Lstar][fork_Lstar-justifiability]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "slot": 50,
         "finalizedSlot": 0,
         "output": {
@@ -9,7 +9,7 @@
             "isJustifiable": false
         },
         "_info": {
-            "hash": "0xad4f332de4bf969e825f74ce305b7b38f446b5132c85dbded881f481aef6a6fa",
+            "hash": "0x11806d25582c8cf299845897fbbd159e3dc95da5d706955f2cdb5e1d1293a359",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/state_transition/test_justifiability.py::test_delta_50_not_justifiable[fork_Lstar]",
             "description": "Delta 50: between square 49 and pronic 56.",

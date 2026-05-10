@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_decode_failure_smoke.py::test_ssz_decode_failure_bitlist_exceeds_limit[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "expectException": "Exception",
         "typeName": "SmokeBitlist8",
         "value": {
@@ -13,7 +13,7 @@
         "serialized": "0x0010",
         "root": "",
         "_info": {
-            "hash": "0x9f97033dee38f950c048dd184c7e06851573a0cc049e421144fc781b85494857",
+            "hash": "0xe523fee590e586b3e8156894ddcb6348341e04082de679bc9363ad9c016295af",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_decode_failure_smoke.py::test_ssz_decode_failure_bitlist_exceeds_limit[fork_Lstar]",
             "description": "Decoding a bitlist whose contents imply a length above its LIMIT raises.\n\n    The payload `0x0010` encodes 16 bits before the sentinel. The `LIMIT`\n    on the decoder type is 8, so SSZ decode must reject. This pins the new\n    `raw_bytes` + `expect_exception` path on the ssz fixture.",

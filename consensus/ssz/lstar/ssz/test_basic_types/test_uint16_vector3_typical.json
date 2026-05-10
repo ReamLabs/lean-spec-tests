@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_basic_types.py::test_uint16_vector3_typical[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "SampleUint16Vector3",
         "value": {
             "data": [
@@ -13,7 +13,7 @@
         "serialized": "0x6400c800ffff",
         "root": "0x6400c800ffff0000000000000000000000000000000000000000000000000000",
         "_info": {
-            "hash": "0xdcbae6ac11a045eead6563b4166cfeff18bd8accaac84963762eb0d4b3a2019a",
+            "hash": "0x33fba2800baa48ff7ae5ec78811667cb8ed797ffe82f9f9b14b38e196dd6feb2",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_basic_types.py::test_uint16_vector3_typical[fork_Lstar]",
             "description": "3-element Uint16 vector with mixed values, including the maximum (65535).",

@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/chain/test_slot_clock.py::test_from_slot_zero[fork_Lstar][fork_Lstar-slot_clock]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "from_slot",
         "input": {
             "slot": 0
@@ -15,7 +15,7 @@
             "interval": 0
         },
         "_info": {
-            "hash": "0x5130894e014f2dcbaca48766790250f33c404b80cf57c0ad0720a51050501cfd",
+            "hash": "0x3906b518db1b0c40a31b23d0a15a5cfc6e3ddfa4b4ca0d5de3e33b319f197ee7",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/chain/test_slot_clock.py::test_from_slot_zero[fork_Lstar]",
             "description": "Slot 0 starts at interval 0.",

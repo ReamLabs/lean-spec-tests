@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_merkleization_boundaries.py::test_bitvector_length_257_all_set[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "BoundaryBitvector257",
         "value": {
             "data": [
@@ -267,7 +267,7 @@
         "serialized": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01",
         "root": "0xe9bada28b960beb323e7992400b45875830bfce5a64f230c696cdddfafa551b8",
         "_info": {
-            "hash": "0x0dd0f542a963b469616be6d9059fc1db6634f566a691d66fc83e5853bd3a4ac7",
+            "hash": "0xd2e56c81df424895bdcd0ba5832fb2371302520a9bf523e816e0e2de07d0e851",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_merkleization_boundaries.py::test_bitvector_length_257_all_set[fork_Lstar]",
             "description": "257-bit vector forces a second Merkle chunk holding a single bit.",

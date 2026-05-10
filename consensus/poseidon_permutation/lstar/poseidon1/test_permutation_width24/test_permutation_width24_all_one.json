@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/poseidon1/test_permutation_width24.py::test_permutation_width24_all_one[fork_Lstar][fork_Lstar-poseidon_permutation]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "width": 24,
         "input": {
             "inputState": [
@@ -60,7 +60,7 @@
             ]
         },
         "_info": {
-            "hash": "0x04f3f5fbcf27e0f5cd04e828a4236b9f32d624a48ab4e3c449feae715af347e9",
+            "hash": "0x170b5fdf10c7bd47dc7586d71b3be78fe666f2b5ca35c68de3238921483d5ddb",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/poseidon1/test_permutation_width24.py::test_permutation_width24_all_one[fork_Lstar]",
             "description": "Input state of all ones exercises uniform non-zero entries at width 24.",

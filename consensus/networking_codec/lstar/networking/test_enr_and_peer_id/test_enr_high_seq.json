@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_high_seq[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "enr",
         "input": {
             "enrString": "enr:-Hm4QIijml7AMdlciWFY1S7qh7egBawTx_IqvFhHI4xQh6jdDEJv9Slx_lVGPznU65wh0BzwxMGkbEpzuzO2K7Z_xfSE_____4JpZIJ2NIlzZWNwMjU2azGhA8pjTK4NSay0Adikxrb-jFW3DRFb9AB2nMFADzJYzTE4"
@@ -17,7 +17,7 @@
             "isValid": true
         },
         "_info": {
-            "hash": "0x868204186d3f2a4c30895e0b59fa8f64037cfd184f0e0dcde69c1d04f614cf5b",
+            "hash": "0xe04844a6923421e9db38b7e0c4e5b30696d3e34dc41da115e16d5e3021850abe",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_high_seq[fork_Lstar]",
             "description": "ENR with high sequence number (2^32 - 1). Verifies large seq parsing.",

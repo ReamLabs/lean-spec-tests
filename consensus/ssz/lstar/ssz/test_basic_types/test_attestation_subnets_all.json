@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_basic_types.py::test_attestation_subnets_all[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "AttestationSubnets",
         "value": {
             "data": [
@@ -74,7 +74,7 @@
         "serialized": "0xffffffffffffffff",
         "root": "0xffffffffffffffff000000000000000000000000000000000000000000000000",
         "_info": {
-            "hash": "0x0e7b9e9a74799751a9106edd833cd590b10b8c517bb87fe0a6e92a84bcdf22c4",
+            "hash": "0xfabeb9def784aa9aa5814ddd04913760fd0d4717d9feab537a2a567dfc09955f",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_basic_types.py::test_attestation_subnets_all[fork_Lstar]",
             "description": "Attestation subnets with all 64 subscriptions active.",

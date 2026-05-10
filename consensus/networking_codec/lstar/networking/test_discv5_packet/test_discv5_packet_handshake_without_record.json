@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discv5_packet.py::test_discv5_packet_handshake_without_record[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "discv5_packet",
         "input": {
             "packetType": "handshake",
@@ -20,7 +20,7 @@
             "authdataSize": 131
         },
         "_info": {
-            "hash": "0x40c69fdcbd5a5946e742e70d97366d9963ee8f187f19c4e6475cef4f610d0422",
+            "hash": "0x7b73fcc838e693d81cd33d3148208bb26233236169f76ee2113b41a179232bb3",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discv5_packet.py::test_discv5_packet_handshake_without_record[fork_Lstar]",
             "description": "HANDSHAKE packet (flag=2) without an embedded ENR record.\n\n    Exercises the fixed-size authdata path where the record field is\n    absent. Pins the encoded length and the roundtrip decode that reads\n    sig-size / eph-key-size from the authdata header.",

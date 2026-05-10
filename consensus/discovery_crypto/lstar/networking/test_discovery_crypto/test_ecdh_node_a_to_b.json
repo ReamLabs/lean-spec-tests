@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discovery_crypto.py::test_ecdh_node_a_to_b[fork_Lstar][fork_Lstar-discovery_crypto]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "ecdh",
         "input": {
             "privateKey": "0xeef77acb6c6a6eebc5b363a475ac583ec7eccdb42b6481424c60f59aa326547f",
@@ -11,7 +11,7 @@
             "sharedSecret": "0x03022df677b53f62850b7d838ac3f3d705a5ae9827342080acc9dec6640fb6d752"
         },
         "_info": {
-            "hash": "0x79a262bb27902021adf534e3b53453ee42257a31a286664a5fc8b7eef4e18a24",
+            "hash": "0x0271d35a3c0e15032c4d7d6f65f57c586b93c60e3ae90d710c1c626349131cbe",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discovery_crypto.py::test_ecdh_node_a_to_b[fork_Lstar]",
             "description": "ECDH(A_priv, B_pub) produces deterministic shared secret.",

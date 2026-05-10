@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discv5_messages.py::test_findnode_mixed_distances[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "discv5_message",
         "input": {
             "type": "findnode",
@@ -16,7 +16,7 @@
             "encoded": "0x03c701c58001820100"
         },
         "_info": {
-            "hash": "0x97179ba183c025cc1fdb6bd63d793f1aa4c0a0e62144564ceef0db740c41a47c",
+            "hash": "0x9d285fa6369185e005b5172781163f047c75e58f1818cf8e8d00e0ed801c451d",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discv5_messages.py::test_findnode_mixed_distances[fork_Lstar]",
             "description": "FINDNODE with distances [0, 1, 256]. Tests zero and multi-byte encoding.",

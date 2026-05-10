@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_no_eth2_field[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "enr",
         "input": {
             "enrString": "enr:-IS4QDohXCCn6lWtmPJGwLPaUz9uZbIcvDotMiTRS2RpRLLaExazyVAAWYwBgZu_w8M-3NHdkIC7dKuyKgxbxV8mr0cBgmlkgnY0gmlwhAoAAAGJc2VjcDI1NmsxoQPKY0yuDUmstAHYpMa2_oxVtw0RW_QAdpzBQA8yWM0xOIN1ZHCCdl8"
@@ -20,7 +20,7 @@
             "isValid": true
         },
         "_info": {
-            "hash": "0xdf8c4cad9d0ef8cd96bf81e660b84b19f7542d97c6408a24933493562dd5f3cb",
+            "hash": "0x8263a61964d673cd90f570961dd751996867a9ef6841b9a8cd9c2dadbbc46078",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_no_eth2_field[fork_Lstar]",
             "description": "ENR with ip4 + udp but no eth2, attnets, or syncnets. Verifies absent optional fields.",

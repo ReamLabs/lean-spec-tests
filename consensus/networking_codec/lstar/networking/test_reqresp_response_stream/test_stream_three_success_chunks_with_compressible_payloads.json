@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_reqresp_response_stream.py::test_stream_three_success_chunks_with_compressible_payloads[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "reqresp_response_stream",
         "input": {
             "chunks": [
@@ -24,7 +24,7 @@
             "chunkCount": 3
         },
         "_info": {
-            "hash": "0x461ee2d0ee9563591a91a318dcc9a867e2ffa4326fc0466af3c8fb98282b39bb",
+            "hash": "0x5b54257793c350d2047a446fe9bacb53e2bc021d12efaa89053e035937053fd4",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_reqresp_response_stream.py::test_stream_three_success_chunks_with_compressible_payloads[fork_Lstar]",
             "description": "Three SUCCESS chunks whose payloads compress well.\n\n    Exercises the N>2 case and highlights that each chunk carries its\n    own snappy stream-identifier preamble inside the concatenated bytes;\n    stream-level parsers that reset snappy state between chunks must\n    produce identical output to stateful parsers.",

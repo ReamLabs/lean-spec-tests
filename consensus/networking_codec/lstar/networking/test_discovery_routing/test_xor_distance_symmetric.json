@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discovery_routing.py::test_xor_distance_symmetric[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "xor_distance",
         "input": {
             "nodeA": "0xaaaa8419e9f49d0083561b48287df592939a8d19947d8c0ef88f2a4856a69fbb",
@@ -11,7 +11,7 @@
             "distance": "0x1111191d96f015c036ff275417507e3d5452722ae459295acc2ffa1d0b40d202"
         },
         "_info": {
-            "hash": "0x1449d238418307c86bc9587552e90d7500c4e7bc95017f82cd141bb42269daef",
+            "hash": "0xcd93903454229664b3ad6c7bb9c5a69a67971372fcb706bb105adab2dba4970e",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discovery_routing.py::test_xor_distance_symmetric[fork_Lstar]",
             "description": "d(A, B) == d(B, A) (symmetry property).",

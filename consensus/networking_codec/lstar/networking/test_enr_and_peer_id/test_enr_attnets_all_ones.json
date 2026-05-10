@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_attnets_all_ones[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "enr",
         "input": {
             "enrString": "enr:-Ia4QCqe1oTI3hKJukNRiknmVCjHYZaLdgZeUGjS0A3uF1CgbnlM-Meg6FrQL8WOH0pTY0OltuMufXVnqvcPu3Y7xh8Bh2F0dG5ldHOI__________-CaWSCdjSJc2VjcDI1NmsxoQPKY0yuDUmstAHYpMa2_oxVtw0RW_QAdpzBQA8yWM0xOA"
@@ -83,7 +83,7 @@
             "isValid": true
         },
         "_info": {
-            "hash": "0x6960b569f0f448351c44ca125e87b8650aefefffe28aeff98a57e950081fc2a0",
+            "hash": "0x9fd940be89a65b376372c43fee0a6224f4cd3987b737a1b15ee5024cadf0ca73",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_attnets_all_ones[fork_Lstar]",
             "description": "ENR with attnets bitfield all ones. Verifies all 64 subnets are subscribed.",

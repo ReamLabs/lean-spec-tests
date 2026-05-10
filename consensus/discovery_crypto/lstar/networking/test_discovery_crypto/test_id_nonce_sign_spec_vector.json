@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discovery_crypto.py::test_id_nonce_sign_spec_vector[fork_Lstar][fork_Lstar-discovery_crypto]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "id_nonce_sign",
         "input": {
             "privateKey": "0xeef77acb6c6a6eebc5b363a475ac583ec7eccdb42b6481424c60f59aa326547f",
@@ -13,7 +13,7 @@
             "signature": "0xe622b72727fd64529187b6e4f7241caadac052f840122474d91de305f7bb5cc45d0457b5f6ba72c8bbc82480dea2e2cd3eabca6984f6bd7bd3b54a80fe749fa6"
         },
         "_info": {
-            "hash": "0xa1e9425fac0cdd539c87f311a38ba66f0fe156277fc8e2dc0072c1c2d1e5e4da",
+            "hash": "0xdb886fd2de5ab9c681cd09899a5aa8f94a42c8dfebf992d751c2ebb58a3a6cf3",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discovery_crypto.py::test_id_nonce_sign_spec_vector[fork_Lstar]",
             "description": "Sign ID nonce with Node A's key and spec challenge data.",

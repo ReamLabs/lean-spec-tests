@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/poseidon1/test_permutation_width24.py::test_permutation_width24_p_minus_one_and_near_zero[fork_Lstar][fork_Lstar-poseidon_permutation]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "width": 24,
         "input": {
             "inputState": [
@@ -60,7 +60,7 @@
             ]
         },
         "_info": {
-            "hash": "0xe4f61e830ce629697b072dda890c521b4af75e11cfd918c8ce2bc01e87b2efb0",
+            "hash": "0x2b627d89d7c33bfada46517c23cbc4bec5f610e101b2962f97adf1e4ad2b62f0",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/poseidon1/test_permutation_width24.py::test_permutation_width24_p_minus_one_and_near_zero[fork_Lstar]",
             "description": "Alternating P - 1 and small positives stress reduction at width 24.",

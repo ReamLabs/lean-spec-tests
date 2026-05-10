@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_xmss_containers.py::test_aggregated_signature_proof_with_data[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "AggregatedSignatureProof",
         "value": {
             "participants": {
@@ -18,7 +18,7 @@
         "serialized": "0x08000000090000000ddeadbeef",
         "root": "0x74b68c412a18db3868c1a602fcda76d42a2ec848d0ffc46b839c5cbe4f77d32d",
         "_info": {
-            "hash": "0x18d8bccc941eaa9a0e292f8763f7c21945e65b701f6407e3bda48e4c2dbcde66",
+            "hash": "0x9bedafe591390a5194b0740f7f3b8a155140e050582714f99eb93d53bad5cc75",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_xmss_containers.py::test_aggregated_signature_proof_with_data[fork_Lstar]",
             "description": "SSZ roundtrip for AggregatedSignatureProof with proof data.",

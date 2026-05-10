@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_message_idontwant_skips_peer[fork_Lstar][fork_Lstar-gossipsub_handler]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "handlerName": "message",
         "params": {
             "d": 4,
@@ -72,7 +72,7 @@
             }
         },
         "_info": {
-            "hash": "0xeaf97dff7a6a8be507f170fff75de5c4ce3dc42be2af665a22ac0901eaace02c",
+            "hash": "0xeb964bcf25d79522f0ba0c642cc9354e27a0fd2a3872b2efd4a88e2ac8519c7a",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_message_idontwant_skips_peer[fork_Lstar]",
             "description": "Peer that sent IDONTWANT for this message ID is skipped during forwarding.",

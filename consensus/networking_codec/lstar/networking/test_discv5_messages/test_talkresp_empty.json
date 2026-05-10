@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discv5_messages.py::test_talkresp_empty[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "discv5_message",
         "input": {
             "type": "talkresp",
@@ -12,7 +12,7 @@
             "encoded": "0x06c20180"
         },
         "_info": {
-            "hash": "0xfa0a12685515a79b632207c6ae9974b51cf430655f7dbaf5a1cfadf4801dbec4",
+            "hash": "0x6267c2535f41dc7bbcf12b57ca3d60162c7302b814024fe2c5c9a65efa489ce0",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discv5_messages.py::test_talkresp_empty[fork_Lstar]",
             "description": "TALKRESP with empty response.",

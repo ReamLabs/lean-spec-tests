@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_message_forward_to_mesh[fork_Lstar][fork_Lstar-gossipsub_handler]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "handlerName": "message",
         "params": {
             "d": 4,
@@ -51,7 +51,7 @@
         "expected": {
             "sentRpcs": [
                 {
-                    "toPeer": "peerBx",
+                    "toPeer": "peerAx",
                     "publish": [
                         {
                             "topic": "test_topic",
@@ -60,7 +60,7 @@
                     ]
                 },
                 {
-                    "toPeer": "peerAx",
+                    "toPeer": "peerBx",
                     "publish": [
                         {
                             "topic": "test_topic",
@@ -78,7 +78,7 @@
             }
         },
         "_info": {
-            "hash": "0x2dee2a017fde1a5a343fb1c5924340109a96466799e198d7a35fa3a1d184c9a7",
+            "hash": "0x10b5c31cde78865e22f45b4d1a320b88ee99716adb6877a87884576d8c03e545",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_message_forward_to_mesh[fork_Lstar]",
             "description": "New message forwarded to mesh peers except the sender.",

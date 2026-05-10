@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_varint.py::test_varint_150[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "varint",
         "input": {
             "value": 150
@@ -11,7 +11,7 @@
             "byteLength": 2
         },
         "_info": {
-            "hash": "0x435cf9aed4781918786ebb287c8da316141c8340b8a28dd96c6889a1d981e364",
+            "hash": "0xa6d575c18d90b5c2c1ca0f9bae9eca5cee66f44b251605ddf2aec39b87d31f67",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_varint.py::test_varint_150[fork_Lstar]",
             "description": "Varint 150. Classic protobuf documentation example.",

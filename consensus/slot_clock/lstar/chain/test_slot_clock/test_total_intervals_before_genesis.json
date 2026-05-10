@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/chain/test_slot_clock.py::test_total_intervals_before_genesis[fork_Lstar][fork_Lstar-slot_clock]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "total_intervals",
         "input": {
             "genesisTime": 1700000000,
@@ -16,7 +16,7 @@
             "totalIntervals": 0
         },
         "_info": {
-            "hash": "0x803e94718a25fe6847ae7a8077a23d8951a47332cd3c78a67708ad058d49b9e3",
+            "hash": "0x2048bb8e72b45b7f6a4b82214393dc3f0332f8610a2894d1ad5c823fd23711ed",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/chain/test_slot_clock.py::test_total_intervals_before_genesis[fork_Lstar]",
             "description": "Before genesis: 0 intervals.",

@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/state_transition/test_justification.py::test_split_supermajority_aggregations_in_same_block_justify[fork_Lstar][fork_Lstar-state_transition_test]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "pre": {
             "config": {
                 "genesisTime": 0
@@ -31,33 +31,33 @@
             "validators": {
                 "data": [
                     {
-                        "attestationPubkey": "0x80a6f13b39b9c26cd91edb542bdb9e051b61223a15f5de18e53e6a361720cd65c06a114e87531241cc535f39156f0f2cf0877647",
-                        "proposalPubkey": "0xdedd8e5a890a2c339ffbca1ce85b710384670508df73ce33116bcd60befbef5a560e6304e3635a58e12b6b542c1bc6583a16455a",
+                        "attestationPubkey": "0x1865a50c6478a3173882ff01f2b7904a2b96b64a8ad63d04ea53b34a539bfd672ffffd40f2e93c2900311f068cf9641b81fd364d",
+                        "proposalPubkey": "0xef30711e272be66f8850f13c393f5c7dc302f6112d3d04672b715b0caef8b823cccac138b5ab9644845cc6262dd8076f49bacf3d",
                         "index": 0
                     },
                     {
-                        "attestationPubkey": "0x7612d36fb7667d1c2f19a821d6a63b3cc17f214baedecb57e6eed4600dabf055185de12c6418db6b79f71004303bfe3a753c9727",
-                        "proposalPubkey": "0x1dcca64f8f9956470c2a427ca669d9359f22f202387ba24440e77200ec57983515451279124ee834a62f77560b1c166b0eb2885b",
+                        "attestationPubkey": "0xce45954436b2b4038330ba17071d9c482f56e43cfd3c21414a0f326635cc6132523b995e346e4e2df535e6742a5bb506e0c91365",
+                        "proposalPubkey": "0x2fdc4e5caacbdf3117a6687b09e7f46a132bd54f0e9b8730d3e57c655a60557a488ae4078e248244fadeab6d506a79355b563142",
                         "index": 1
                     },
                     {
-                        "attestationPubkey": "0xd703e67ce93c9b61b2ae88063ce60f13822efe03d8f089582615032e2b44346fa0199c2320dca35012ec1d414dc3b835da11cd73",
-                        "proposalPubkey": "0x9ee9237afcc3d75c0a8271412f2ac10f03c0da760e545a21cc7eb8331381f62bec027d1dac093b7a09057c187dd46e6231c0c007",
+                        "attestationPubkey": "0xa6cece462ea48c5e5a31d1576d6d7c7367fdf851a94dd738442c93570f88556ca04991462fedb17191054f65eeb9eb3777a8d27c",
+                        "proposalPubkey": "0xcfe9915524913f40da7ad5649bf69f450d72b952d2296627072e50524f7e8b775c61c17c36283b210521db7517ef097ca996de10",
                         "index": 2
                     },
                     {
-                        "attestationPubkey": "0xe41f343f892528158dccae5404bd7262106386597fd4a35ae2c682374c6f15706dd8062ddac61b1851020e0918e7970917e30b06",
-                        "proposalPubkey": "0x57ffb567b826fb60dd07da58f6939b05aa93cd4bb2d9794308d3232878caa5076e9628292e96406c2d8faa3f8108922cdcf37e56",
+                        "attestationPubkey": "0xa9536c0b365edf64b9f2a50b7e0c84157697d444bcfeaa72f966070ca539090b00ac6d5e154aa3279c5f624bfa96fd025b66ba09",
+                        "proposalPubkey": "0x951ee23a3065d322d64174463ac89b4fa863ed648a44c02e331e7511da875b4c4fb27c3c2689272634fed634d67b256868f3be59",
                         "index": 3
                     },
                     {
-                        "attestationPubkey": "0x8276347211a4c768a823454b927ee07a8895a24ccf0a7d2f08b298122476c746d4df7c63754e521d62343044ff48e30bb090e472",
-                        "proposalPubkey": "0x3a527d4a67783d7ae9077b250565370cf6c5f34e5f038362a9308f414cb68657fa888a161182dd0b4456771885a2b82861fe170c",
+                        "attestationPubkey": "0x7ab53f4ae84443794fbf6b3954c5cd0a39ae8c6ad082632aaf9fa6370088716ebabaea2fd70f992a6a61751dae412b59a6793d1a",
+                        "proposalPubkey": "0x1a9c0e78e7a25a467f45c15ef26f1443d68fe009ee12cc131c03ff212e7c33639911757afbe4716956244d698c2e45768fba6f6a",
                         "index": 4
                     },
                     {
-                        "attestationPubkey": "0x3e956459bc3031258823bc4cf7e24f3c00cc7341a633d138997149635cf7096f5bf13468a9c5be7c67ab357b62724446819b1513",
-                        "proposalPubkey": "0x92614a0d3a3c1801cce44829ba31ad3738c748509278b32b384561072216840f218791726fc46a56ca2fff3802e4852ad975e730",
+                        "attestationPubkey": "0x85a3bc578781b006590af92e92250368b4582903f678f452817c621ed02dd659c3ccc600729f046076944932a550f2570e5cea67",
+                        "proposalPubkey": "0xfbfef9639780891a892fbd313a32b97bbd0c47410bff3251dc57ad107d776a29bac496001d3cff7dbe630e7e19a7fa21f92bf32b",
                         "index": 5
                     }
                 ]
@@ -73,8 +73,8 @@
             {
                 "slot": 1,
                 "proposerIndex": 1,
-                "parentRoot": "0x920f7e51f85f701e774c564c3c04300473eb8949440e2e877acc4db1bca7170f",
-                "stateRoot": "0x4ddeab534eb309735dec67484aabeb559914d1b6014347f45ff7894d544d9f5c",
+                "parentRoot": "0x130b7bf5a92fdca11ce58ec5894c97a5f83b7d2fa590a5d030b9633a2bf8133f",
+                "stateRoot": "0x337f768f624be82d2cf1bb1471a4701e9f347cc08e698cf7456c8d235055f947",
                 "body": {
                     "attestations": {
                         "data": []
@@ -84,8 +84,8 @@
             {
                 "slot": 2,
                 "proposerIndex": 2,
-                "parentRoot": "0xa92c6d635aa7fb55fc1e76fdfcad3884acedad2fdef64b36644caa65759344b4",
-                "stateRoot": "0x8dffd78acc247b514d76254cdca660f5ca89834ee5d5db983b9ffd4068d0e61e",
+                "parentRoot": "0x85d2b862811d4ae2ad76f45ceccc01d09c93934fa16b31d81eebe2bda0e41e0a",
+                "stateRoot": "0xeb3d0bfa9ec1a860063d454db2fcd8241686464d82e4f40588172f7af5682d00",
                 "body": {
                     "attestations": {
                         "data": [
@@ -101,15 +101,15 @@
                                 "data": {
                                     "slot": 2,
                                     "head": {
-                                        "root": "0xa92c6d635aa7fb55fc1e76fdfcad3884acedad2fdef64b36644caa65759344b4",
+                                        "root": "0x85d2b862811d4ae2ad76f45ceccc01d09c93934fa16b31d81eebe2bda0e41e0a",
                                         "slot": 1
                                     },
                                     "target": {
-                                        "root": "0xa92c6d635aa7fb55fc1e76fdfcad3884acedad2fdef64b36644caa65759344b4",
+                                        "root": "0x85d2b862811d4ae2ad76f45ceccc01d09c93934fa16b31d81eebe2bda0e41e0a",
                                         "slot": 1
                                     },
                                     "source": {
-                                        "root": "0x920f7e51f85f701e774c564c3c04300473eb8949440e2e877acc4db1bca7170f",
+                                        "root": "0x130b7bf5a92fdca11ce58ec5894c97a5f83b7d2fa590a5d030b9633a2bf8133f",
                                         "slot": 0
                                     }
                                 }
@@ -136,7 +136,7 @@
             }
         },
         "_info": {
-            "hash": "0x1ab135f862c240d94a7caf75b5689a6fc8184f26fdf66044009e6e8b53aaed84",
+            "hash": "0xbcfd964a0d29b8ef7865cd1aae98fa5e7c798f268eee4727ce41c4e4bf4ae49b",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/state_transition/test_justification.py::test_split_supermajority_aggregations_in_same_block_justify[fork_Lstar]",
             "description": "Test that two aggregates for the same target combine within a single block.\n\n    Scenario\n    --------\n    1. Start from genesis with 6 validators\n    2. Process block_1 at slot 1\n    3. Process a block at slot 2 with two separate attestations targeting\n       block_1 at slot 1: validators 0-1 in one aggregate, validators 2-3\n       in another\n\n    Expected Behavior\n    -----------------\n    1. Neither aggregate alone reaches the two-thirds threshold\n    2. The implementation merges both aggregates toward the same tally\n    3. Four of six validators form a supermajority when combined\n    4. latest_justified_slot advances to slot 1",

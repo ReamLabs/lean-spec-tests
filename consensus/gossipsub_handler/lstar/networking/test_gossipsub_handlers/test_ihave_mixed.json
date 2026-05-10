@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_ihave_mixed[fork_Lstar][fork_Lstar-gossipsub_handler]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "handlerName": "ihave",
         "params": {
             "d": 4,
@@ -59,7 +59,7 @@
             }
         },
         "_info": {
-            "hash": "0xec86654bff14f67856c388c56989f13d6a9a97f1fc64bb6adad25bc17d4ad1f6",
+            "hash": "0x8543f34bf250a600397e98f8af6516a6c3de58c1178c51d4a6f2049410b56034",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_ihave_mixed[fork_Lstar]",
             "description": "IHAVE with seen and unseen IDs. IWANT only for the unseen one.",

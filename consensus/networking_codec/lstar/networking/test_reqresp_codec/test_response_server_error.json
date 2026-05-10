@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_reqresp_codec.py::test_response_server_error[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "reqresp_response",
         "input": {
             "responseCode": 2,
@@ -11,7 +11,7 @@
             "encoded": "0x020eff060000734e61507059011200009eef1e8f696e7465726e616c206572726f72"
         },
         "_info": {
-            "hash": "0x2437fb7ebfa4a887f7f7f38d27ea4a15fba120f4b75428ea3b5d509fc2a540e9",
+            "hash": "0xed35dcdb51a13ad8ce50442ad21e0dcacbdf1542a6dbbcd86e65e59ce3800e25",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_reqresp_codec.py::test_response_server_error[fork_Lstar]",
             "description": "SERVER_ERROR response with UTF-8 error message.",

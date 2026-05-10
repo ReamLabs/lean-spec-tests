@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_iwant_cached_responds[fork_Lstar][fork_Lstar-gossipsub_handler]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "handlerName": "iwant",
         "params": {
             "d": 4,
@@ -58,7 +58,7 @@
             }
         },
         "_info": {
-            "hash": "0x78d5b3826aebf904c761d96ba081960f5f38ec9dcf8fd72e3efb67a9a9441fd0",
+            "hash": "0xf5b6783d0c9b0c665a8f65ab00c1ec0fc5b9c54198cec853fb07ce32b804e033",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_iwant_cached_responds[fork_Lstar]",
             "description": "IWANT for a cached message responds with the full message.",

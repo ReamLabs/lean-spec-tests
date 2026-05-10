@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discovery_routing.py::test_xor_distance_adjacent[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "xor_distance",
         "input": {
             "nodeA": "0x0000000000000000000000000000000000000000000000000000000000000001",
@@ -11,7 +11,7 @@
             "distance": "0x3"
         },
         "_info": {
-            "hash": "0xae92ba9dfaec9447d63cbbb58350a38e8aecba3f741249dd1e3d7c45a7cea43c",
+            "hash": "0x32f72d92d7700e85fe805e32c6a9ab66c045a23f8ac2dfc04435ebad2b0ba9e4",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discovery_routing.py::test_xor_distance_adjacent[fork_Lstar]",
             "description": "XOR of 0x01 and 0x02 is 0x03 (lowest bits).",

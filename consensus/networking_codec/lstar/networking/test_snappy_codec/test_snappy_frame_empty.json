@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_snappy_codec.py::test_snappy_frame_empty[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "snappy_frame",
         "input": {
             "data": "0x"
@@ -12,7 +12,7 @@
             "uncompressedLength": 0
         },
         "_info": {
-            "hash": "0xd05e9a276331b08193553f36a1402b4932e574c2bb915c47e1cf79a94c1642d4",
+            "hash": "0x3ceb43b2a794f03bc3fb3f7c4037e0fa9c477ff9600b63ea89f236d1fcfeead6",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_snappy_codec.py::test_snappy_frame_empty[fork_Lstar]",
             "description": "Empty payload. Output is just the stream identifier chunk.",

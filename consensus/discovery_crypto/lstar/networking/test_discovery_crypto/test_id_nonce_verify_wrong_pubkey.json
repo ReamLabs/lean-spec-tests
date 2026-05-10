@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discovery_crypto.py::test_id_nonce_verify_wrong_pubkey[fork_Lstar][fork_Lstar-discovery_crypto]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "id_nonce_verify",
         "input": {
             "signature": "0xe622b72727fd64529187b6e4f7241caadac052f840122474d91de305f7bb5cc45d0457b5f6ba72c8bbc82480dea2e2cd3eabca6984f6bd7bd3b54a80fe749fa6",
@@ -14,7 +14,7 @@
             "valid": false
         },
         "_info": {
-            "hash": "0xfac542e31f83b88a34062cd7b162e3b8a199e6e57aaac5851faf3f52b581e1bc",
+            "hash": "0xb3680f7b4fb4af80f22acc6e8a514e2ba6cd068b1682144af3257e9c89a50895",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discovery_crypto.py::test_id_nonce_verify_wrong_pubkey[fork_Lstar]",
             "description": "Verification fails with wrong public key (Node B instead of A).",

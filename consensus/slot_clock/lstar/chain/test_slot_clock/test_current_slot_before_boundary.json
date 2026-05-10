@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/chain/test_slot_clock.py::test_current_slot_before_boundary[fork_Lstar][fork_Lstar-slot_clock]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "current_slot",
         "input": {
             "genesisTime": 1700000000,
@@ -16,7 +16,7 @@
             "slot": 0
         },
         "_info": {
-            "hash": "0xc5b9f142a0f231bb582bf25c7b2f823cd3e86748c75916450f69ab90d735d092",
+            "hash": "0x8d8e984976cb2669cb9168a8959ade6c75c3b522164bd0d29b8f54e3f623ae90",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/chain/test_slot_clock.py::test_current_slot_before_boundary[fork_Lstar]",
             "description": "One ms before slot 1 boundary: still slot 0 (integer division floors).",

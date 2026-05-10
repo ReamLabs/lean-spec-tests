@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossip_topic.py::test_block_topic_different_digest[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "gossip_topic",
         "input": {
             "kind": "block",
@@ -11,7 +11,7 @@
             "topicString": "/leanconsensus/aabbccdd/block/ssz_snappy"
         },
         "_info": {
-            "hash": "0x8d2233a6ed1b1e57087578853c4456e2a0294f49f08bee7e003efe5738abd7ee",
+            "hash": "0xa9c645ab66c55aa07fa7015e009df2da55adfbdca7ecc2ef9339efa10083d3c0",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossip_topic.py::test_block_topic_different_digest[fork_Lstar]",
             "description": "Block topic with a different fork digest to verify digest embedding.",

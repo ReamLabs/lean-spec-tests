@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_graft_idempotent[fork_Lstar][fork_Lstar-gossipsub_handler]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "handlerName": "graft",
         "params": {
             "d": 4,
@@ -44,7 +44,7 @@
             }
         },
         "_info": {
-            "hash": "0xf2fe67aeeefc6ca972b9308e6fde108f3b06d74336cb54c28d19f6eae6c78a4b",
+            "hash": "0x954e81b5b9eee4f2c0fcde836f3eb6dc7f59f08fc63f0607e2ab9443980f0ccd",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_graft_idempotent[fork_Lstar]",
             "description": "GRAFT for a peer already in mesh is harmless.",

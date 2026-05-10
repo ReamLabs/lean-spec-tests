@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discv5_packet.py::test_discv5_packet_message[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "discv5_packet",
         "input": {
             "packetType": "message",
@@ -18,7 +18,7 @@
             "authdataSize": 32
         },
         "_info": {
-            "hash": "0xc67552ad3a9133856a433487de7c247524db86f165cd303fa1d229cbfcf6dcf8",
+            "hash": "0x0fdd46adeddbd1a91c4096e4c2d2f55495e03d76900e53cf023a4a98e7e89871",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discv5_packet.py::test_discv5_packet_message[fork_Lstar]",
             "description": "MESSAGE packet (flag=0) with known inputs pins the full wire bytes.\n\n    Encodes a MESSAGE packet with a fixed destination node id, nonce,\n    masking IV, encryption key, and source id. The fixture asserts\n    the encoded packet round-trips through decode_packet_header with\n    flag, nonce, and authdata preserved.",

@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_graft_reject_capacity[fork_Lstar][fork_Lstar-gossipsub_handler]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "handlerName": "graft",
         "params": {
             "d": 4,
@@ -75,7 +75,7 @@
             }
         },
         "_info": {
-            "hash": "0x2d2496d69c7d56a1a3832b8a31281980dfdf53285708ec103ed0acbeba8f3a8d",
+            "hash": "0x0473b79c0f5beb8442bc457895f6b5d6a3951274cfd321702f65c7757079798c",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_graft_reject_capacity[fork_Lstar]",
             "description": "Reject GRAFT with PRUNE when mesh is at d_high.",

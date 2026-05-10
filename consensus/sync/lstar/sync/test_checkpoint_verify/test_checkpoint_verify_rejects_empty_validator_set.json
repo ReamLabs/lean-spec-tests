@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/sync/test_checkpoint_verify.py::test_checkpoint_verify_rejects_empty_validator_set[fork_Lstar][fork_Lstar-sync]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "verify_checkpoint",
         "input": {
             "numValidators": 0
@@ -13,7 +13,7 @@
             "anchorSlot": 0
         },
         "_info": {
-            "hash": "0xc5d8797347ed6b2af570a3b384b979410668b92c5c7f9c9d2706dd7a998031ff",
+            "hash": "0x006d45bebb7dc711ad862dc62a9478b2446f974141faefdf6ad5e566cdac42b3",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/sync/test_checkpoint_verify.py::test_checkpoint_verify_rejects_empty_validator_set[fork_Lstar]",
             "description": "A checkpoint state with zero validators is rejected.\n\n    A state without validators cannot produce blocks, so seeding a\n    fork-choice store with it would be useless and mask configuration\n    errors. Clients must refuse the anchor before any store setup.",

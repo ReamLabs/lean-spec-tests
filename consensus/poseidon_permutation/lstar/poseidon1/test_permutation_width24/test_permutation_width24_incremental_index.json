@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/poseidon1/test_permutation_width24.py::test_permutation_width24_incremental_index[fork_Lstar][fork_Lstar-poseidon_permutation]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "width": 24,
         "input": {
             "inputState": [
@@ -60,7 +60,7 @@
             ]
         },
         "_info": {
-            "hash": "0x8f500a862b55bcaf8c6df0c0b3bb950dab527fbd24dc99d7cedd5ee5b7747c7f",
+            "hash": "0x98d81c4769fc10769c539eb443a9f54a63a3d04d0b74395e43fbd8948ce8ed79",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/poseidon1/test_permutation_width24.py::test_permutation_width24_incremental_index[fork_Lstar]",
             "description": "Input state filled with 0, 1, 2, ..., 23 pins per-slot MDS behaviour.",

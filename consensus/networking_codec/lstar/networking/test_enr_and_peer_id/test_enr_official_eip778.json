@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_official_eip778[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "enr",
         "input": {
             "enrString": "enr:-IS4QHCYrYZbAKWCBRlAy5zzaDZXJBGkcnh4MHcBFZntXNFrdvJjX04jRzjzCBOonrkTfj499SZuOh8R33Ls8RRcy5wBgmlkgnY0gmlwhH8AAAGJc2VjcDI1NmsxoQPKY0yuDUmstAHYpMa2_oxVtw0RW_QAdpzBQA8yWM0xOIN1ZHCCdl8"
@@ -20,7 +20,7 @@
             "isValid": true
         },
         "_info": {
-            "hash": "0xdc62e62e825e8cf8e7f30dd3c2500cb0dd1212c45b6fa1bd686c9381222b09f1",
+            "hash": "0x26c8b4bc1ce1178c90e127783fa845b6905de47934cc9d20ed9ca8d0a857c16a",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_official_eip778[fork_Lstar]",
             "description": "Official EIP-778 vector. Exercises node_id, ip4, udp_port, multiaddr, signature.",

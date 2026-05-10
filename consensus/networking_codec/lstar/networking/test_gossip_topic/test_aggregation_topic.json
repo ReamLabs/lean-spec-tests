@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossip_topic.py::test_aggregation_topic[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "gossip_topic",
         "input": {
             "kind": "aggregation",
@@ -11,7 +11,7 @@
             "topicString": "/leanconsensus/12345678/aggregation/ssz_snappy"
         },
         "_info": {
-            "hash": "0xe5e7a23ad48afc967d7f04073613f383fee311623f69695b07f9a7a64ae583af",
+            "hash": "0xfebdf760b7a0bbcc9f6a238614007835da3403924560dd975da8b3000b6b9ad0",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossip_topic.py::test_aggregation_topic[fork_Lstar]",
             "description": "Committee aggregation topic.",

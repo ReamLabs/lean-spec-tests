@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/api/test_api_endpoints.py::test_health[fork_Lstar][fork_Lstar-api_endpoint]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "endpoint": "/lean/v0/health",
         "method": "GET",
         "genesisParams": {
@@ -16,7 +16,7 @@
             "service": "lean-rpc-api"
         },
         "_info": {
-            "hash": "0x9d353d6d539a5b316d514ccdbc8bad3d8d827e2e7eb9ca9184ce06f2d208b1b3",
+            "hash": "0x4432dc43e2b3cf2ffb8540a1251600e72273469366ba5b4b4b54616251f9fecb",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/api/test_api_endpoints.py::test_health[fork_Lstar]",
             "description": "Health returns a fixed payload independent of consensus state.",

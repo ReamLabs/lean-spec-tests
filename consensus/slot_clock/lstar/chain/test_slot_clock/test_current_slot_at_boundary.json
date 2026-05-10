@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/chain/test_slot_clock.py::test_current_slot_at_boundary[fork_Lstar][fork_Lstar-slot_clock]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "current_slot",
         "input": {
             "genesisTime": 1700000000,
@@ -16,7 +16,7 @@
             "slot": 1
         },
         "_info": {
-            "hash": "0x70aaf72df4b39dfc02210eeb3e6724f9e34b396de7e15568a11858823efb5ce0",
+            "hash": "0xf7346d67c87a17c5c6128aea4c94cb5e97df8b0059383c38ecb2d77feb5bfd09",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/chain/test_slot_clock.py::test_current_slot_at_boundary[fork_Lstar]",
             "description": "Exactly at slot 1 boundary (4 seconds): slot 1.",

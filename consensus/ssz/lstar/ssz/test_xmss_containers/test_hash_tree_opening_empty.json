@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_xmss_containers.py::test_hash_tree_opening_empty[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "HashTreeOpening",
         "value": {
             "siblings": {
@@ -9,9 +9,9 @@
             }
         },
         "serialized": "0x04000000",
-        "root": "0x52e2647abc3d0c9d3be0387f3f0d925422c7a4e98cf4489066f0f43281a899f3",
+        "root": "0xb1979517db3e37d4a0275adf154f2343f4e60b87ee89d53714823938a99e618d",
         "_info": {
-            "hash": "0x01c833a8055e7442636dd5852db0c37076c3dbba3b0d7a6831a64cb89bdbc5d9",
+            "hash": "0x8f62b194f2322445d6c9eaf8368a09389167cb6d076b06c859a2371904cc1b44",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_xmss_containers.py::test_hash_tree_opening_empty[fork_Lstar]",
             "description": "SSZ roundtrip for HashTreeOpening with no sibling digests.",

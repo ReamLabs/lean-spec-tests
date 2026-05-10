@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_varint.py::test_varint_uint64_max[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "varint",
         "input": {
             "value": 18446744073709551615
@@ -11,7 +11,7 @@
             "byteLength": 10
         },
         "_info": {
-            "hash": "0x5471edc4417ba30873aaea0dfde5f8ba4a7f6a71b35bc09aed349787ba073d7b",
+            "hash": "0xfc90c396f0f4ca59ff3fb2eab6078b62b5911d0f83c7f773654f95e7fb6f43b3",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_varint.py::test_varint_uint64_max[fork_Lstar]",
             "description": "Varint 2^64 - 1. Maximum 64-bit value, requires 10 bytes.",

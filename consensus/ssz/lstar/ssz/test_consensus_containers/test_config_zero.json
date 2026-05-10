@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_consensus_containers.py::test_config_zero[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "Config",
         "value": {
             "genesisTime": 0
@@ -9,7 +9,7 @@
         "serialized": "0x0000000000000000",
         "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
         "_info": {
-            "hash": "0x7e8e880edf438cde8196eb3e8707164db25f014547775cb08e356b5712b679ab",
+            "hash": "0x4c7e069a0251f681abd255575dd57a3dd4dafdff01d6dbda228a2c9400e7224f",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_consensus_containers.py::test_config_zero[fork_Lstar]",
             "description": "SSZ roundtrip for Config with zero genesis time.",

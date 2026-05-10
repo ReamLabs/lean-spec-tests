@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/api/test_api_endpoints.py::test_fork_choice_4v[fork_Lstar][fork_Lstar-api_endpoint]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "endpoint": "/lean/v0/fork_choice",
         "method": "GET",
         "genesisParams": {
@@ -14,27 +14,27 @@
         "expectedBody": {
             "nodes": [
                 {
-                    "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                    "root": "0xd123d3d19ba32a08df9b3bf9e55e4447d1a3a3b4f905583d013b8f05c77d585e",
                     "slot": 0,
                     "parent_root": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "proposer_index": 0,
                     "weight": 0
                 }
             ],
-            "head": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+            "head": "0xd123d3d19ba32a08df9b3bf9e55e4447d1a3a3b4f905583d013b8f05c77d585e",
             "justified": {
                 "slot": 0,
-                "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27"
+                "root": "0xd123d3d19ba32a08df9b3bf9e55e4447d1a3a3b4f905583d013b8f05c77d585e"
             },
             "finalized": {
                 "slot": 0,
-                "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27"
+                "root": "0xd123d3d19ba32a08df9b3bf9e55e4447d1a3a3b4f905583d013b8f05c77d585e"
             },
-            "safe_target": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+            "safe_target": "0xd123d3d19ba32a08df9b3bf9e55e4447d1a3a3b4f905583d013b8f05c77d585e",
             "validator_count": 4
         },
         "_info": {
-            "hash": "0xcd928b28e4efd96070f54d1df8da20a7efc3afffcbebd3efd66d5b3a02d0f5e6",
+            "hash": "0x8bf2c326ddddd6fe62aa5e881fe0419d97969526f58848b5159e27b878a8488c",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/api/test_api_endpoints.py::test_fork_choice_4v[fork_Lstar]",
             "description": "Fork choice tree at genesis: single node, zero attestation weights.",

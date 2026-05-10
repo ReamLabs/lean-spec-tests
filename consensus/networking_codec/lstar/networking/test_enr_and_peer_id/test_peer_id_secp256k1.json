@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_peer_id_secp256k1[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "peer_id",
         "input": {
             "keyType": "secp256k1",
@@ -12,7 +12,7 @@
             "peerId": "16Uiu2HAmLhLvBoYaoZfaMUKuibM6ac163GwKY74c5kiSLg5KvLpY"
         },
         "_info": {
-            "hash": "0x82d20ac19f4a14d721b5c70d252675f97df074802d9e8f35a208d659d5061702",
+            "hash": "0x04d3eeec975921ab448a945fb3521bf2dd793b2510ca31148d6457b53937522b",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_peer_id_secp256k1[fork_Lstar]",
             "description": "secp256k1 PeerId from libp2p spec. 33-byte key, identity multihash.",

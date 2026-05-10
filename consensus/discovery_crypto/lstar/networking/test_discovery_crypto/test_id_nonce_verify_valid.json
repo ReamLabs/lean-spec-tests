@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discovery_crypto.py::test_id_nonce_verify_valid[fork_Lstar][fork_Lstar-discovery_crypto]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "operation": "id_nonce_verify",
         "input": {
             "signature": "0xe622b72727fd64529187b6e4f7241caadac052f840122474d91de305f7bb5cc45d0457b5f6ba72c8bbc82480dea2e2cd3eabca6984f6bd7bd3b54a80fe749fa6",
@@ -14,7 +14,7 @@
             "valid": true
         },
         "_info": {
-            "hash": "0x04e25aa82dd614c5d1a045bce13e6ccfb2f754cacac95d28c39cb7f3f3f4b61b",
+            "hash": "0xbbd94f4118cafbf9052b799eced5c28ad97759f2b9aa1b58acf1656bd987dbce",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discovery_crypto.py::test_id_nonce_verify_valid[fork_Lstar]",
             "description": "Verify valid signature from Node A.",

@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/ssz/test_xmss_containers.py::test_hash_tree_layer_typical[fork_Lstar][fork_Lstar-ssz]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "typeName": "HashTreeLayer",
         "value": {
             "startIndex": 42,
@@ -35,9 +35,9 @@
             }
         },
         "serialized": "0x2a000000000000000c00000000000000010000000200000003000000040000000500000006000000070000000700000008000000090000000a0000000b0000000c0000000d0000000e000000",
-        "root": "0x59cb0d791f41848c8bf68f23d9039367d0619014f6aad6de3c4090b0417dd5e0",
+        "root": "0x798c3ecf27f46ef188a964133bdc08f7748ceb278649778a8ec0353669222482",
         "_info": {
-            "hash": "0x08f37e221ae375f062e509fadc8e1b81ad47527cb824d1f7ad420d2950e5f4b7",
+            "hash": "0x89d069531d42c6d8f092ecfa1019bbcad20dc55b42fc26cd707f113c10937c5e",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_xmss_containers.py::test_hash_tree_layer_typical[fork_Lstar]",
             "description": "SSZ roundtrip for HashTreeLayer at index 42 with two node digest vectors.",

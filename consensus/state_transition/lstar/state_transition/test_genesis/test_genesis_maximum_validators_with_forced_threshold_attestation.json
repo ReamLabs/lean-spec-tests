@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/state_transition/test_genesis.py::test_genesis_maximum_validators_with_forced_threshold_attestation[fork_Lstar][fork_Lstar-state_transition_test]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "pre": {
             "config": {
                 "genesisTime": 0
@@ -23306,7 +23306,7 @@
             "latestBlockHeaderProposerIndex": 2
         },
         "_info": {
-            "hash": "0x6f040d4a4877308bd4e15fe4db6718d8bbb9557cdd26dd8efae48b457609be38",
+            "hash": "0x2796aa8bc730889a1d82d3570f2b362866cdd9b4001cf5d4164335b2fd856344",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/state_transition/test_genesis.py::test_genesis_maximum_validators_with_forced_threshold_attestation[fork_Lstar]",
             "description": "Genesis at the validator registry limit can still justify a checkpoint.\n\n    Scenario\n    --------\n    Build a genesis state with 4096 validators (the registry limit), then\n    process two blocks:\n\n    - Block 1 at slot 1, proposer = validator 1 (1 % 4096).\n    - Block 2 at slot 2, proposer = validator 2 by round-robin default,\n      with attestations from validators 0..2730 -- exactly the 2731-of-4096\n      supermajority threshold (3 * 2731 = 8193 >= 2 * 4096 = 8192).\n\n    The 2731 votes are appended directly to block 2's body to bypass the\n    builder's signing path; the placeholder validators have no real XMSS\n    keys. The state transition still tallies the votes and applies the\n    same supermajority rule as the production path.\n\n    Expected post-state\n    -------------------\n    - Validator count: 4096\n    - Slot: 2\n    - Latest justified slot: 1 (block 1 reached the 2731/4096 threshold)\n    - Latest finalized slot: 0 (no second justified checkpoint yet)\n    - Latest block header slot: 2\n    - Latest block header proposer: 2 (round-robin: 2 % 4096)",

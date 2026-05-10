@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_minimal_seq_zero[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "enr",
         "input": {
             "enrString": "enr:-HW4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgmlkgnY0iXNlY3AyNTZrMaEDymNMrg1JrLQB2KTGtv6MVbcNEVv0AHacwUAPMljNMTg"
@@ -17,7 +17,7 @@
             "isValid": true
         },
         "_info": {
-            "hash": "0x3e4d4bea5972058f24add4b73a9664b8179f17dd30088612f86f950e27ef8322",
+            "hash": "0x92ead0c16b136fe3645711ea0cb622aec74ac891360a7d43999f1cfdedb6ba23",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_minimal_seq_zero[fork_Lstar]",
             "description": "Minimal ENR with seq=0. Only required keys (id + secp256k1).",

@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/poseidon1/test_permutation_width16.py::test_permutation_width16_all_one[fork_Lstar][fork_Lstar-poseidon_permutation]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "width": 16,
         "input": {
             "inputState": [
@@ -44,7 +44,7 @@
             ]
         },
         "_info": {
-            "hash": "0x9fc7afe7068e07a2c57d2a2f73fa7c931106551c7dbc321515a6602c770b65bd",
+            "hash": "0x47de50614fed6ee00e83c858d99fee67f4a593685e00607da7a85632ace9703e",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/poseidon1/test_permutation_width16.py::test_permutation_width16_all_one[fork_Lstar]",
             "description": "Input state of all ones exercises uniform non-zero entries.\n\n    Every element begins at the smallest non-zero field value. The MDS\n    multiplications see a state vector whose entries all carry the same\n    contribution, pinning the first-row linearity of the permutation.",

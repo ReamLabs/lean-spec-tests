@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_message_duplicate_not_forwarded[fork_Lstar][fork_Lstar-gossipsub_handler]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "handlerName": "message",
         "params": {
             "d": 4,
@@ -55,7 +55,7 @@
             }
         },
         "_info": {
-            "hash": "0x58ee0c454c8cf22ac51ca3c6510f651040744dfecee27de97f244d35cd21358d",
+            "hash": "0xfa6604e8d0e7c3776f7710783e859b9fc58f8f53e24ddf7c191ae872daa7c9ec",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_message_duplicate_not_forwarded[fork_Lstar]",
             "description": "Duplicate message (already in seen cache) is not forwarded.",

@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_discv5_packet.py::test_discv5_packet_decode_rejects_wrong_protocol_id[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "expectException": "ValueError",
         "codecName": "decode_failure",
         "input": {
@@ -15,7 +15,7 @@
             "errorMessage": "Invalid protocol ID: b'\\xe0\\xd5A1N\\x00'"
         },
         "_info": {
-            "hash": "0x53e527e2160a7ea8dc5a8d1e3a308e9a28fb938956dc3574617b1dd21f55eb00",
+            "hash": "0xe3ae38d88a41738918b597af0632a2933da91fa8d094c3d1b6533a982b6765c3",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_discv5_packet.py::test_discv5_packet_decode_rejects_wrong_protocol_id[fork_Lstar]",
             "description": "Decoding with the wrong local node id (unmask key) surfaces the protocol-id check.\n\n    The masking key is derived from the local node id. Decoding with a\n    different node id than the packet was encoded for produces garbage\n    for the static header; the decoder rejects because the protocol id\n    bytes no longer read as 'discv5'.",

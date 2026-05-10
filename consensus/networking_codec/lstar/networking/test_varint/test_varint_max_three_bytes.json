@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_varint.py::test_varint_max_three_bytes[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "varint",
         "input": {
             "value": 2097151
@@ -11,7 +11,7 @@
             "byteLength": 3
         },
         "_info": {
-            "hash": "0xed0819746e26ef0ba774def4d790e8d1ba9139c11628da5e7c9de384bf53b9be",
+            "hash": "0xc8f956bdfc204dc5a7720f01ae74ac4fadfecb49473afa96f3803bdd85a85a9f",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_varint.py::test_varint_max_three_bytes[fork_Lstar]",
             "description": "Varint 2097151 is the largest value fitting in three bytes.",

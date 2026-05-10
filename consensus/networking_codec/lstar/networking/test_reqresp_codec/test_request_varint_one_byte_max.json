@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_reqresp_codec.py::test_request_varint_one_byte_max[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "reqresp_request",
         "input": {
             "sszData": "0xababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab"
@@ -10,7 +10,7 @@
             "encoded": "0x7fff060000734e61507059000d00008cf8a7277f00abfe0100f60300"
         },
         "_info": {
-            "hash": "0x4aed6f378bf150b1dcaf0344271aa55f0bf9d525c41055e9ef56f33f17e332a7",
+            "hash": "0xe2b3edd193a7d1e6d25c2d0f192521b977611caf7dca448d581fa527a7465573",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_reqresp_codec.py::test_request_varint_one_byte_max[fork_Lstar]",
             "description": "Request with 127-byte payload. Largest single-byte varint prefix.",

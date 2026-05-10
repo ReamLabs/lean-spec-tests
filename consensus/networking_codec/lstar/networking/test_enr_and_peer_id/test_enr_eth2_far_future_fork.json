@@ -1,7 +1,7 @@
 {
     "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_eth2_far_future_fork[fork_Lstar][fork_Lstar-networking_codec]": {
         "network": "Lstar",
-        "leanEnv": "test",
+        "leanEnv": "prod",
         "codecName": "enr",
         "input": {
             "enrString": "enr:-Iu4QH9jczrZFmQYFzYOnzvoHr0x_oqo6uiVwYyfW4JqmzieRFUycscJpHoQoAudebpIM0ty96ktM0ZdV0Cb_Xc_oD4BhGV0aDKQEjRWeAAAAAD__________4JpZIJ2NIlzZWNwMjU2azGhA8pjTK4NSay0Adikxrb-jFW3DRFb9AB2nMFADzJYzTE4"
@@ -22,7 +22,7 @@
             "isValid": true
         },
         "_info": {
-            "hash": "0x4d380e3062b11f3eeb0aa31b781a5d59742aa1d809f15929680d563946c3de82",
+            "hash": "0xa507fd6ee8e478b3496a915f7d7a9572271ec9427fef86e35ae64d82857cacba",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_eth2_far_future_fork[fork_Lstar]",
             "description": "ENR with eth2 where next_fork_epoch is max uint64 (far future). Verifies large epoch.",
