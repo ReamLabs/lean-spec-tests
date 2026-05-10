@@ -1,0 +1,22 @@
+{
+    "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_peer_id_ed25519[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "peer_id",
+        "input": {
+            "keyType": "ed25519",
+            "publicKey": "0x1ed1e8fae2c4a144b8be8fd4b47bf3d3b34b871c3cacf6010f0e42d474fce27e"
+        },
+        "output": {
+            "protobufEncoded": "0x080112201ed1e8fae2c4a144b8be8fd4b47bf3d3b34b871c3cacf6010f0e42d474fce27e",
+            "peerId": "12D3KooWBtg3aaRMjxwedh83aGiUkwSxDwUZkzuJcfaqUmo7R3pq"
+        },
+        "_info": {
+            "hash": "0x6a582ba67ca4817b903ab74b9995d84f3521b3922bd70404db632c1c3ec66d7c",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_peer_id_ed25519[fork_Lstar]",
+            "description": "ED25519 PeerId from libp2p spec. 32-byte key, identity multihash.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "tests/consensus/lstar/networking/test_reqresp_codec.py::test_request_blocks_by_root[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "reqresp_request",
+        "input": {
+            "sszData": "0x04000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+        },
+        "output": {
+            "encoded": "0x44ff060000734e61507059001300000dce3fbc441004000000aa7a010000bb7a0100"
+        },
+        "_info": {
+            "hash": "0x3ad267ac82c18011fcf0cbff46a3ddcfe68d896635d8a814d47af50f6465a6ce",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_reqresp_codec.py::test_request_blocks_by_root[fork_Lstar]",
+            "description": "BlocksByRoot request with two roots. Protocol: /leanconsensus/req/blocks_by_root/1.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

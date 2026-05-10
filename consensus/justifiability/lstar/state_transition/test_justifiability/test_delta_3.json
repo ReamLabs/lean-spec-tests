@@ -1,0 +1,19 @@
+{
+    "tests/consensus/lstar/state_transition/test_justifiability.py::test_delta_3[fork_Lstar][fork_Lstar-justifiability]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "slot": 3,
+        "finalizedSlot": 0,
+        "output": {
+            "delta": 3,
+            "isJustifiable": true
+        },
+        "_info": {
+            "hash": "0x05b1a277626a1fa0e059ac275ca01befc54e67a07a8bfc9a847ee1a5631ece70",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/state_transition/test_justifiability.py::test_delta_3[fork_Lstar]",
+            "description": "Delta 3: immediate window.",
+            "fixtureFormat": "justifiability"
+        }
+    }
+}

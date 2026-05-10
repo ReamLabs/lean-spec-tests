@@ -1,0 +1,21 @@
+{
+    "tests/consensus/lstar/networking/test_discovery_routing.py::test_log2_distance_bucket_8[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "log2_distance",
+        "input": {
+            "nodeA": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nodeB": "0x0000000000000000000000000000000000000000000000000000000000000080"
+        },
+        "output": {
+            "distance": 8
+        },
+        "_info": {
+            "hash": "0x6eed066bd39ad2a2be3784bc577c9c2690e2bd3e194aaec13de2fc3b31a87d96",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discovery_routing.py::test_log2_distance_bucket_8[fork_Lstar]",
+            "description": "Byte boundary: 0x80 in last byte lands in bucket 8.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "tests/consensus/lstar/networking/test_discovery_crypto.py::test_node_id_from_node_a[fork_Lstar][fork_Lstar-discovery_crypto]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "operation": "node_id",
+        "input": {
+            "publicKey": "0x0313d14211e0287b2361a1615890a9b5212080546d0a257ae4cff96cf534992cb9"
+        },
+        "output": {
+            "nodeId": "0xaaaa8419e9f49d0083561b48287df592939a8d19947d8c0ef88f2a4856a69fbb"
+        },
+        "_info": {
+            "hash": "0xe453544722f2574bcb8eb1f2bd94cd0a8efcf2de26917f78ed5b88ab17b66211",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discovery_crypto.py::test_node_id_from_node_a[fork_Lstar]",
+            "description": "Compute Node A's ID from its compressed public key.",
+            "fixtureFormat": "discovery_crypto"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "tests/consensus/lstar/networking/test_snappy_codec.py::test_snappy_frame_short[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "snappy_frame",
+        "input": {
+            "data": "0x457468657265756d20536e6170707921"
+        },
+        "output": {
+            "framed": "0xff060000734e6150705901140000dc1ecf5c457468657265756d20536e6170707921",
+            "framedLength": 34,
+            "uncompressedLength": 16
+        },
+        "_info": {
+            "hash": "0x85effc0de558790ba933098ccdb451251d8f36349cb80bd6a3c25fa907b1bb0e",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_snappy_codec.py::test_snappy_frame_short[fork_Lstar]",
+            "description": "Short payload (16 bytes). Fits in a single compressed chunk.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "tests/consensus/lstar/networking/test_discv5_messages.py::test_nodes_empty[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "discv5_message",
+        "input": {
+            "type": "nodes",
+            "requestId": "0x01",
+            "total": 0,
+            "enrs": []
+        },
+        "output": {
+            "encoded": "0x04c30180c0"
+        },
+        "_info": {
+            "hash": "0x388663d8ff042360c10748f50a6da6a56ba3ba9b80b89961f4f392ee5418b8bc",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discv5_messages.py::test_nodes_empty[fork_Lstar]",
+            "description": "NODES response with total=0 and empty ENR list.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

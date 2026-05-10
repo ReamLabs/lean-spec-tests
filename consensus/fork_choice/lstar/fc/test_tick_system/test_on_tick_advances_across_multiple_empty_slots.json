@@ -1,0 +1,137 @@
+{
+    "tests/consensus/lstar/fc/test_tick_system.py::test_on_tick_advances_across_multiple_empty_slots[fork_Lstar][fork_Lstar-fork_choice_test]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "anchorState": {
+            "config": {
+                "genesisTime": 0
+            },
+            "slot": 0,
+            "latestBlockHeader": {
+                "slot": 0,
+                "proposerIndex": 0,
+                "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "bodyRoot": "0xdba9671bac9513c9482f1416a53aabd2c6ce90d5a5f865ce5a55c775325c9136"
+            },
+            "latestJustified": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "latestFinalized": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "historicalBlockHashes": {
+                "data": []
+            },
+            "justifiedSlots": {
+                "data": []
+            },
+            "validators": {
+                "data": [
+                    {
+                        "attestationPubkey": "0x80a6f13b39b9c26cd91edb542bdb9e051b61223a15f5de18e53e6a361720cd65c06a114e87531241cc535f39156f0f2cf0877647",
+                        "proposalPubkey": "0xdedd8e5a890a2c339ffbca1ce85b710384670508df73ce33116bcd60befbef5a560e6304e3635a58e12b6b542c1bc6583a16455a",
+                        "index": 0
+                    },
+                    {
+                        "attestationPubkey": "0x7612d36fb7667d1c2f19a821d6a63b3cc17f214baedecb57e6eed4600dabf055185de12c6418db6b79f71004303bfe3a753c9727",
+                        "proposalPubkey": "0x1dcca64f8f9956470c2a427ca669d9359f22f202387ba24440e77200ec57983515451279124ee834a62f77560b1c166b0eb2885b",
+                        "index": 1
+                    },
+                    {
+                        "attestationPubkey": "0xd703e67ce93c9b61b2ae88063ce60f13822efe03d8f089582615032e2b44346fa0199c2320dca35012ec1d414dc3b835da11cd73",
+                        "proposalPubkey": "0x9ee9237afcc3d75c0a8271412f2ac10f03c0da760e545a21cc7eb8331381f62bec027d1dac093b7a09057c187dd46e6231c0c007",
+                        "index": 2
+                    },
+                    {
+                        "attestationPubkey": "0xe41f343f892528158dccae5404bd7262106386597fd4a35ae2c682374c6f15706dd8062ddac61b1851020e0918e7970917e30b06",
+                        "proposalPubkey": "0x57ffb567b826fb60dd07da58f6939b05aa93cd4bb2d9794308d3232878caa5076e9628292e96406c2d8faa3f8108922cdcf37e56",
+                        "index": 3
+                    }
+                ]
+            },
+            "justificationsRoots": {
+                "data": []
+            },
+            "justificationsValidators": {
+                "data": []
+            }
+        },
+        "anchorBlock": {
+            "slot": 0,
+            "proposerIndex": 0,
+            "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "stateRoot": "0xad7e1d3a2ead95871b7f17cba5d8426713c7f7adab203523eb66bfd5e10006bf",
+            "body": {
+                "attestations": {
+                    "data": []
+                }
+            }
+        },
+        "steps": [
+            {
+                "valid": true,
+                "checks": {
+                    "headSlot": 1,
+                    "headRootLabel": "block_1"
+                },
+                "stepType": "block",
+                "block": {
+                    "slot": 1,
+                    "proposerIndex": 1,
+                    "parentRoot": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                    "stateRoot": "0x3ab4c11439a6bee61c3a7917f77fcc49cf7e7bcfcea1d74775de1ebdf8578c11",
+                    "body": {
+                        "attestations": {
+                            "data": []
+                        }
+                    },
+                    "blockRootLabel": "block_1"
+                }
+            },
+            {
+                "valid": true,
+                "checks": {
+                    "time": 10,
+                    "headSlot": 1,
+                    "headRootLabel": "block_1"
+                },
+                "stepType": "tick",
+                "time": 8,
+                "hasProposal": false
+            },
+            {
+                "valid": true,
+                "checks": {
+                    "time": 15,
+                    "headSlot": 1,
+                    "headRootLabel": "block_1"
+                },
+                "stepType": "tick",
+                "time": 12,
+                "hasProposal": false
+            },
+            {
+                "valid": true,
+                "checks": {
+                    "time": 20,
+                    "headSlot": 1,
+                    "headRootLabel": "block_1"
+                },
+                "stepType": "tick",
+                "time": 16,
+                "hasProposal": false
+            }
+        ],
+        "maxSlot": 1,
+        "_info": {
+            "hash": "0x904315209c68e06fb9658472b443ca1e6c0db5075628e5e4b7a3ea85bd92a309",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/fc/test_tick_system.py::test_on_tick_advances_across_multiple_empty_slots[fork_Lstar]",
+            "description": "Time advances through multiple empty slots without changing the head.",
+            "fixtureFormat": "fork_choice_test"
+        }
+    }
+}

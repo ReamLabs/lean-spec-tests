@@ -1,0 +1,26 @@
+{
+    "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_sub_opts_empty_topic[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "gossipsub_rpc",
+        "input": {
+            "subscriptions": [
+                {
+                    "subscribe": true,
+                    "topicId": ""
+                }
+            ],
+            "publish": []
+        },
+        "output": {
+            "encoded": "0x0a0408011200"
+        },
+        "_info": {
+            "hash": "0x6b2745a9d969f2045bbbed02384cfaec42d548e7e03a33021d65b801a50503a4",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_sub_opts_empty_topic[fork_Lstar]",
+            "description": "SubOpts with an empty topic string.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

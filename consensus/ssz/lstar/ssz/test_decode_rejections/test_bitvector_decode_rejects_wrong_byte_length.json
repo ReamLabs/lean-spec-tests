@@ -1,0 +1,38 @@
+{
+    "tests/consensus/lstar/ssz/test_decode_rejections.py::test_bitvector_decode_rejects_wrong_byte_length[fork_Lstar][fork_Lstar-ssz]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "expectException": "SSZValueError",
+        "typeName": "DecodeBitvector16",
+        "value": {
+            "data": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "rawBytes": "0x00",
+        "serialized": "0x00",
+        "root": "",
+        "_info": {
+            "hash": "0x450c311549ee890ac9e90967cf7152a2bab1d2ff55e64c8cab7819d83d03d511",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/ssz/test_decode_rejections.py::test_bitvector_decode_rejects_wrong_byte_length[fork_Lstar]",
+            "description": "Fixed-width bitvector decoding rejects inputs whose byte count does not match LENGTH.\n\n    The fixed-width bitvector here occupies exactly two bytes. A single-byte\n    input underfills the vector. The fixed-size decode path requires an\n    exact byte match, so the decoder must reject.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "tests/consensus/lstar/ssz/test_basic_types.py::test_boolean_false[fork_Lstar][fork_Lstar-ssz]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "typeName": "Boolean",
+        "value": false,
+        "serialized": "0x00",
+        "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "_info": {
+            "hash": "0x2c03fb07312f69352b5c123aca7718b90830040870c19d420e5b5148ec307543",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/ssz/test_basic_types.py::test_boolean_false[fork_Lstar]",
+            "description": "Boolean false encodes as 0x00.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

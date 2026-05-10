@@ -1,0 +1,21 @@
+{
+    "tests/consensus/lstar/networking/test_reqresp_codec.py::test_response_success_all_ff[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "reqresp_response",
+        "input": {
+            "responseCode": 0,
+            "sszData": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        },
+        "output": {
+            "encoded": "0x0020ff060000734e61507059000a000029b009f92000ff7a0100"
+        },
+        "_info": {
+            "hash": "0x6eb1b150ae87af17d350109951b66fd49c1e155098b2abf221880c0f9ea096ee",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_reqresp_codec.py::test_response_success_all_ff[fork_Lstar]",
+            "description": "SUCCESS response with 32 bytes of 0xFF.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

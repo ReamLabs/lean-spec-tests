@@ -1,0 +1,89 @@
+{
+    "tests/consensus/lstar/verify_signatures/test_valid_signatures.py::test_multiple_attestation_groups_same_data[fork_Lstar][fork_Lstar-verify_signatures_test]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "anchorState": {
+            "config": {
+                "genesisTime": 0
+            },
+            "slot": 0,
+            "latestBlockHeader": {
+                "slot": 0,
+                "proposerIndex": 0,
+                "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "bodyRoot": "0xdba9671bac9513c9482f1416a53aabd2c6ce90d5a5f865ce5a55c775325c9136"
+            },
+            "latestJustified": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "latestFinalized": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "historicalBlockHashes": {
+                "data": []
+            },
+            "justifiedSlots": {
+                "data": []
+            },
+            "validators": {
+                "data": [
+                    {
+                        "attestationPubkey": "0x80a6f13b39b9c26cd91edb542bdb9e051b61223a15f5de18e53e6a361720cd65c06a114e87531241cc535f39156f0f2cf0877647",
+                        "proposalPubkey": "0xdedd8e5a890a2c339ffbca1ce85b710384670508df73ce33116bcd60befbef5a560e6304e3635a58e12b6b542c1bc6583a16455a",
+                        "index": 0
+                    },
+                    {
+                        "attestationPubkey": "0x7612d36fb7667d1c2f19a821d6a63b3cc17f214baedecb57e6eed4600dabf055185de12c6418db6b79f71004303bfe3a753c9727",
+                        "proposalPubkey": "0x1dcca64f8f9956470c2a427ca669d9359f22f202387ba24440e77200ec57983515451279124ee834a62f77560b1c166b0eb2885b",
+                        "index": 1
+                    },
+                    {
+                        "attestationPubkey": "0xd703e67ce93c9b61b2ae88063ce60f13822efe03d8f089582615032e2b44346fa0199c2320dca35012ec1d414dc3b835da11cd73",
+                        "proposalPubkey": "0x9ee9237afcc3d75c0a8271412f2ac10f03c0da760e545a21cc7eb8331381f62bec027d1dac093b7a09057c187dd46e6231c0c007",
+                        "index": 2
+                    },
+                    {
+                        "attestationPubkey": "0xe41f343f892528158dccae5404bd7262106386597fd4a35ae2c682374c6f15706dd8062ddac61b1851020e0918e7970917e30b06",
+                        "proposalPubkey": "0x57ffb567b826fb60dd07da58f6939b05aa93cd4bb2d9794308d3232878caa5076e9628292e96406c2d8faa3f8108922cdcf37e56",
+                        "index": 3
+                    }
+                ]
+            },
+            "justificationsRoots": {
+                "data": []
+            },
+            "justificationsValidators": {
+                "data": []
+            }
+        },
+        "signedBlock": {
+            "block": {
+                "slot": 1,
+                "proposerIndex": 1,
+                "parentRoot": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                "stateRoot": "0x3ab4c11439a6bee61c3a7917f77fcc49cf7e7bcfcea1d74775de1ebdf8578c11",
+                "body": {
+                    "attestations": {
+                        "data": []
+                    }
+                }
+            },
+            "signature": {
+                "attestationSignatures": {
+                    "data": []
+                },
+                "proposerSignature": "0x24000000889212670d9c81660e8d404e81498b0b1aaeb84715962004c07dc86b2801000004000000f7f7c36af533fe74340142391949350faa20581a5c87d64c53ee6720102b6e30ac25be52c7f2cd41fecd2756aef78b04bba0d34f4318ae79c9e6e413243bd1179f041f05011f6602e4ca627225214046aac8a9160acacb2700e2c4069ea84c55f5ed2d332f0dcf04e6b08c39f7bfbf2f7b5d9a466c63fa0f12585848b431972a4fa077732f21a2261d242f350d1f7107807c9a27ce6a0e30fc78b97820e69a13b875b1445eb9910bf29b44558ad8ce112ea47e3caa9823122b2ebe0a0bb6f758fd66357203c6a904d5355c2e6185180ce09de26e5fbfd376dea48108d6163f75506c033c12ddf06d82b3243ae34a840226f8a232fb8d4829da88316a3283921ccea3ed39de09d0530ed1c167de40e45989be393e257e337068b76f1658d91b753aac645528570b3c690ac457f99b5b4f36f4a3598a061a07fb7b8527d48ebd270a6bd77947a06f15919a413bf7f521726195f450ab62f41cb8ac850728e0d817797f37563f003f04c5ee5f3c08619e3744158c3806c54e204010ee625adb6e34"
+            }
+        },
+        "_info": {
+            "hash": "0xa72dc4eb2ce44061213274115a0b65d526e91d2253e5f0d5979a09c9f2139e2b",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/verify_signatures/test_valid_signatures.py::test_multiple_attestation_groups_same_data[fork_Lstar]",
+            "description": "Test that separate attestation specs with same data get aggregated.\n\n    Scenario\n    --------\n    - Block at slot 1 with 4 validators\n    - Two separate attestation specs, both targeting genesis\n        - Group 1: validators 0, 2\n        - Group 2: validator 3\n\n    Expected Behavior\n    -----------------\n    - Attestations with identical data should be merged\n    - All signatures verified correctly\n\n    Why This Matters\n    ----------------\n    Tests the aggregation logic when multiple specs target the same data.\n    Real-world scenario: validators attest independently to the same target.",
+            "fixtureFormat": "verify_signatures_test"
+        }
+    }
+}

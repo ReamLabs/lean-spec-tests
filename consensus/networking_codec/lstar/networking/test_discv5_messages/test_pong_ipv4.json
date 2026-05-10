@@ -1,0 +1,24 @@
+{
+    "tests/consensus/lstar/networking/test_discv5_messages.py::test_pong_ipv4[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "discv5_message",
+        "input": {
+            "type": "pong",
+            "requestId": "0x01",
+            "enrSeq": 1,
+            "recipientIp": "0x7f000001",
+            "recipientPort": 30303
+        },
+        "output": {
+            "encoded": "0x02ca0101847f00000182765f"
+        },
+        "_info": {
+            "hash": "0x51a2f62e14a2f0365b4eccef9b94679773caa5b384474041dcfc540e0b545613",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discv5_messages.py::test_pong_ipv4[fork_Lstar]",
+            "description": "PONG with IPv4 127.0.0.1 and port 30303.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

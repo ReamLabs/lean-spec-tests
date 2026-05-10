@@ -1,0 +1,21 @@
+{
+    "tests/consensus/lstar/networking/test_discovery_routing.py::test_log2_distance_max[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "log2_distance",
+        "input": {
+            "nodeA": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nodeB": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        },
+        "output": {
+            "distance": 256
+        },
+        "_info": {
+            "hash": "0x638761ba80ed2f458c6388b14fcf39749d9429824fd10e6d605066b42c963682",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discovery_routing.py::test_log2_distance_max[fork_Lstar]",
+            "description": "Maximum log2 distance is 256 (all bits differ).",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

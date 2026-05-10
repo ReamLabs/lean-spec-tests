@@ -1,0 +1,20 @@
+{
+    "tests/consensus/lstar/ssz/test_consensus_containers.py::test_checkpoint_max_slot[fork_Lstar][fork_Lstar-ssz]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "typeName": "Checkpoint",
+        "value": {
+            "root": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "slot": 18446744073709551615
+        },
+        "serialized": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "root": "0xf0b46c4ab8cd5720de9457addeff0a7267e475c09fd5abb6661e32faf9dd30cd",
+        "_info": {
+            "hash": "0x2da7229833e52c996b44a34dd25bde49d894c21ae2cc0fc8e9609c87533dd0e4",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/ssz/test_consensus_containers.py::test_checkpoint_max_slot[fork_Lstar]",
+            "description": "SSZ roundtrip for Checkpoint at the maximum 64-bit slot and all-0xff root.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

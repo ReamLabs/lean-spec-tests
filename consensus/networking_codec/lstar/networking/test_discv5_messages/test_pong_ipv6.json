@@ -1,0 +1,24 @@
+{
+    "tests/consensus/lstar/networking/test_discv5_messages.py::test_pong_ipv6[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "discv5_message",
+        "input": {
+            "type": "pong",
+            "requestId": "0x01",
+            "enrSeq": 1,
+            "recipientIp": "0x00000000000000000000000000000001",
+            "recipientPort": 9000
+        },
+        "output": {
+            "encoded": "0x02d601019000000000000000000000000000000001822328"
+        },
+        "_info": {
+            "hash": "0x4ae6012fdf7646106bb7a2e8117f89563d82346d1b6755c947ca7f43480c49bd",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discv5_messages.py::test_pong_ipv6[fork_Lstar]",
+            "description": "PONG with IPv6 loopback (::1). 16-byte IP discriminates from IPv4.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

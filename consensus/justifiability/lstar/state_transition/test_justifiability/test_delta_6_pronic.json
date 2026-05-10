@@ -1,0 +1,19 @@
+{
+    "tests/consensus/lstar/state_transition/test_justifiability.py::test_delta_6_pronic[fork_Lstar][fork_Lstar-justifiability]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "slot": 6,
+        "finalizedSlot": 0,
+        "output": {
+            "delta": 6,
+            "isJustifiable": true
+        },
+        "_info": {
+            "hash": "0x8e8875ce1d9643f057efa4f782664546190fde8aa89fc5ef9b2244bac5c6dd6c",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/state_transition/test_justifiability.py::test_delta_6_pronic[fork_Lstar]",
+            "description": "Delta 6: pronic number (2*3). First justifiable slot outside the immediate window.",
+            "fixtureFormat": "justifiability"
+        }
+    }
+}

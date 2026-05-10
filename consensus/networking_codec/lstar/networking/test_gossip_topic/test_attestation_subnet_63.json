@@ -1,0 +1,22 @@
+{
+    "tests/consensus/lstar/networking/test_gossip_topic.py::test_attestation_subnet_63[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "gossip_topic",
+        "input": {
+            "kind": "attestation",
+            "forkDigest": "12345678",
+            "subnetId": 63
+        },
+        "output": {
+            "topicString": "/leanconsensus/12345678/attestation_63/ssz_snappy"
+        },
+        "_info": {
+            "hash": "0xadae096fc37432d265479cc4db2545d000ce25032fef8d0109977a264e27ce83",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_gossip_topic.py::test_attestation_subnet_63[fork_Lstar]",
+            "description": "Attestation subnet 63. Last subnet in a 64-subnet network.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

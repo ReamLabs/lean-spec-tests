@@ -1,0 +1,259 @@
+{
+    "tests/consensus/lstar/state_transition/test_justification.py::test_target_at_or_before_source_is_ignored[fork_Lstar][fork_Lstar-state_transition_test]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "pre": {
+            "config": {
+                "genesisTime": 0
+            },
+            "slot": 0,
+            "latestBlockHeader": {
+                "slot": 0,
+                "proposerIndex": 0,
+                "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "bodyRoot": "0xdba9671bac9513c9482f1416a53aabd2c6ce90d5a5f865ce5a55c775325c9136"
+            },
+            "latestJustified": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "latestFinalized": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "historicalBlockHashes": {
+                "data": []
+            },
+            "justifiedSlots": {
+                "data": []
+            },
+            "validators": {
+                "data": [
+                    {
+                        "attestationPubkey": "0x80a6f13b39b9c26cd91edb542bdb9e051b61223a15f5de18e53e6a361720cd65c06a114e87531241cc535f39156f0f2cf0877647",
+                        "proposalPubkey": "0xdedd8e5a890a2c339ffbca1ce85b710384670508df73ce33116bcd60befbef5a560e6304e3635a58e12b6b542c1bc6583a16455a",
+                        "index": 0
+                    },
+                    {
+                        "attestationPubkey": "0x7612d36fb7667d1c2f19a821d6a63b3cc17f214baedecb57e6eed4600dabf055185de12c6418db6b79f71004303bfe3a753c9727",
+                        "proposalPubkey": "0x1dcca64f8f9956470c2a427ca669d9359f22f202387ba24440e77200ec57983515451279124ee834a62f77560b1c166b0eb2885b",
+                        "index": 1
+                    },
+                    {
+                        "attestationPubkey": "0xd703e67ce93c9b61b2ae88063ce60f13822efe03d8f089582615032e2b44346fa0199c2320dca35012ec1d414dc3b835da11cd73",
+                        "proposalPubkey": "0x9ee9237afcc3d75c0a8271412f2ac10f03c0da760e545a21cc7eb8331381f62bec027d1dac093b7a09057c187dd46e6231c0c007",
+                        "index": 2
+                    },
+                    {
+                        "attestationPubkey": "0xe41f343f892528158dccae5404bd7262106386597fd4a35ae2c682374c6f15706dd8062ddac61b1851020e0918e7970917e30b06",
+                        "proposalPubkey": "0x57ffb567b826fb60dd07da58f6939b05aa93cd4bb2d9794308d3232878caa5076e9628292e96406c2d8faa3f8108922cdcf37e56",
+                        "index": 3
+                    }
+                ]
+            },
+            "justificationsRoots": {
+                "data": []
+            },
+            "justificationsValidators": {
+                "data": []
+            }
+        },
+        "blocks": [
+            {
+                "slot": 1,
+                "proposerIndex": 1,
+                "parentRoot": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                "stateRoot": "0x3ab4c11439a6bee61c3a7917f77fcc49cf7e7bcfcea1d74775de1ebdf8578c11",
+                "body": {
+                    "attestations": {
+                        "data": []
+                    }
+                }
+            },
+            {
+                "slot": 2,
+                "proposerIndex": 2,
+                "parentRoot": "0x0fa9821f2e05c2f95150f84cd7fe339ee56710354396600bbf0b01ac3d20c2be",
+                "stateRoot": "0x9e01843b4c23f57d806989671aeeea5c93be596b164467a06a5828513f9dbab2",
+                "body": {
+                    "attestations": {
+                        "data": [
+                            {
+                                "aggregationBits": {
+                                    "data": [
+                                        true,
+                                        true,
+                                        true
+                                    ]
+                                },
+                                "data": {
+                                    "slot": 2,
+                                    "head": {
+                                        "root": "0x0fa9821f2e05c2f95150f84cd7fe339ee56710354396600bbf0b01ac3d20c2be",
+                                        "slot": 1
+                                    },
+                                    "target": {
+                                        "root": "0x0fa9821f2e05c2f95150f84cd7fe339ee56710354396600bbf0b01ac3d20c2be",
+                                        "slot": 1
+                                    },
+                                    "source": {
+                                        "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                                        "slot": 0
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "slot": 3,
+                "proposerIndex": 3,
+                "parentRoot": "0x45b5b9685d6467ce9cb0ee11b9f2924cb53f49fb4b840e11681f2892cb64126f",
+                "stateRoot": "0x57b9dca074d1797c3c7cb0bcebbba6eff554835461b9ab99b3b2394feeb530bd",
+                "body": {
+                    "attestations": {
+                        "data": [
+                            {
+                                "aggregationBits": {
+                                    "data": [
+                                        true,
+                                        true
+                                    ]
+                                },
+                                "data": {
+                                    "slot": 3,
+                                    "head": {
+                                        "root": "0x45b5b9685d6467ce9cb0ee11b9f2924cb53f49fb4b840e11681f2892cb64126f",
+                                        "slot": 2
+                                    },
+                                    "target": {
+                                        "root": "0x45b5b9685d6467ce9cb0ee11b9f2924cb53f49fb4b840e11681f2892cb64126f",
+                                        "slot": 2
+                                    },
+                                    "source": {
+                                        "root": "0x0fa9821f2e05c2f95150f84cd7fe339ee56710354396600bbf0b01ac3d20c2be",
+                                        "slot": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "slot": 4,
+                "proposerIndex": 0,
+                "parentRoot": "0x4335c21f3450e1cbb56cb68a47cb56921b199fcafd976e8e67120923fddab158",
+                "stateRoot": "0xfb0dbc662b02d8a8b6c6e3057bc5710a2ff89ab7044bc00fd5634b915169af76",
+                "body": {
+                    "attestations": {
+                        "data": []
+                    }
+                }
+            },
+            {
+                "slot": 5,
+                "proposerIndex": 1,
+                "parentRoot": "0x68e8a9b14f5d1bd2d4241de49a78b75d9e64dada53d37d4bb166db244480229e",
+                "stateRoot": "0x7efdac3c5c4469b80acfa8983c7fb79efd466c9c3ed5851248e98be8bc61f390",
+                "body": {
+                    "attestations": {
+                        "data": [
+                            {
+                                "aggregationBits": {
+                                    "data": [
+                                        true,
+                                        true,
+                                        true
+                                    ]
+                                },
+                                "data": {
+                                    "slot": 5,
+                                    "head": {
+                                        "root": "0x68e8a9b14f5d1bd2d4241de49a78b75d9e64dada53d37d4bb166db244480229e",
+                                        "slot": 4
+                                    },
+                                    "target": {
+                                        "root": "0x68e8a9b14f5d1bd2d4241de49a78b75d9e64dada53d37d4bb166db244480229e",
+                                        "slot": 4
+                                    },
+                                    "source": {
+                                        "root": "0x0fa9821f2e05c2f95150f84cd7fe339ee56710354396600bbf0b01ac3d20c2be",
+                                        "slot": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "slot": 6,
+                "proposerIndex": 2,
+                "parentRoot": "0xb5fc7ead8664138f3203950ab1ba41e7aaa56e930f6ff71030d540f036563f6d",
+                "stateRoot": "0x6dd21b07afddb14b866da93fbbefc4934bbc1a8a376b5ad07ed4598e273130ae",
+                "body": {
+                    "attestations": {
+                        "data": [
+                            {
+                                "aggregationBits": {
+                                    "data": [
+                                        false,
+                                        false,
+                                        true
+                                    ]
+                                },
+                                "data": {
+                                    "slot": 6,
+                                    "head": {
+                                        "root": "0x45b5b9685d6467ce9cb0ee11b9f2924cb53f49fb4b840e11681f2892cb64126f",
+                                        "slot": 2
+                                    },
+                                    "target": {
+                                        "root": "0x45b5b9685d6467ce9cb0ee11b9f2924cb53f49fb4b840e11681f2892cb64126f",
+                                        "slot": 2
+                                    },
+                                    "source": {
+                                        "root": "0x68e8a9b14f5d1bd2d4241de49a78b75d9e64dada53d37d4bb166db244480229e",
+                                        "slot": 4
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "post": {
+            "slot": 6,
+            "latestJustifiedSlot": 4,
+            "latestFinalizedSlot": 0,
+            "justifiedSlots": {
+                "data": [
+                    true,
+                    false,
+                    false,
+                    true,
+                    false
+                ]
+            },
+            "justificationsValidators": {
+                "data": [
+                    true,
+                    true,
+                    false,
+                    false
+                ]
+            }
+        },
+        "_info": {
+            "hash": "0x173e12b372aa755efb53f070ee3546d4d19942e8f4ffb5612ebf4908351a887c",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/state_transition/test_justification.py::test_target_at_or_before_source_is_ignored[fork_Lstar]",
+            "description": "Test that a vote cannot move backward to a target at or before its source.\n\n    Scenario\n    --------\n    1. Start from genesis with 4 validators\n    2. Justify block_1 at slot 1 in block_2\n    3. Create a pending vote tally for block_2 in block_3 with validators 0 and 1\n    4. Justify block_4 at slot 4 in block_5 so the source advances to slot 4\n    5. Process block_6 with validator 2 voting for the older block_2 target\n\n    Expected Behavior\n    -----------------\n    1. The block_6 attestation uses source slot 4 from the current justified checkpoint\n    2. Its target slot 2 is not strictly after the source slot and is ignored\n    3. The old pending votes for block_2 do not gain validator 2's support\n    4. latest_justified_slot remains at slot 4",
+            "fixtureFormat": "state_transition_test"
+        }
+    }
+}

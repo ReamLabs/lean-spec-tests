@@ -1,0 +1,26 @@
+{
+    "tests/consensus/lstar/chain/test_slot_clock.py::test_current_slot_before_genesis[fork_Lstar][fork_Lstar-slot_clock]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "operation": "current_slot",
+        "input": {
+            "genesisTime": 1700000000,
+            "currentTimeMs": 1699999990000
+        },
+        "output": {
+            "config": {
+                "secondsPerSlot": 4,
+                "intervalsPerSlot": 5,
+                "millisecondsPerInterval": 800
+            },
+            "slot": 0
+        },
+        "_info": {
+            "hash": "0x90589dd83c3a06fe890b38f7f16df902bf46bf521698bb4c064705bdad35d47c",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/chain/test_slot_clock.py::test_current_slot_before_genesis[fork_Lstar]",
+            "description": "Before genesis: clamped to slot 0.",
+            "fixtureFormat": "slot_clock"
+        }
+    }
+}

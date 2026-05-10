@@ -1,0 +1,19 @@
+{
+    "tests/consensus/lstar/state_transition/test_justifiability.py::test_nonzero_finalized_delta_1[fork_Lstar][fork_Lstar-justifiability]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "slot": 101,
+        "finalizedSlot": 100,
+        "output": {
+            "delta": 1,
+            "isJustifiable": true
+        },
+        "_info": {
+            "hash": "0x1cb7d86de3a6f55d7b0fe9bf2fffb8c34088a0640653aac905096138bd77f73a",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/state_transition/test_justifiability.py::test_nonzero_finalized_delta_1[fork_Lstar]",
+            "description": "Finalized at slot 100, candidate at 101. Delta 1: immediate window.",
+            "fixtureFormat": "justifiability"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "tests/consensus/lstar/networking/test_discv5_messages.py::test_nodes_single_enr[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "discv5_message",
+        "input": {
+            "type": "nodes",
+            "requestId": "0x01",
+            "total": 1,
+            "enrs": [
+                "0xdeadbeef"
+            ]
+        },
+        "output": {
+            "encoded": "0x04c80101c584deadbeef"
+        },
+        "_info": {
+            "hash": "0xd6704cfdc1d2ec867d33995067e83cb24a04b5ae70cc865c7a15eb9b8cdef199",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discv5_messages.py::test_nodes_single_enr[fork_Lstar]",
+            "description": "NODES response with total=1 and one ENR (raw RLP bytes).",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

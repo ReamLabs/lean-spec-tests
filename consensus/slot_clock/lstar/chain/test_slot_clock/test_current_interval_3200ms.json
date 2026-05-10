@@ -1,0 +1,26 @@
+{
+    "tests/consensus/lstar/chain/test_slot_clock.py::test_current_interval_3200ms[fork_Lstar][fork_Lstar-slot_clock]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "operation": "current_interval",
+        "input": {
+            "genesisTime": 1700000000,
+            "currentTimeMs": 1700000003200
+        },
+        "output": {
+            "config": {
+                "secondsPerSlot": 4,
+                "intervalsPerSlot": 5,
+                "millisecondsPerInterval": 800
+            },
+            "interval": 4
+        },
+        "_info": {
+            "hash": "0xa7c290ed936b33fbf9d84061581bf53e3da3b9bbd4cb9a2f6a74b59c261a1c09",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/chain/test_slot_clock.py::test_current_interval_3200ms[fork_Lstar]",
+            "description": "3200 ms into slot: interval 4.",
+            "fixtureFormat": "slot_clock"
+        }
+    }
+}

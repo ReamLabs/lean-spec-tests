@@ -1,0 +1,44 @@
+{
+    "tests/consensus/lstar/api/test_api_endpoints.py::test_fork_choice_4v[fork_Lstar][fork_Lstar-api_endpoint]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "endpoint": "/lean/v0/fork_choice",
+        "method": "GET",
+        "genesisParams": {
+            "numValidators": 4,
+            "genesisTime": 0
+        },
+        "initialIsAggregator": false,
+        "expectedStatusCode": 200,
+        "expectedContentType": "application/json",
+        "expectedBody": {
+            "nodes": [
+                {
+                    "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                    "slot": 0,
+                    "parent_root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "proposer_index": 0,
+                    "weight": 0
+                }
+            ],
+            "head": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+            "justified": {
+                "slot": 0,
+                "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27"
+            },
+            "finalized": {
+                "slot": 0,
+                "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27"
+            },
+            "safe_target": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+            "validator_count": 4
+        },
+        "_info": {
+            "hash": "0xcd928b28e4efd96070f54d1df8da20a7efc3afffcbebd3efd66d5b3a02d0f5e6",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/api/test_api_endpoints.py::test_fork_choice_4v[fork_Lstar]",
+            "description": "Fork choice tree at genesis: single node, zero attestation weights.",
+            "fixtureFormat": "api_endpoint"
+        }
+    }
+}

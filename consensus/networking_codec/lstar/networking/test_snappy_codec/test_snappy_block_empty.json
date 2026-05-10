@@ -1,0 +1,22 @@
+{
+    "tests/consensus/lstar/networking/test_snappy_codec.py::test_snappy_block_empty[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "snappy_block",
+        "input": {
+            "data": "0x"
+        },
+        "output": {
+            "compressed": "0x00",
+            "compressedLength": 1,
+            "uncompressedLength": 0
+        },
+        "_info": {
+            "hash": "0x534aff3e78a44c895d8fc3c29d0d9f7c3d638a6dbfe8bcc4c92f4a0a1f51f5e5",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_snappy_codec.py::test_snappy_block_empty[fork_Lstar]",
+            "description": "Empty input. Compressed output is just the varint-encoded uncompressed length (0).",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

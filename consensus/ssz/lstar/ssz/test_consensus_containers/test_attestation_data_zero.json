@@ -1,0 +1,31 @@
+{
+    "tests/consensus/lstar/ssz/test_consensus_containers.py::test_attestation_data_zero[fork_Lstar][fork_Lstar-ssz]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "typeName": "AttestationData",
+        "value": {
+            "slot": 0,
+            "head": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "target": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "source": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            }
+        },
+        "serialized": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "root": "0xca909c56a34abf66a9ab8fe87b09a6a35d973564d1a32e462b2ffd9ee097a300",
+        "_info": {
+            "hash": "0xdfbee08aaf9a984531812a43fa27e8bfda859508ecbfdd920539ec07e3aeefd6",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/ssz/test_consensus_containers.py::test_attestation_data_zero[fork_Lstar]",
+            "description": "SSZ roundtrip for AttestationData with zero values.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "tests/consensus/lstar/networking/test_varint.py::test_varint_zero[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "varint",
+        "input": {
+            "value": 0
+        },
+        "output": {
+            "encoded": "0x00",
+            "byteLength": 1
+        },
+        "_info": {
+            "hash": "0x5ed920ced6d71515001b854239ed7a9b1ef819e32a9637bf6a92bae44f649588",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_varint.py::test_varint_zero[fork_Lstar]",
+            "description": "Varint zero encodes as a single 0x00 byte.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

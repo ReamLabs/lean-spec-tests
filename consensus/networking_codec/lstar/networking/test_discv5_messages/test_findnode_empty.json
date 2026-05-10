@@ -1,0 +1,22 @@
+{
+    "tests/consensus/lstar/networking/test_discv5_messages.py::test_findnode_empty[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "discv5_message",
+        "input": {
+            "type": "findnode",
+            "requestId": "0x01",
+            "distances": []
+        },
+        "output": {
+            "encoded": "0x03c201c0"
+        },
+        "_info": {
+            "hash": "0xa924d28943abbc6f974d8959ed4b18b9c0cd50f39c9f3c5c998509d75377a9a9",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discv5_messages.py::test_findnode_empty[fork_Lstar]",
+            "description": "FINDNODE with empty distance list.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

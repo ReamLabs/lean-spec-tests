@@ -1,0 +1,23 @@
+{
+    "tests/consensus/lstar/networking/test_discv5_messages.py::test_talkreq_empty_payload[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "discv5_message",
+        "input": {
+            "type": "talkreq",
+            "requestId": "0x01",
+            "protocol": "0x6469736376352d74657374",
+            "request": "0x"
+        },
+        "output": {
+            "encoded": "0x05ce018b6469736376352d7465737480"
+        },
+        "_info": {
+            "hash": "0xf2efecac653bae4d85c83f6208d605eeeec819c3f95c913caf6ad83afcd252c1",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discv5_messages.py::test_talkreq_empty_payload[fork_Lstar]",
+            "description": "TALKREQ with empty request payload.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

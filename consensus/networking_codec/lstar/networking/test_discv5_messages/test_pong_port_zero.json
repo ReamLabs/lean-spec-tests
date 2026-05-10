@@ -1,0 +1,24 @@
+{
+    "tests/consensus/lstar/networking/test_discv5_messages.py::test_pong_port_zero[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "discv5_message",
+        "input": {
+            "type": "pong",
+            "requestId": "0x01",
+            "enrSeq": 1,
+            "recipientIp": "0x7f000001",
+            "recipientPort": 0
+        },
+        "output": {
+            "encoded": "0x02c80101847f00000180"
+        },
+        "_info": {
+            "hash": "0xf232efcbef9091f04537691850a9fd751e47b7afcd595a6d3c3a6e219ea75015",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discv5_messages.py::test_pong_port_zero[fork_Lstar]",
+            "description": "PONG with port=0. Zero port encodes as RLP empty bytes.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

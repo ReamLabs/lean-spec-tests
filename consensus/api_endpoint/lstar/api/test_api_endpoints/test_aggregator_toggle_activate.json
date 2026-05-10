@@ -1,0 +1,29 @@
+{
+    "tests/consensus/lstar/api/test_api_endpoints.py::test_aggregator_toggle_activate[fork_Lstar][fork_Lstar-api_endpoint]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "endpoint": "/lean/v0/admin/aggregator",
+        "method": "POST",
+        "genesisParams": {
+            "numValidators": 4,
+            "genesisTime": 0
+        },
+        "requestBody": {
+            "enabled": true
+        },
+        "initialIsAggregator": false,
+        "expectedStatusCode": 200,
+        "expectedContentType": "application/json",
+        "expectedBody": {
+            "is_aggregator": true,
+            "previous": false
+        },
+        "_info": {
+            "hash": "0xa08aaa0ee9ad9889a4f2df5f2dcd77c484d4fcf7c1da65b77e9245cc514f04e5",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/api/test_api_endpoints.py::test_aggregator_toggle_activate[fork_Lstar]",
+            "description": "POST enable=true flips the role from off to on.",
+            "fixtureFormat": "api_endpoint"
+        }
+    }
+}

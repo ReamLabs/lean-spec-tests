@@ -1,0 +1,24 @@
+{
+    "tests/consensus/lstar/networking/test_reqresp_rejections.py::test_reqresp_decode_rejects_empty_request[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "expectException": "CodecError",
+        "codecName": "decode_failure",
+        "input": {
+            "decoder": "reqresp_request",
+            "bytes": "0x"
+        },
+        "output": {
+            "decoder": "reqresp_request",
+            "errorType": "CodecError",
+            "errorMessage": "Empty request"
+        },
+        "_info": {
+            "hash": "0xea91a1dc782e5f1e9a21f63a02ce286979e5794b7271d532eb74d21192fcedc5",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_reqresp_rejections.py::test_reqresp_decode_rejects_empty_request[fork_Lstar]",
+            "description": "Decoding an empty request is rejected with CodecError.\n\n    The req/resp framing demands a length-prefix varint followed by a\n    compressed payload. Zero input carries neither, so the decoder must\n    refuse before any downstream parsing.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

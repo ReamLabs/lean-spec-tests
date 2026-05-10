@@ -1,0 +1,34 @@
+{
+    "tests/consensus/lstar/networking/test_reqresp_response_stream.py::test_stream_three_success_chunks_with_compressible_payloads[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "reqresp_response_stream",
+        "input": {
+            "chunks": [
+                {
+                    "responseCode": 0,
+                    "sszData": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "responseCode": 0,
+                    "sszData": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                },
+                {
+                    "responseCode": 0,
+                    "sszData": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                }
+            ]
+        },
+        "output": {
+            "encoded": "0x0040ff060000734e61507059000a000069f25079400000fa01000040ff060000734e61507059000a0000724a4f3f4000fffa01000040ff060000734e61507059000a00003b53b5474000aafa0100",
+            "chunkCount": 3
+        },
+        "_info": {
+            "hash": "0x461ee2d0ee9563591a91a318dcc9a867e2ffa4326fc0466af3c8fb98282b39bb",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_reqresp_response_stream.py::test_stream_three_success_chunks_with_compressible_payloads[fork_Lstar]",
+            "description": "Three SUCCESS chunks whose payloads compress well.\n\n    Exercises the N>2 case and highlights that each chunk carries its\n    own snappy stream-identifier preamble inside the concatenated bytes;\n    stream-level parsers that reset snappy state between chunks must\n    produce identical output to stateful parsers.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "tests/consensus/lstar/networking/test_discv5_messages.py::test_findnode_single_distance[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "discv5_message",
+        "input": {
+            "type": "findnode",
+            "requestId": "0x01",
+            "distances": [
+                256
+            ]
+        },
+        "output": {
+            "encoded": "0x03c501c3820100"
+        },
+        "_info": {
+            "hash": "0xd76f2a2a7301798663d78c29e5e8b8f0a22f3d764f109282315d01e5ac4c1265",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discv5_messages.py::test_findnode_single_distance[fork_Lstar]",
+            "description": "FINDNODE requesting distance 256 (2-byte big-endian in nested RLP list).",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

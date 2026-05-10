@@ -1,0 +1,104 @@
+{
+    "tests/consensus/lstar/fc/test_checkpoint_sync.py::test_store_from_anchor_rejects_mismatched_state_root[fork_Lstar][fork_Lstar-fork_choice_test]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "anchorState": {
+            "config": {
+                "genesisTime": 0
+            },
+            "slot": 10,
+            "latestBlockHeader": {
+                "slot": 10,
+                "proposerIndex": 2,
+                "parentRoot": "0xfd93573d06f9c4debf35868545a5ce4246980c5f7d2536fef23788433ce4b480",
+                "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "bodyRoot": "0xdba9671bac9513c9482f1416a53aabd2c6ce90d5a5f865ce5a55c775325c9136"
+            },
+            "latestJustified": {
+                "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                "slot": 0
+            },
+            "latestFinalized": {
+                "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                "slot": 0
+            },
+            "historicalBlockHashes": {
+                "data": [
+                    "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                    "0x0fa9821f2e05c2f95150f84cd7fe339ee56710354396600bbf0b01ac3d20c2be",
+                    "0xab5e8d9684b9604dbbe546a4362f3f884fba1a0f28b965c4d825f5dc8a98e81f",
+                    "0x6f9fdb04b07a5e2b119625c88d81121bc2e6ab3a16c60ba43fd34f73297aca34",
+                    "0x735e0081533d6d6b3fedab1e1a5cf0ad7862a47370654e6b763b257f56fdbd58",
+                    "0x98e26fb559cfbaea18d336bec2a3c1488a11007fd623d3079b49c4f7c4bf2d19",
+                    "0xfc2fb8a182afb7c076577a630a6f4698e52835ffcac585d4ca003de0b04f86d3",
+                    "0x8d20d5b67183c3a95ed8f464d55041f31d367aae0cb1aed4f7bcff643bbd3757",
+                    "0xd5621dc0811bee91da37e1aa6f26b2f9957407e59c35fa04848aa793fa057ed0",
+                    "0xfd93573d06f9c4debf35868545a5ce4246980c5f7d2536fef23788433ce4b480"
+                ]
+            },
+            "justifiedSlots": {
+                "data": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "validators": {
+                "data": [
+                    {
+                        "attestationPubkey": "0x80a6f13b39b9c26cd91edb542bdb9e051b61223a15f5de18e53e6a361720cd65c06a114e87531241cc535f39156f0f2cf0877647",
+                        "proposalPubkey": "0xdedd8e5a890a2c339ffbca1ce85b710384670508df73ce33116bcd60befbef5a560e6304e3635a58e12b6b542c1bc6583a16455a",
+                        "index": 0
+                    },
+                    {
+                        "attestationPubkey": "0x7612d36fb7667d1c2f19a821d6a63b3cc17f214baedecb57e6eed4600dabf055185de12c6418db6b79f71004303bfe3a753c9727",
+                        "proposalPubkey": "0x1dcca64f8f9956470c2a427ca669d9359f22f202387ba24440e77200ec57983515451279124ee834a62f77560b1c166b0eb2885b",
+                        "index": 1
+                    },
+                    {
+                        "attestationPubkey": "0xd703e67ce93c9b61b2ae88063ce60f13822efe03d8f089582615032e2b44346fa0199c2320dca35012ec1d414dc3b835da11cd73",
+                        "proposalPubkey": "0x9ee9237afcc3d75c0a8271412f2ac10f03c0da760e545a21cc7eb8331381f62bec027d1dac093b7a09057c187dd46e6231c0c007",
+                        "index": 2
+                    },
+                    {
+                        "attestationPubkey": "0xe41f343f892528158dccae5404bd7262106386597fd4a35ae2c682374c6f15706dd8062ddac61b1851020e0918e7970917e30b06",
+                        "proposalPubkey": "0x57ffb567b826fb60dd07da58f6939b05aa93cd4bb2d9794308d3232878caa5076e9628292e96406c2d8faa3f8108922cdcf37e56",
+                        "index": 3
+                    }
+                ]
+            },
+            "justificationsRoots": {
+                "data": []
+            },
+            "justificationsValidators": {
+                "data": []
+            }
+        },
+        "anchorBlock": {
+            "slot": 10,
+            "proposerIndex": 2,
+            "parentRoot": "0xfd93573d06f9c4debf35868545a5ce4246980c5f7d2536fef23788433ce4b480",
+            "stateRoot": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "body": {
+                "attestations": {
+                    "data": []
+                }
+            }
+        },
+        "steps": [],
+        "maxSlot": 0,
+        "_info": {
+            "hash": "0x904802606032935eb22d7742e5e40d38be752e37121c62d4fd2efacc41d98b88",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/fc/test_checkpoint_sync.py::test_store_from_anchor_rejects_mismatched_state_root[fork_Lstar]",
+            "description": "Store.from_anchor aborts when the anchor block's state_root disagrees\n    with the hash of the anchor state.\n\n    Scenario\n    --------\n    Build a valid mid-chain anchor, then replace the anchor block's state_root\n    with an unrelated value. The block and state no longer agree on the post\n    state, so the store must refuse the pair.\n\n    Key Assertions\n    --------------\n\n    - The fixture is marked anchor_valid=False and carries no steps: init\n      aborts before any step could run.\n    - Store.from_anchor raises an AssertionError whose message contains the\n      exact precondition text from the spec, pinning the failure to the\n      state-root check rather than any later crash.\n    - No Store is returned to the caller; initialization fails cleanly.\n\n    Why This Matters\n    ----------------\n    A block and state that disagree on the state root are structurally\n    inconsistent. Seeding a store from that pair would corrupt every future\n    lookup that resolves a block root to its post state. Clients must refuse\n    the anchor at init time, not silently repair or ignore it.",
+            "fixtureFormat": "fork_choice_test"
+        }
+    }
+}

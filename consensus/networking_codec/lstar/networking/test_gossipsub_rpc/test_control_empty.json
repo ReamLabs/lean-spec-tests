@@ -1,0 +1,22 @@
+{
+    "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_control_empty[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "gossipsub_rpc",
+        "input": {
+            "subscriptions": [],
+            "publish": [],
+            "control": {}
+        },
+        "output": {
+            "encoded": "0x"
+        },
+        "_info": {
+            "hash": "0xb35448907cd832d39a25ebdc8a32e11bd1b179965612e5acec5ad6cee229bce6",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_control_empty[fork_Lstar]",
+            "description": "Empty control message. All repeated fields empty, encodes to zero bytes.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

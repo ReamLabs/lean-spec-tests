@@ -1,0 +1,21 @@
+{
+    "tests/consensus/lstar/networking/test_discovery_routing.py::test_log2_distance_bucket_256[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "log2_distance",
+        "input": {
+            "nodeA": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nodeB": "0x8000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "output": {
+            "distance": 256
+        },
+        "_info": {
+            "hash": "0x026d4bfbbaadf9212b2509897c2633ed81dd22183cd506717f5273776029c39c",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discovery_routing.py::test_log2_distance_bucket_256[fork_Lstar]",
+            "description": "Highest bit only (0x80 in first byte) lands in bucket 256.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

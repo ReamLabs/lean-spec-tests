@@ -1,0 +1,22 @@
+{
+    "tests/consensus/lstar/ssz/test_xmss_containers.py::test_hash_tree_layer_zero[fork_Lstar][fork_Lstar-ssz]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "typeName": "HashTreeLayer",
+        "value": {
+            "startIndex": 0,
+            "nodes": {
+                "data": []
+            }
+        },
+        "serialized": "0x00000000000000000c000000",
+        "root": "0x747fd59ff7f5455972ae43c9913a8a111e8dc45b9158861cc18a2ba4a2edc71f",
+        "_info": {
+            "hash": "0x2cf29d18464496326e844fe17b2a5b0135543e78ec332fc7bfa365959e550acb",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/ssz/test_xmss_containers.py::test_hash_tree_layer_zero[fork_Lstar]",
+            "description": "SSZ roundtrip for HashTreeLayer at index zero with no nodes.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

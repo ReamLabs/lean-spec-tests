@@ -1,0 +1,45 @@
+{
+    "tests/consensus/lstar/api/test_api_post_genesis.py::test_fork_choice_tree_at_slot_3[fork_Lstar][fork_Lstar-api_endpoint]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "endpoint": "/lean/v0/fork_choice",
+        "method": "GET",
+        "genesisParams": {
+            "numValidators": 4,
+            "genesisTime": 0,
+            "anchorSlot": 3
+        },
+        "initialIsAggregator": false,
+        "expectedStatusCode": 200,
+        "expectedContentType": "application/json",
+        "expectedBody": {
+            "nodes": [
+                {
+                    "root": "0x6f9fdb04b07a5e2b119625c88d81121bc2e6ab3a16c60ba43fd34f73297aca34",
+                    "slot": 3,
+                    "parent_root": "0xab5e8d9684b9604dbbe546a4362f3f884fba1a0f28b965c4d825f5dc8a98e81f",
+                    "proposer_index": 3,
+                    "weight": 0
+                }
+            ],
+            "head": "0x6f9fdb04b07a5e2b119625c88d81121bc2e6ab3a16c60ba43fd34f73297aca34",
+            "justified": {
+                "slot": 3,
+                "root": "0x6f9fdb04b07a5e2b119625c88d81121bc2e6ab3a16c60ba43fd34f73297aca34"
+            },
+            "finalized": {
+                "slot": 3,
+                "root": "0x6f9fdb04b07a5e2b119625c88d81121bc2e6ab3a16c60ba43fd34f73297aca34"
+            },
+            "safe_target": "0x6f9fdb04b07a5e2b119625c88d81121bc2e6ab3a16c60ba43fd34f73297aca34",
+            "validator_count": 4
+        },
+        "_info": {
+            "hash": "0x7186e2024c73459eb873b3263c86f5c5c3bc2ca5e925c1ccb38205301001613e",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/api/test_api_post_genesis.py::test_fork_choice_tree_at_slot_3[fork_Lstar]",
+            "description": "Fork-choice response carries a multi-node tree once the chain advances.\n\n    With the chain at slot 3 the store holds four blocks (genesis plus\n    slots 1 through 3). The response's nodes list, head root, and\n    parent-root linkage are pinned so clients diverge only when their\n    tree traversal or SSZ root computation differs.",
+            "fixtureFormat": "api_endpoint"
+        }
+    }
+}

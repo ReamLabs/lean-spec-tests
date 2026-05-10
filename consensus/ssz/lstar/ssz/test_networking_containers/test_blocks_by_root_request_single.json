@@ -1,0 +1,23 @@
+{
+    "tests/consensus/lstar/ssz/test_networking_containers.py::test_blocks_by_root_request_single[fork_Lstar][fork_Lstar-ssz]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "typeName": "BlocksByRootRequest",
+        "value": {
+            "roots": {
+                "data": [
+                    "0xabababababababababababababababababababababababababababababababab"
+                ]
+            }
+        },
+        "serialized": "0x04000000abababababababababababababababababababababababababababababababab",
+        "root": "0x985c58f000db3effc5551ae57af919637525deb540f6bc81398def9c67d7ac73",
+        "_info": {
+            "hash": "0xa6b081b143a2840f5de0a8767da2594d9cb013c71b7c50b43857d2204da0c77b",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/ssz/test_networking_containers.py::test_blocks_by_root_request_single[fork_Lstar]",
+            "description": "SSZ roundtrip for BlocksByRootRequest with single root.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "tests/consensus/lstar/ssz/test_basic_types.py::test_sync_committee_subnets_none[fork_Lstar][fork_Lstar-ssz]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "typeName": "SyncCommitteeSubnets",
+        "value": {
+            "data": [
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "serialized": "0x00",
+        "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "_info": {
+            "hash": "0xfae437313b534ce90407bd012d8fc5d70ba9361ea36c05e1f5226992a558854a",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/ssz/test_basic_types.py::test_sync_committee_subnets_none[fork_Lstar]",
+            "description": "Sync committee subnets with no subscriptions (all 4 bits clear).",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

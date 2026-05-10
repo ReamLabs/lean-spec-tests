@@ -1,0 +1,21 @@
+{
+    "tests/consensus/lstar/networking/test_varint.py::test_varint_max_two_bytes[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "varint",
+        "input": {
+            "value": 16383
+        },
+        "output": {
+            "encoded": "0xff7f",
+            "byteLength": 2
+        },
+        "_info": {
+            "hash": "0x285bcd446676b720b57b7c6512c93700474379bd87fde80c8e2f7da810f301b4",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_varint.py::test_varint_max_two_bytes[fork_Lstar]",
+            "description": "Varint 16383 is the largest value fitting in two bytes.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

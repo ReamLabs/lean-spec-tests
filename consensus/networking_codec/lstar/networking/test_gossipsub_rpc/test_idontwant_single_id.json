@@ -1,0 +1,30 @@
+{
+    "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_idontwant_single_id[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "gossipsub_rpc",
+        "input": {
+            "subscriptions": [],
+            "publish": [],
+            "control": {
+                "idontwant": [
+                    {
+                        "messageIds": [
+                            "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                        ]
+                    }
+                ]
+            }
+        },
+        "output": {
+            "encoded": "0x1a182a160a14aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "_info": {
+            "hash": "0xa2a967503aee58c4efa6d034bc5d803838eb1b982269e1c5f422221389023c44",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_gossipsub_rpc.py::test_idontwant_single_id[fork_Lstar]",
+            "description": "IDONTWANT declining one message. Gossipsub v1.2 extension.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

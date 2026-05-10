@@ -1,0 +1,21 @@
+{
+    "tests/consensus/lstar/networking/test_reqresp_codec.py::test_response_status[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "reqresp_response",
+        "input": {
+            "responseCode": 0,
+            "sszData": "0x0101010101010101010101010101010101010101010101010101010101010101640000000000000002020202020202020202020202020202020202020202020202020202020202020296000000000000"
+        },
+        "output": {
+            "encoded": "0x0050ff060000734e61507059001c00003eb9d26b5000017a0100046400090100027e01001896000000000000"
+        },
+        "_info": {
+            "hash": "0x102e945a91bcea3a6a7918b1aacc78096b5bad2a60f2e721e9784ad2bcca1ddd",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_reqresp_codec.py::test_response_status[fork_Lstar]",
+            "description": "Status SUCCESS response through the full wire pipeline.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}

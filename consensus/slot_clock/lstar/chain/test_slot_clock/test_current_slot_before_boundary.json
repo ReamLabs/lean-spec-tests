@@ -1,0 +1,26 @@
+{
+    "tests/consensus/lstar/chain/test_slot_clock.py::test_current_slot_before_boundary[fork_Lstar][fork_Lstar-slot_clock]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "operation": "current_slot",
+        "input": {
+            "genesisTime": 1700000000,
+            "currentTimeMs": 1700000003999
+        },
+        "output": {
+            "config": {
+                "secondsPerSlot": 4,
+                "intervalsPerSlot": 5,
+                "millisecondsPerInterval": 800
+            },
+            "slot": 0
+        },
+        "_info": {
+            "hash": "0xc5b9f142a0f231bb582bf25c7b2f823cd3e86748c75916450f69ab90d735d092",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/chain/test_slot_clock.py::test_current_slot_before_boundary[fork_Lstar]",
+            "description": "One ms before slot 1 boundary: still slot 0 (integer division floors).",
+            "fixtureFormat": "slot_clock"
+        }
+    }
+}

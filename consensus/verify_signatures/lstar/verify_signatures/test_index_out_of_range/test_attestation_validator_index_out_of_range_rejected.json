@@ -1,0 +1,322 @@
+{
+    "tests/consensus/lstar/verify_signatures/test_index_out_of_range.py::test_attestation_validator_index_out_of_range_rejected[fork_Lstar][fork_Lstar-verify_signatures_test]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "expectException": "AssertionError",
+        "anchorState": {
+            "config": {
+                "genesisTime": 0
+            },
+            "slot": 0,
+            "latestBlockHeader": {
+                "slot": 0,
+                "proposerIndex": 0,
+                "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "bodyRoot": "0xdba9671bac9513c9482f1416a53aabd2c6ce90d5a5f865ce5a55c775325c9136"
+            },
+            "latestJustified": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "latestFinalized": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "historicalBlockHashes": {
+                "data": []
+            },
+            "justifiedSlots": {
+                "data": []
+            },
+            "validators": {
+                "data": [
+                    {
+                        "attestationPubkey": "0x80a6f13b39b9c26cd91edb542bdb9e051b61223a15f5de18e53e6a361720cd65c06a114e87531241cc535f39156f0f2cf0877647",
+                        "proposalPubkey": "0xdedd8e5a890a2c339ffbca1ce85b710384670508df73ce33116bcd60befbef5a560e6304e3635a58e12b6b542c1bc6583a16455a",
+                        "index": 0
+                    },
+                    {
+                        "attestationPubkey": "0x7612d36fb7667d1c2f19a821d6a63b3cc17f214baedecb57e6eed4600dabf055185de12c6418db6b79f71004303bfe3a753c9727",
+                        "proposalPubkey": "0x1dcca64f8f9956470c2a427ca669d9359f22f202387ba24440e77200ec57983515451279124ee834a62f77560b1c166b0eb2885b",
+                        "index": 1
+                    },
+                    {
+                        "attestationPubkey": "0xd703e67ce93c9b61b2ae88063ce60f13822efe03d8f089582615032e2b44346fa0199c2320dca35012ec1d414dc3b835da11cd73",
+                        "proposalPubkey": "0x9ee9237afcc3d75c0a8271412f2ac10f03c0da760e545a21cc7eb8331381f62bec027d1dac093b7a09057c187dd46e6231c0c007",
+                        "index": 2
+                    },
+                    {
+                        "attestationPubkey": "0xe41f343f892528158dccae5404bd7262106386597fd4a35ae2c682374c6f15706dd8062ddac61b1851020e0918e7970917e30b06",
+                        "proposalPubkey": "0x57ffb567b826fb60dd07da58f6939b05aa93cd4bb2d9794308d3232878caa5076e9628292e96406c2d8faa3f8108922cdcf37e56",
+                        "index": 3
+                    }
+                ]
+            },
+            "justificationsRoots": {
+                "data": []
+            },
+            "justificationsValidators": {
+                "data": []
+            }
+        },
+        "signedBlock": {
+            "block": {
+                "slot": 2,
+                "proposerIndex": 2,
+                "parentRoot": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                "stateRoot": "0x45b26050ddb300da70cba1588fa11326dc30cef2e582573f55b3b1194e9e9589",
+                "body": {
+                    "attestations": {
+                        "data": [
+                            {
+                                "aggregationBits": {
+                                    "data": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        true
+                                    ]
+                                },
+                                "data": {
+                                    "slot": 1,
+                                    "head": {
+                                        "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                                        "slot": 0
+                                    },
+                                    "target": {
+                                        "root": "0xbc34b3027b81cea4e2789830683d654bce677d5ec8c72dfd2e1eaf61753e9d27",
+                                        "slot": 0
+                                    },
+                                    "source": {
+                                        "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                                        "slot": 0
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "signature": {
+                "attestationSignatures": {
+                    "data": [
+                        {
+                            "participants": {
+                                "data": [
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    true
+                                ]
+                            },
+                            "proofData": {
+                                "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                            }
+                        }
+                    ]
+                },
+                "proposerSignature": "0x240000001fcd793bc1ffd346f30ba33dff1a4b401888c42946f3431ed069e51a280100000400000033372a0bb449d13f059003321b565f37a8960f6c1eb6851c85cbc4548c85d51bc469d12c812c4b5d3a5ebf203925922ff6e5291f42f40260f852174fc2060f23a810a341b58f956ca00386168867470ba1ef7f74fbfff974e7cd720b85ff67784a9fbb6c9f46271e30ef1a67560de604978a9234879734178c2efc0f0effab2b67d07423c0cbbf69c6258f4b8766e4488eb7885f9ae1a4669caa0b2af02ec256a11f6571a6e72e6067552f59c9a97d26c2bd9f104487ad48b5f7281c0ea5c26090755e1af7e92814ebf62e0791da5331a68718513f616c160d2e102819389d0c6818ca747dbfb93fe20031646d152f660f13b92424e62175bd4a0053b2e33956234cfe6709b17d30d5442a1679f65c11dce2335cff3c00745f030b529254e004ce540f60ce1cf9352561461972dd07495985c30dcdf235115017f01af33c2067d7269c44cbd59d1d6d9c33451c81480cbc51fd47f35f4028d3e1c523a7c031215b3d0a2cd25b7d3a66ea2b1c9b68994c6662701bd1fc7f129509252a115e816e"
+            }
+        },
+        "_info": {
+            "hash": "0x7014b2df0cf5705e5da84044a7a393f11cbad88382d1d70d5ab1a113ab59a69f",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/verify_signatures/test_index_out_of_range.py::test_attestation_validator_index_out_of_range_rejected[fork_Lstar]",
+            "description": "An attestation whose participants include an index beyond the registry is rejected.\n\n    Scenario\n    --------\n    - Anchor state has 4 validators.\n    - Block at slot 2 carries one aggregated attestation whose participants\n      bitfield includes validator index 99.\n    - The attestation is marked valid_signature=False so the fixture path\n      builds an invalid proof directly, without attempting XMSS signing for\n      the out-of-range index.\n\n    Expected Behavior\n    -----------------\n    Signature verification fails with AssertionError: \"Validator index out of range\"\n\n    Why This Matters\n    ----------------\n    Enforces the validator-registry bound during attestation verification:\n\n    - A malformed bitfield that references indices past the registry would\n      otherwise cause undefined behaviour in public-key lookup.\n    - The bound-check runs before attestation aggregate-signature verification\n      so the failure reason is unambiguous across clients.",
+            "fixtureFormat": "verify_signatures_test"
+        }
+    }
+}

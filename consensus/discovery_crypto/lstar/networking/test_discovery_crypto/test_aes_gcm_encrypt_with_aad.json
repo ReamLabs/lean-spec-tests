@@ -1,0 +1,23 @@
+{
+    "tests/consensus/lstar/networking/test_discovery_crypto.py::test_aes_gcm_encrypt_with_aad[fork_Lstar][fork_Lstar-discovery_crypto]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "operation": "aes_gcm_encrypt",
+        "input": {
+            "key": "0x9f2d77db7004bf8a1a85107ac686990b",
+            "nonce": "0x27b5af763c446acd2749fe8e",
+            "plaintext": "0x01c20101",
+            "aad": "0x0102030405060708090a0b0c0d0e0f10"
+        },
+        "output": {
+            "ciphertext": "0xa5d12a2daaff57e9e7110d8f5e43aa32301b71bd"
+        },
+        "_info": {
+            "hash": "0xdc247b8731df392dbedceaf67b8ef393e21c4d31a1deddc1f9d02972d4c8c9f2",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_discovery_crypto.py::test_aes_gcm_encrypt_with_aad[fork_Lstar]",
+            "description": "AES-GCM with additional authenticated data (packet header).",
+            "fixtureFormat": "discovery_crypto"
+        }
+    }
+}

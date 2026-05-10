@@ -1,0 +1,39 @@
+{
+    "tests/consensus/lstar/ssz/test_xmss_containers.py::test_public_key_zero[fork_Lstar][fork_Lstar-ssz]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "typeName": "PublicKey",
+        "value": {
+            "root": {
+                "data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "parameter": {
+                "data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "serialized": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "root": "0xf5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+        "_info": {
+            "hash": "0x0afa6d273d9e7f9a4a57151103047d0509db1baf900366d4580364caac96ac1d",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/ssz/test_xmss_containers.py::test_public_key_zero[fork_Lstar]",
+            "description": "SSZ roundtrip for PublicKey with zero values.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

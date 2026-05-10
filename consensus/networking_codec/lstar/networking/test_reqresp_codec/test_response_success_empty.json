@@ -1,0 +1,21 @@
+{
+    "tests/consensus/lstar/networking/test_reqresp_codec.py::test_response_success_empty[fork_Lstar][fork_Lstar-networking_codec]": {
+        "network": "Lstar",
+        "leanEnv": "test",
+        "codecName": "reqresp_response",
+        "input": {
+            "responseCode": 0,
+            "sszData": "0x"
+        },
+        "output": {
+            "encoded": "0x0000ff060000734e61507059"
+        },
+        "_info": {
+            "hash": "0xc7ab05867d758bafaa52610ae3ca4b8e2e5f3349f0cdbf8433eb648028ef149c",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/networking/test_reqresp_codec.py::test_response_success_empty[fork_Lstar]",
+            "description": "SUCCESS response with empty payload.",
+            "fixtureFormat": "networking_codec"
+        }
+    }
+}
