@@ -51,7 +51,7 @@
         "expected": {
             "sentRpcs": [
                 {
-                    "toPeer": "peerAx",
+                    "toPeer": "peerBx",
                     "publish": [
                         {
                             "topic": "test_topic",
@@ -60,7 +60,7 @@
                     ]
                 },
                 {
-                    "toPeer": "peerBx",
+                    "toPeer": "peerAx",
                     "publish": [
                         {
                             "topic": "test_topic",
@@ -78,7 +78,7 @@
             }
         },
         "_info": {
-            "hash": "0x10b5c31cde78865e22f45b4d1a320b88ee99716adb6877a87884576d8c03e545",
+            "hash": "0x9df642e627fb54d6c334315a4472d0d600154e26de23592d6c8b16fa5a390055",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossipsub_handlers.py::test_message_forward_to_mesh[fork_Lstar]",
             "description": "New message forwarded to mesh peers except the sender.",

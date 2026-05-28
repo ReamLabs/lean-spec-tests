@@ -15,27 +15,27 @@
         "expectedBody": {
             "nodes": [
                 {
-                    "root": "0x58fed81517132bb2c1eacd474215d3e01298e12d6022946e516e3585cbc20104",
+                    "root": "0x9b4c29abd46591bbf265704428f5317a42c9b700441e94bed390c7aeecb291e4",
                     "slot": 3,
-                    "parent_root": "0x6b7c8df5d3628c2425caf72e487418f09c4b34b2693dcccddcba29e28219d5ab",
+                    "parent_root": "0xb4392800a72dea4d4ee12cb8305618ed57b8ff3845396027d994d2146a2dc155",
                     "proposer_index": 3,
                     "weight": 0
                 }
             ],
-            "head": "0x58fed81517132bb2c1eacd474215d3e01298e12d6022946e516e3585cbc20104",
+            "head": "0x9b4c29abd46591bbf265704428f5317a42c9b700441e94bed390c7aeecb291e4",
             "justified": {
                 "slot": 3,
-                "root": "0x58fed81517132bb2c1eacd474215d3e01298e12d6022946e516e3585cbc20104"
+                "root": "0x9b4c29abd46591bbf265704428f5317a42c9b700441e94bed390c7aeecb291e4"
             },
             "finalized": {
                 "slot": 3,
-                "root": "0x58fed81517132bb2c1eacd474215d3e01298e12d6022946e516e3585cbc20104"
+                "root": "0x9b4c29abd46591bbf265704428f5317a42c9b700441e94bed390c7aeecb291e4"
             },
-            "safe_target": "0x58fed81517132bb2c1eacd474215d3e01298e12d6022946e516e3585cbc20104",
+            "safe_target": "0x9b4c29abd46591bbf265704428f5317a42c9b700441e94bed390c7aeecb291e4",
             "validator_count": 4
         },
         "_info": {
-            "hash": "0x4d663077b9cb312ee70ed6d0d530d27a38a7316148f86e7b2b0e97cb94cb74f5",
+            "hash": "0x44c4ac0c2cac531aca5c76417918401c3accb74bf4f0eb065688cc0700a645b4",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/api/test_api_post_genesis.py::test_fork_choice_tree_at_slot_3[fork_Lstar]",
             "description": "Fork-choice response carries a multi-node tree once the chain advances.\n\n    With the chain at slot 3 the store holds four blocks (genesis plus\n    slots 1 through 3). The response's nodes list, head root, and\n    parent-root linkage are pinned so clients diverge only when their\n    tree traversal or SSZ root computation differs.",

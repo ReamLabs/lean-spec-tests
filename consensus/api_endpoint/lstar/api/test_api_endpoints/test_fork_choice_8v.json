@@ -14,27 +14,27 @@
         "expectedBody": {
             "nodes": [
                 {
-                    "root": "0xd567e95979f6ce2186cbada494967c77142153c6e5ab38f2bd7a23ee6b92170b",
+                    "root": "0xb2bf493274f97788256ac5b671eb35202df6ebeb7c70d1af243e781a85a8ae76",
                     "slot": 0,
                     "parent_root": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "proposer_index": 0,
                     "weight": 0
                 }
             ],
-            "head": "0xd567e95979f6ce2186cbada494967c77142153c6e5ab38f2bd7a23ee6b92170b",
+            "head": "0xb2bf493274f97788256ac5b671eb35202df6ebeb7c70d1af243e781a85a8ae76",
             "justified": {
                 "slot": 0,
-                "root": "0xd567e95979f6ce2186cbada494967c77142153c6e5ab38f2bd7a23ee6b92170b"
+                "root": "0xb2bf493274f97788256ac5b671eb35202df6ebeb7c70d1af243e781a85a8ae76"
             },
             "finalized": {
                 "slot": 0,
-                "root": "0xd567e95979f6ce2186cbada494967c77142153c6e5ab38f2bd7a23ee6b92170b"
+                "root": "0xb2bf493274f97788256ac5b671eb35202df6ebeb7c70d1af243e781a85a8ae76"
             },
-            "safe_target": "0xd567e95979f6ce2186cbada494967c77142153c6e5ab38f2bd7a23ee6b92170b",
+            "safe_target": "0xb2bf493274f97788256ac5b671eb35202df6ebeb7c70d1af243e781a85a8ae76",
             "validator_count": 8
         },
         "_info": {
-            "hash": "0xc42f6ec8d8fd6d64012168b4c4f633d8882f05b0c515986d26248cdda83d36cd",
+            "hash": "0x05076773b2fa9536dd0e3023a24dca8b2f3013be9edbfe442af26f3bfce31634",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/api/test_api_endpoints.py::test_fork_choice_8v[fork_Lstar]",
             "description": "Fork choice tree at genesis with 8 validators. Same shape, higher count.",

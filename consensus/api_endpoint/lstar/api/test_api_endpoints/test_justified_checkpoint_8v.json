@@ -13,10 +13,10 @@
         "expectedContentType": "application/json",
         "expectedBody": {
             "slot": 0,
-            "root": "0xd567e95979f6ce2186cbada494967c77142153c6e5ab38f2bd7a23ee6b92170b"
+            "root": "0xb2bf493274f97788256ac5b671eb35202df6ebeb7c70d1af243e781a85a8ae76"
         },
         "_info": {
-            "hash": "0x7c09b6f095a45f0b8a111cfbb4a70076b49cbf5a4793de7478ca7b38a50d7a9e",
+            "hash": "0xc48f68de5c7ddade73c2db5d4ab377178df610c16b3829df597c10e9e62d30b5",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/api/test_api_endpoints.py::test_justified_checkpoint_8v[fork_Lstar]",
             "description": "Justified checkpoint at genesis with 8 validators. Root differs from 4v.",
