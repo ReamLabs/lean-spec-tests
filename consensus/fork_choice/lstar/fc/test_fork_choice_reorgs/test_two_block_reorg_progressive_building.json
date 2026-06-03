@@ -31,23 +31,23 @@
             "validators": {
                 "data": [
                     {
-                        "attestationPubkey": "0x69968a74060bb672709bae2a9020113634052a233f82a1362d836238c42a3a35239f622654db5208a695613841694163e1bb2f03",
-                        "proposalPubkey": "0x2a18d4583f2767751a706c5ece704966fd615a400a80f5059cc91727a3302249e29bcf2ab3a03758de58870497756569dd512402",
+                        "attestationPublicKey": "0x69968a74060bb672709bae2a9020113634052a233f82a1362d836238c42a3a35239f622654db5208a695613841694163e1bb2f03",
+                        "proposalPublicKey": "0x2a18d4583f2767751a706c5ece704966fd615a400a80f5059cc91727a3302249e29bcf2ab3a03758de58870497756569dd512402",
                         "index": 0
                     },
                     {
-                        "attestationPubkey": "0x19cb1c1d6125eb5384442c467d2e0c3a043db2354b280026918a9574219bef1b1408375e8c552a572aac724bbc62567252ba5e29",
-                        "proposalPubkey": "0xd9070922f2a61d4f6841a422af4c4c20b884822679e373656d85fb23c16d481950e066599bf38819590a2b1c23a0191412103134",
+                        "attestationPublicKey": "0x19cb1c1d6125eb5384442c467d2e0c3a043db2354b280026918a9574219bef1b1408375e8c552a572aac724bbc62567252ba5e29",
+                        "proposalPublicKey": "0xd9070922f2a61d4f6841a422af4c4c20b884822679e373656d85fb23c16d481950e066599bf38819590a2b1c23a0191412103134",
                         "index": 1
                     },
                     {
-                        "attestationPubkey": "0x92bed26ae499d8697f17f95e7ff3384fc14873104bb8e77c0873c84e62faf807c6ba6a0fbcfc854e3a454967e8d13b3421feb640",
-                        "proposalPubkey": "0xb29ab606672cbb688c6fda46eb61b11c700049668dfea02b8495b31d2f099756b6e4703bb766614db919d628acb94a33191ccd08",
+                        "attestationPublicKey": "0x92bed26ae499d8697f17f95e7ff3384fc14873104bb8e77c0873c84e62faf807c6ba6a0fbcfc854e3a454967e8d13b3421feb640",
+                        "proposalPublicKey": "0xb29ab606672cbb688c6fda46eb61b11c700049668dfea02b8495b31d2f099756b6e4703bb766614db919d628acb94a33191ccd08",
                         "index": 2
                     },
                     {
-                        "attestationPubkey": "0x052219585cd5586b5dec1d5d4726fe7de8ed435e6c96af4abe90f901b5067364ea570106b5cb3126056c5b061d554613418db111",
-                        "proposalPubkey": "0xce5ee06dab5c554e10863f2f9b5cf02543f77b17db0e5e7a4e19f777c266d81325d82f2bc597d322bc10ee25fd09bd3bec791e0a",
+                        "attestationPublicKey": "0x052219585cd5586b5dec1d5d4726fe7de8ed435e6c96af4abe90f901b5067364ea570106b5cb3126056c5b061d554613418db111",
+                        "proposalPublicKey": "0xce5ee06dab5c554e10863f2f9b5cf02543f77b17db0e5e7a4e19f777c266d81325d82f2bc597d322bc10ee25fd09bd3bec791e0a",
                         "index": 3
                     }
                 ]
@@ -243,10 +243,10 @@
         ],
         "maxSlot": 6,
         "_info": {
-            "hash": "0x78a09f370e1b377252978d9be2fe2e7abce163ded364558c4ea325701ab7bf94",
+            "hash": "0x0ed450c8c07d41ca8320fe02f6bc1f10c45e048effe0d498d9c44023d3b904e5",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/fc/test_fork_choice_reorgs.py::test_two_block_reorg_progressive_building[fork_Lstar]",
-            "description": "Two-block reorg via progressive fork building.\n\n    Scenario\n    --------\n    - Slot 1: Common ancestor\n    - Slots 2-3: Fork A extends to 2 blocks\n    - Slots 4-6: Fork B starts late from base, catches up, then overtakes\n\n    Chain State Evolution:\n        Slot 1: base\n        Slot 2: base \u2190 fork_a_2 (head)\n        Slot 3: base \u2190 fork_a_2 \u2190 fork_a_3 (head, weight=1)\n        Slot 4: base \u2190 fork_a_2 \u2190 fork_a_3 (head, weight=1)\n                base \u2190 fork_b_4\n        Slot 5: base \u2190 fork_a_2 \u2190 fork_a_3 (head, weight=1)\n                base \u2190 fork_b_4 \u2190 fork_b_5\n        Slot 6: base \u2190 fork_a_2 \u2190 fork_a_3 (weight=1, abandoned)\n                base \u2190 fork_b_4 \u2190 fork_b_5 \u2190 fork_b_6 (head, weight=2 - REORG!)\n\n    Expected Behavior\n    -----------------\n    1. Fork A leads for slots 2-3 (2 blocks, weight=1)\n    2. Fork B starts late at slot 4 (builds on base)\n    3. Fork B overtakes at slot 6 (weight=2 > fork A's 1)\n    4. Two-block reorg: fork_a_2 and fork_a_3 become non-canonical\n\n    Reorg Details:\n        - **Depth**: 2 blocks\n        - **Trigger**: Progressive building on alternative fork\n        - **Weight advantage**: Fork B has 2 attestations vs 1\n\n    Why This Matters\n    ----------------\n    Demonstrates that an initially leading fork can be overtaken if:\n    - Proposers switch to building on the alternative fork\n    - The alternative fork accumulates more attestations over time\n    - Network temporarily favored one fork but consensus shifted",
+            "description": "Two-block reorg via progressive fork building.\n\nScenario\n--------\n- Slot 1: Common ancestor\n- Slots 2-3: Fork A extends to 2 blocks\n- Slots 4-6: Fork B starts late from base, catches up, then overtakes\n\nChain State Evolution:\n    Slot 1: base\n    Slot 2: base \u2190 fork_a_2 (head)\n    Slot 3: base \u2190 fork_a_2 \u2190 fork_a_3 (head, weight=1)\n    Slot 4: base \u2190 fork_a_2 \u2190 fork_a_3 (head, weight=1)\n            base \u2190 fork_b_4\n    Slot 5: base \u2190 fork_a_2 \u2190 fork_a_3 (head, weight=1)\n            base \u2190 fork_b_4 \u2190 fork_b_5\n    Slot 6: base \u2190 fork_a_2 \u2190 fork_a_3 (weight=1, abandoned)\n            base \u2190 fork_b_4 \u2190 fork_b_5 \u2190 fork_b_6 (head, weight=2 - REORG!)\n\nExpected Behavior\n-----------------\n1. Fork A leads for slots 2-3 (2 blocks, weight=1)\n2. Fork B starts late at slot 4 (builds on base)\n3. Fork B overtakes at slot 6 (weight=2 > fork A's 1)\n4. Two-block reorg: fork_a_2 and fork_a_3 become non-canonical\n\nReorg Details:\n    - **Depth**: 2 blocks\n    - **Trigger**: Progressive building on alternative fork\n    - **Weight advantage**: Fork B has 2 attestations vs 1\n\nWhy This Matters\n----------------\nDemonstrates that an initially leading fork can be overtaken if:\n- Proposers switch to building on the alternative fork\n- The alternative fork accumulates more attestations over time\n- Network temporarily favored one fork but consensus shifted",
             "fixtureFormat": "fork_choice_test"
         }
     }

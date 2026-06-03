@@ -24,6 +24,9 @@
                 "lean_attestation_validation_time_seconds",
                 "lean_fork_choice_reorgs_total",
                 "lean_fork_choice_reorg_depth",
+                "lean_attestation_aggregate_coverage_validators",
+                "lean_attestation_aggregate_coverage_subnets",
+                "lean_attestation_aggregate_coverage_diff_validators",
                 "lean_latest_justified_slot",
                 "lean_latest_finalized_slot",
                 "lean_state_transition_time_seconds",
@@ -32,10 +35,10 @@
             ]
         },
         "_info": {
-            "hash": "0xc9787e7b7cf0ec2b312b636b6a9ae154456c950e663141f375af29d36ba3340f",
+            "hash": "0x9451bf8ff6d4024d9da38c7bb80774ed844871528f14ccbaa42b56dd8987de97",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/api/test_metrics_endpoint.py::test_metrics_endpoint_scrape_contract[fork_Lstar]",
-            "description": "GET /metrics returns the Prometheus-format scrape with the required metric names.\n\n    The endpoint body is dynamic (counters accumulate, timestamps shift),\n    so the vector pins only the stable contract: status 200, the\n    Prometheus text-exposition content type, and the full list of\n    metric names a compliant node must expose. Clients replay the\n    fixture and confirm every listed metric appears in their scrape.",
+            "description": "GET /metrics returns the Prometheus-format scrape with the required metric names.\n\nThe endpoint body is dynamic (counters accumulate, timestamps shift),\nso the vector pins only the stable contract: status 200, the\nPrometheus text-exposition content type, and the full list of\nmetric names a compliant node must expose. Clients replay the\nfixture and confirm every listed metric appears in their scrape.",
             "fixtureFormat": "api_endpoint"
         }
     }

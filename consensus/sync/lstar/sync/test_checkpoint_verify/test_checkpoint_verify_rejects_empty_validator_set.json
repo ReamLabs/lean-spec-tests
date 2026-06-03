@@ -16,7 +16,7 @@
             "hash": "0x006d45bebb7dc711ad862dc62a9478b2446f974141faefdf6ad5e566cdac42b3",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/sync/test_checkpoint_verify.py::test_checkpoint_verify_rejects_empty_validator_set[fork_Lstar]",
-            "description": "A checkpoint state with zero validators is rejected.\n\n    A state without validators cannot produce blocks, so seeding a\n    fork-choice store with it would be useless and mask configuration\n    errors. Clients must refuse the anchor before any store setup.",
+            "description": "A checkpoint state with zero validators is rejected.\n\nA state without validators cannot produce blocks, so seeding a\nfork-choice store with it would be useless and mask configuration\nerrors. Clients must refuse the anchor before any store setup.",
             "fixtureFormat": "sync"
         }
     }

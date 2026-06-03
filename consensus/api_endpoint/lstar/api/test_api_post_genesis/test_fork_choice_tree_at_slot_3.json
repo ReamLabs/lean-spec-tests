@@ -38,7 +38,7 @@
             "hash": "0x44c4ac0c2cac531aca5c76417918401c3accb74bf4f0eb065688cc0700a645b4",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/api/test_api_post_genesis.py::test_fork_choice_tree_at_slot_3[fork_Lstar]",
-            "description": "Fork-choice response carries a multi-node tree once the chain advances.\n\n    With the chain at slot 3 the store holds four blocks (genesis plus\n    slots 1 through 3). The response's nodes list, head root, and\n    parent-root linkage are pinned so clients diverge only when their\n    tree traversal or SSZ root computation differs.",
+            "description": "Fork-choice response carries a multi-node tree once the chain advances.\n\nWith the chain at slot 3 the store holds four blocks (genesis plus\nslots 1 through 3). The response's nodes list, head root, and\nparent-root linkage are pinned so clients diverge only when their\ntree traversal or SSZ root computation differs.",
             "fixtureFormat": "api_endpoint"
         }
     }

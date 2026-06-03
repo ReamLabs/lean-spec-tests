@@ -14,10 +14,7 @@
             "publicKey": "0x03ca634cae0d49acb401d8a4c6b6fe8c55b70d115bf400769cc1400f3258cd3138",
             "ip4": "10.0.0.1",
             "udpPort": 30303,
-            "udp6Port": 30304,
-            "ip6": "2001:0db8:0000:0000:0000:0000:0000:0001",
             "quicPort": 9001,
-            "quic6Port": 9002,
             "multiaddr": "/ip4/10.0.0.1/udp/9001/quic-v1",
             "eth2Data": {
                 "forkDigest": "0x12345678",
@@ -29,19 +26,15 @@
                 7,
                 63
             ],
-            "syncCommitteeSubnets": [
-                1,
-                3
-            ],
             "isAggregator": true,
             "signatureValid": false,
             "isValid": true
         },
         "_info": {
-            "hash": "0x64396e94eac6807c50f6ecbe808e204b9c5319d9aa71a34fb18881973c463698",
+            "hash": "0x48d1b830efcd3d8a6d6046344b91c976038a9190b32e44a35e35979ed7d8ed90",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_with_extensions[fork_Lstar]",
-            "description": "ENR with all extension keys: eth2, subnets, IPv6, QUIC, udp6, quic6, is_aggregator.",
+            "description": "ENR with extension keys: eth2, attnets, QUIC, is_aggregator.",
             "fixtureFormat": "networking_codec"
         }
     }

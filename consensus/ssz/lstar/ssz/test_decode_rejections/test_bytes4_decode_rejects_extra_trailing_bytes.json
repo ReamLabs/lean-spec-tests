@@ -12,7 +12,7 @@
             "hash": "0x0350f4038a4de061b60199e503eb5e9a5142b57e1d485db26fb7ed9a27f16dab",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_decode_rejections.py::test_bytes4_decode_rejects_extra_trailing_bytes[fork_Lstar]",
-            "description": "Fixed-size byte arrays reject inputs longer than their declared LENGTH.\n\n    A four-byte fixed array cannot consume five input bytes. The extra\n    trailing byte has no slot in the type, so the decoder must raise\n    rather than silently ignore the overflow.",
+            "description": "Fixed-size byte arrays reject inputs longer than their declared LENGTH.\n\nA four-byte fixed array cannot consume five input bytes. The extra\ntrailing byte has no slot in the type, so the decoder must raise\nrather than silently ignore the overflow.",
             "fixtureFormat": "ssz"
         }
     }

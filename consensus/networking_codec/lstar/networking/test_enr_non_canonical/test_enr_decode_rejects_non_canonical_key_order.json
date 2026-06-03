@@ -17,7 +17,7 @@
             "hash": "0x8afe720524294509f22a19e957e88a4436db82b043342c4851c705fb36bcb441",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_enr_non_canonical.py::test_enr_decode_rejects_non_canonical_key_order[fork_Lstar]",
-            "description": "An ENR with keys outside lexicographic order must be rejected.\n\n    Pins EIP-778's canonical-ordering requirement. A client that decodes\n    such a record would verify a signature over bytes the signer never\n    produced.",
+            "description": "An ENR with keys outside lexicographic order must be rejected.\n\nPins EIP-778's canonical-ordering requirement. A client that decodes\nsuch a record would verify a signature over bytes the signer never\nproduced.",
             "fixtureFormat": "networking_codec"
         }
     }

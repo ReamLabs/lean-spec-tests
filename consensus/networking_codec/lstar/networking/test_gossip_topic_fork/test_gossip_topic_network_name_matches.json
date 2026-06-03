@@ -16,7 +16,7 @@
             "hash": "0xa9f12b2f5bb4cdf47a5c9345c044217daa9c450cc37f51eb4f6f3e300680a649",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_gossip_topic_fork.py::test_gossip_topic_network_name_matches[fork_Lstar]",
-            "description": "Block topic whose network name matches the expected value validates cleanly.\n\n    Pins the accept branch of validate_fork: a topic built with a network\n    name equal to the expected one must pass the check.",
+            "description": "Block topic whose network name matches the expected value validates cleanly.\n\nPins the accept branch of validate_fork: a topic built with a network\nname equal to the expected one must pass the check.",
             "fixtureFormat": "networking_codec"
         }
     }

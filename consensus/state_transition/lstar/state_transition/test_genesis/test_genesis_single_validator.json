@@ -31,8 +31,8 @@
             "validators": {
                 "data": [
                     {
-                        "attestationPubkey": "0x69968a74060bb672709bae2a9020113634052a233f82a1362d836238c42a3a35239f622654db5208a695613841694163e1bb2f03",
-                        "proposalPubkey": "0x2a18d4583f2767751a706c5ece704966fd615a400a80f5059cc91727a3302249e29bcf2ab3a03758de58870497756569dd512402",
+                        "attestationPublicKey": "0x69968a74060bb672709bae2a9020113634052a233f82a1362d836238c42a3a35239f622654db5208a695613841694163e1bb2f03",
+                        "proposalPublicKey": "0x2a18d4583f2767751a706c5ece704966fd615a400a80f5059cc91727a3302249e29bcf2ab3a03758de58870497756569dd512402",
                         "index": 0
                     }
                 ]
@@ -133,10 +133,10 @@
             "latestBlockHeaderProposerIndex": 0
         },
         "_info": {
-            "hash": "0xa9dbf6eec7d842767269e922595fb6a18a8d9e0ecab7cfc532050d464d44c7f6",
+            "hash": "0x4db079766f29f3ccde5c50d7d9b4bfefc40cce9993b816a650c2c2890a39a6a7",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/state_transition/test_genesis.py::test_genesis_single_validator[fork_Lstar]",
-            "description": "Genesis with exactly 1 validator; justification and finalization in 3 blocks.\n\n    Scenario\n    --------\n    Single validator. Proposer for every slot (slot % 1 == 0, always).\n    Supermajority threshold trivially met: 3*1=3 >= 2*1=2.\n\n    - Block 1: empty (creates attestation target)\n    - Block 2: V0 attests to slot 1 -> justifies slot 1\n    - Block 3: V0 attests to slot 2 -> justifies slot 2, finalizes slot 1\n\n    Expected post-state\n    -------------------\n    - Validator count: 1\n    - Justified slot: 2\n    - Finalized slot: 1\n    - Proposer index: always 0",
+            "description": "Genesis with exactly 1 validator; justification and finalization in 3 blocks.\n\nScenario\n--------\nSingle validator. Proposer for every slot (slot % 1 == 0, always).\nSupermajority threshold trivially met: 3*1=3 >= 2*1=2.\n\n- Block 1: empty (creates attestation target)\n- Block 2: V0 attests to slot 1 -> justifies slot 1\n- Block 3: V0 attests to slot 2 -> justifies slot 2, finalizes slot 1\n\nExpected post-state\n-------------------\n- Validator count: 1\n- Justified slot: 2\n- Finalized slot: 1\n- Proposer index: always 0",
             "fixtureFormat": "state_transition_test"
         }
     }

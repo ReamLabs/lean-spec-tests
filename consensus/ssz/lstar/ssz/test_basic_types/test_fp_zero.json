@@ -3,11 +3,11 @@
         "network": "Lstar",
         "leanEnv": "prod",
         "typeName": "Fp",
-        "value": "0",
+        "value": "Fp(value=0)",
         "serialized": "0x00000000",
         "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
         "_info": {
-            "hash": "0x6a43f30ddcd6526657cee79631883521bc60a4c4d647bfd3b7a472ddbd107f7c",
+            "hash": "0x9199befadd8e54011a53a226aa5008ad8f68cde5f7c6b9b4121e110e2b238467",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_basic_types.py::test_fp_zero[fork_Lstar]",
             "description": "Field element zero. The additive identity.",

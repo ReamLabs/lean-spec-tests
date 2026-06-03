@@ -17,7 +17,7 @@
             "hash": "0xdbbfe700b17fd4d50ac0172caa6b18d0da8cf7089bcb471891d3a5aff3ca6320",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_reqresp_rejections.py::test_reqresp_decode_rejects_empty_request[fork_Lstar]",
-            "description": "Decoding an empty request is rejected with CodecError.\n\n    The req/resp framing demands a length-prefix varint followed by a\n    compressed payload. Zero input carries neither, so the decoder must\n    refuse before any downstream parsing.",
+            "description": "Decoding an empty request is rejected with CodecError.\n\nThe req/resp framing demands a length-prefix varint followed by a\ncompressed payload. Zero input carries neither, so the decoder must\nrefuse before any downstream parsing.",
             "fixtureFormat": "networking_codec"
         }
     }

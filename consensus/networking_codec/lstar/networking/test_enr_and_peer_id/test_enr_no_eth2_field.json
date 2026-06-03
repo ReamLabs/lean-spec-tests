@@ -23,7 +23,7 @@
             "hash": "0x8263a61964d673cd90f570961dd751996867a9ef6841b9a8cd9c2dadbbc46078",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_enr_and_peer_id.py::test_enr_no_eth2_field[fork_Lstar]",
-            "description": "ENR with ip4 + udp but no eth2, attnets, or syncnets. Verifies absent optional fields.",
+            "description": "ENR with ip4 + udp but no eth2 or attnets. Verifies absent optional fields.",
             "fixtureFormat": "networking_codec"
         }
     }

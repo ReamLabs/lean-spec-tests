@@ -17,7 +17,7 @@
             "hash": "0x75791e64a1908926124db4f846438589498fa79a06801fff54c26dcb924cb110",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/sync/test_checkpoint_verify_advanced.py::test_checkpoint_verify_advanced_slot_ten[fork_Lstar]",
-            "description": "Advanced anchor state at slot 10 with four validators is accepted.\n\n    Ten empty blocks populate historical_block_hashes and justified_slots\n    with longer lists. Pins the verdict and state bytes at a larger\n    history than the slot-three case.",
+            "description": "Advanced anchor state at slot 10 with four validators is accepted.\n\nTen empty blocks populate historical_block_hashes and justified_slots\nwith longer lists. Pins the verdict and state bytes at a larger\nhistory than the slot-three case.",
             "fixtureFormat": "sync"
         }
     }

@@ -3,11 +3,11 @@
         "network": "Lstar",
         "leanEnv": "prod",
         "typeName": "Fp",
-        "value": "1",
+        "value": "Fp(value=1)",
         "serialized": "0x01000000",
         "root": "0x0100000000000000000000000000000000000000000000000000000000000000",
         "_info": {
-            "hash": "0xe8974b6b6e26934847c425f64e3326ca7d78685f4660228e68d8c577b74c112d",
+            "hash": "0x4ed42f1f345447fa1392869a9ae42919650d7beefcbcdcd53db0aff8b25532a8",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_basic_types.py::test_fp_one[fork_Lstar]",
             "description": "Field element one. The multiplicative identity.",
