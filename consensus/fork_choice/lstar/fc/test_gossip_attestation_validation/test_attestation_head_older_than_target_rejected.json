@@ -31,23 +31,23 @@
             "validators": {
                 "data": [
                     {
-                        "attestationPubkey": "0x69968a74060bb672709bae2a9020113634052a233f82a1362d836238c42a3a35239f622654db5208a695613841694163e1bb2f03",
-                        "proposalPubkey": "0x2a18d4583f2767751a706c5ece704966fd615a400a80f5059cc91727a3302249e29bcf2ab3a03758de58870497756569dd512402",
+                        "attestationPublicKey": "0x69968a74060bb672709bae2a9020113634052a233f82a1362d836238c42a3a35239f622654db5208a695613841694163e1bb2f03",
+                        "proposalPublicKey": "0x2a18d4583f2767751a706c5ece704966fd615a400a80f5059cc91727a3302249e29bcf2ab3a03758de58870497756569dd512402",
                         "index": 0
                     },
                     {
-                        "attestationPubkey": "0x19cb1c1d6125eb5384442c467d2e0c3a043db2354b280026918a9574219bef1b1408375e8c552a572aac724bbc62567252ba5e29",
-                        "proposalPubkey": "0xd9070922f2a61d4f6841a422af4c4c20b884822679e373656d85fb23c16d481950e066599bf38819590a2b1c23a0191412103134",
+                        "attestationPublicKey": "0x19cb1c1d6125eb5384442c467d2e0c3a043db2354b280026918a9574219bef1b1408375e8c552a572aac724bbc62567252ba5e29",
+                        "proposalPublicKey": "0xd9070922f2a61d4f6841a422af4c4c20b884822679e373656d85fb23c16d481950e066599bf38819590a2b1c23a0191412103134",
                         "index": 1
                     },
                     {
-                        "attestationPubkey": "0x92bed26ae499d8697f17f95e7ff3384fc14873104bb8e77c0873c84e62faf807c6ba6a0fbcfc854e3a454967e8d13b3421feb640",
-                        "proposalPubkey": "0xb29ab606672cbb688c6fda46eb61b11c700049668dfea02b8495b31d2f099756b6e4703bb766614db919d628acb94a33191ccd08",
+                        "attestationPublicKey": "0x92bed26ae499d8697f17f95e7ff3384fc14873104bb8e77c0873c84e62faf807c6ba6a0fbcfc854e3a454967e8d13b3421feb640",
+                        "proposalPublicKey": "0xb29ab606672cbb688c6fda46eb61b11c700049668dfea02b8495b31d2f099756b6e4703bb766614db919d628acb94a33191ccd08",
                         "index": 2
                     },
                     {
-                        "attestationPubkey": "0x052219585cd5586b5dec1d5d4726fe7de8ed435e6c96af4abe90f901b5067364ea570106b5cb3126056c5b061d554613418db111",
-                        "proposalPubkey": "0xce5ee06dab5c554e10863f2f9b5cf02543f77b17db0e5e7a4e19f777c266d81325d82f2bc597d322bc10ee25fd09bd3bec791e0a",
+                        "attestationPublicKey": "0x052219585cd5586b5dec1d5d4726fe7de8ed435e6c96af4abe90f901b5067364ea570106b5cb3126056c5b061d554613418db111",
+                        "proposalPublicKey": "0xce5ee06dab5c554e10863f2f9b5cf02543f77b17db0e5e7a4e19f777c266d81325d82f2bc597d322bc10ee25fd09bd3bec791e0a",
                         "index": 3
                     }
                 ]
@@ -133,7 +133,7 @@
                 "expectedError": "Head checkpoint must not be older than target",
                 "stepType": "attestation",
                 "attestation": {
-                    "validatorId": 1,
+                    "validatorIndex": 1,
                     "data": {
                         "slot": 3,
                         "head": {
@@ -156,10 +156,10 @@
         ],
         "maxSlot": 3,
         "_info": {
-            "hash": "0x1d73bb8c20c5344506843ec675756576622e3bd240b8a7b61c9083a45f9333ad",
+            "hash": "0xa1a7c8503134af5121e2f1434340300da84358216617bcfa6cd4c3eff76bf32d",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/fc/test_gossip_attestation_validation.py::test_attestation_head_older_than_target_rejected[fork_Lstar]",
-            "description": "Attestation where head slot is older than target slot is rejected.\n\n    Scenario\n    --------\n    Build a chain with blocks at slots 1, 2, and 3.\n    Submit attestation with target at slot 3 but head pointing to slot 1.\n\n    Expected:\n        - Validation fails with \"Head checkpoint must not be older than target\"",
+            "description": "Attestation where head slot is older than target slot is rejected.\n\nScenario\n--------\nBuild a chain with blocks at slots 1, 2, and 3.\nSubmit attestation with target at slot 3 but head pointing to slot 1.\n\nExpected:\n    - Validation fails with \"Head checkpoint must not be older than target\"",
             "fixtureFormat": "fork_choice_test"
         }
     }

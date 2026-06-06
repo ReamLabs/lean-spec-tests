@@ -1,0 +1,34 @@
+{
+    "tests/consensus/lstar/ssz/test_consensus_containers.py::test_signed_block_with_proof_bytes[fork_Lstar][fork_Lstar-ssz]": {
+        "network": "Lstar",
+        "leanEnv": "prod",
+        "typeName": "SignedBlock",
+        "value": {
+            "block": {
+                "slot": 2,
+                "proposerIndex": 1,
+                "parentRoot": "0x0101010101010101010101010101010101010101010101010101010101010101",
+                "stateRoot": "0x0202020202020202020202020202020202020202020202020202020202020202",
+                "body": {
+                    "attestations": {
+                        "data": []
+                    }
+                }
+            },
+            "proof": {
+                "proof": {
+                    "data": "0xdeadbeef"
+                }
+            }
+        },
+        "serialized": "0x08000000600000000200000000000000010000000000000001010101010101010101010101010101010101010101010101010101010101010202020202020202020202020202020202020202020202020202020202020202540000000400000004000000deadbeef",
+        "root": "0xad16e0fd1814f9ffcb99d9da22f63140dd7db707aeb1b513de557ca6f54477b3",
+        "_info": {
+            "hash": "0x1728b10a3fc7380797cdae20d435d4feaf03e3a36fe33878b92c73933e9143da",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/ssz/test_consensus_containers.py::test_signed_block_with_proof_bytes[fork_Lstar]",
+            "description": "SSZ roundtrip for SignedBlock with non-empty proof bytes.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

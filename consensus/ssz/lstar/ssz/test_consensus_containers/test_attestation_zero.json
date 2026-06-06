@@ -4,7 +4,7 @@
         "leanEnv": "prod",
         "typeName": "Attestation",
         "value": {
-            "validatorId": 0,
+            "validatorIndex": 0,
             "data": {
                 "slot": 0,
                 "head": {
@@ -24,7 +24,7 @@
         "serialized": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
         "root": "0xae13679a783022549db8b0909a16bcb7c000dc623f534b551bb062f666fd9cae",
         "_info": {
-            "hash": "0x66994685362cca00d29b20da2f717549445b697fde0824ba7b8f18c48163540b",
+            "hash": "0x5daadf5528a8aaa03c52a4c6dadc7121f8f28e3e2f132256143c0c815414c630",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_consensus_containers.py::test_attestation_zero[fork_Lstar]",
             "description": "SSZ roundtrip for Attestation with zero values.",

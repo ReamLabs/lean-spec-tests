@@ -17,7 +17,7 @@
             "hash": "0xd964bf69924a9b6b2350f18cd5dae9b6e2e21a035cb76b17ba9fc7b0ef71d6e9",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/sync/test_checkpoint_verify_advanced.py::test_checkpoint_verify_advanced_eight_validators[fork_Lstar]",
-            "description": "Advanced anchor state at slot 5 with eight validators is accepted.\n\n    Exercises the combination of larger validator set with a non-zero\n    anchor slot so clients diff both axes in a single vector.",
+            "description": "Advanced anchor state at slot 5 with eight validators is accepted.\n\nExercises the combination of larger validator set with a non-zero\nanchor slot so clients diff both axes in a single vector.",
             "fixtureFormat": "sync"
         }
     }

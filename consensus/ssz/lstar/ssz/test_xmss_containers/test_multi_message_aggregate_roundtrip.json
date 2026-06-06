@@ -1,0 +1,21 @@
+{
+    "tests/consensus/lstar/ssz/test_xmss_containers.py::test_multi_message_aggregate_roundtrip[fork_Lstar][fork_Lstar-ssz]": {
+        "network": "Lstar",
+        "leanEnv": "prod",
+        "typeName": "MultiMessageAggregate",
+        "value": {
+            "proof": {
+                "data": "0x010203"
+            }
+        },
+        "serialized": "0x04000000010203",
+        "root": "0xa3cbb110fc48baaecd7cb3d371cd8f7fe73a738a7ff3715d951e1ccfb0272b16",
+        "_info": {
+            "hash": "0x7901f8c92ae2018b68db4494daabbc8eba57648c5868eabdea534565fadb0df8",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/ssz/test_xmss_containers.py::test_multi_message_aggregate_roundtrip[fork_Lstar]",
+            "description": "SSZ roundtrip for a multi-message aggregate proof envelope.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

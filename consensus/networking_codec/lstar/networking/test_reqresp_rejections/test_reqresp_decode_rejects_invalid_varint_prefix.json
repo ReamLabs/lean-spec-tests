@@ -17,7 +17,7 @@
             "hash": "0xcbe946ab9acf72c188e52ca6474d5c4417ee51ab0268153a4fc961eabcb2f289",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_reqresp_rejections.py::test_reqresp_decode_rejects_invalid_varint_prefix[fork_Lstar]",
-            "description": "A request whose length prefix is a malformed varint is rejected with CodecError.\n\n    Two continuation bytes with no terminator make the varint parse raise.\n    The decoder wraps the underlying varint error in CodecError so clients\n    can uniformly treat wire-level framing errors as a single class.",
+            "description": "A request whose length prefix is a malformed varint is rejected with CodecError.\n\nTwo continuation bytes with no terminator make the varint parse raise.\nThe decoder wraps the underlying varint error in CodecError so clients\ncan uniformly treat wire-level framing errors as a single class.",
             "fixtureFormat": "networking_codec"
         }
     }

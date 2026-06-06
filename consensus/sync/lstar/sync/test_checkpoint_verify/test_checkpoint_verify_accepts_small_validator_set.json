@@ -16,7 +16,7 @@
             "hash": "0x356007c1b1a7fe8e8d3d023bdd5c41993d1bfca3bf1c5747cab97bb57bfa05d4",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/sync/test_checkpoint_verify.py::test_checkpoint_verify_accepts_small_validator_set[fork_Lstar]",
-            "description": "A checkpoint state with a small in-range validator set is accepted.\n\n    Four validators is the baseline size used throughout the consensus\n    test suite. Pins the happy path of the verifier so clients observe\n    the accepted branch in addition to the rejection branch above.",
+            "description": "A checkpoint state with a small in-range validator set is accepted.\n\nFour validators is the baseline size used throughout the consensus\ntest suite. Pins the happy path of the verifier so clients observe\nthe accepted branch in addition to the rejection branch above.",
             "fixtureFormat": "sync"
         }
     }

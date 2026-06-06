@@ -14,7 +14,7 @@
             "hash": "0x736c7ef1eaa1c582971295bbb434e81b45946c3b062c04095824a7d4d9fb8859",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_reqresp_error_utf8.py::test_reqresp_error_at_max_error_message_size[fork_Lstar]",
-            "description": "Error response carrying a payload at the maximum error-message size roundtrips.\n\n    The handler truncates server-side error strings to 256 bytes before\n    encoding. A payload at that boundary exercises the exact wire shape\n    clients may receive and must be able to decode back to the same\n    bytes without loss.",
+            "description": "Error response carrying a payload at the maximum error-message size roundtrips.\n\nThe handler truncates server-side error strings to 256 bytes before\nencoding. A payload at that boundary exercises the exact wire shape\nclients may receive and must be able to decode back to the same\nbytes without loss.",
             "fixtureFormat": "networking_codec"
         }
     }

@@ -4,14 +4,14 @@
         "leanEnv": "prod",
         "typeName": "Validator",
         "value": {
-            "attestationPubkey": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "proposalPubkey": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "attestationPublicKey": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "proposalPublicKey": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
             "index": 18446744073709551615
         },
         "serialized": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
         "root": "0x748b83cdfc5929a76a32250d66d233c1f483071aefb4393898aa13c5a70d6bbb",
         "_info": {
-            "hash": "0x1bd32fef8972915588e3e7ff7384e1bcb62298f1c211e33cfa3152fe96266a3c",
+            "hash": "0x9a2d8f4cc232fa29fbf08087718f1b8b68d6103c1c3a5077d23945fa89f3f3e1",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/ssz/test_consensus_containers.py::test_validator_max_index[fork_Lstar]",
             "description": "SSZ roundtrip for Validator at the maximum 64-bit index with all-0xff public keys.",

@@ -1,0 +1,74 @@
+{
+    "tests/consensus/lstar/verify_signatures/test_structural_rejections.py::test_corrupt_proof_rejected[fork_Lstar][fork_Lstar-verify_signatures_test]": {
+        "network": "Lstar",
+        "leanEnv": "prod",
+        "expectException": "AssertionError",
+        "anchorState": {
+            "config": {
+                "genesisTime": 0
+            },
+            "slot": 0,
+            "latestBlockHeader": {
+                "slot": 0,
+                "proposerIndex": 0,
+                "parentRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "bodyRoot": "0xdba9671bac9513c9482f1416a53aabd2c6ce90d5a5f865ce5a55c775325c9136"
+            },
+            "latestJustified": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "latestFinalized": {
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "slot": 0
+            },
+            "historicalBlockHashes": {
+                "data": []
+            },
+            "justifiedSlots": {
+                "data": []
+            },
+            "validators": {
+                "data": [
+                    {
+                        "attestationPublicKey": "0x69968a74060bb672709bae2a9020113634052a233f82a1362d836238c42a3a35239f622654db5208a695613841694163e1bb2f03",
+                        "proposalPublicKey": "0x2a18d4583f2767751a706c5ece704966fd615a400a80f5059cc91727a3302249e29bcf2ab3a03758de58870497756569dd512402",
+                        "index": 0
+                    }
+                ]
+            },
+            "justificationsRoots": {
+                "data": []
+            },
+            "justificationsValidators": {
+                "data": []
+            }
+        },
+        "signedBlock": {
+            "block": {
+                "slot": 1,
+                "proposerIndex": 0,
+                "parentRoot": "0x647dc9b4cf027224b63aabace094dd68b0ca442fd25b07d435f67e9c24de7938",
+                "stateRoot": "0x89c9674670e3f7e6424a9e10fbad382de10be13c9e8fe5f5d192a62059d17f44",
+                "body": {
+                    "attestations": {
+                        "data": []
+                    }
+                }
+            },
+            "proof": {
+                "proof": {
+                    "data": "0x00010203"
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x907ba0e2741ac13054beb6755af5e86fe0c3696d2a51dee98284527ea7aa854b",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/verify_signatures/test_structural_rejections.py::test_corrupt_proof_rejected[fork_Lstar]",
+            "description": "A signed block whose merged proof does not decode is rejected.\n\nScenario\n--------\n- Anchor state has 1 validator.\n- Block at slot 1 carries only the proposer component.\n- The tamper hook overwrites the merged proof with a short blob.\n\nExpected Behavior\n-----------------\nVerification fails with AssertionError because the multi-message aggregate envelope\ncannot be decoded.\n\nWhy This Matters\n----------------\nThe proof blob arrives over the wire.\nA peer can send arbitrary bytes.\nClients must reject before attempting to verify a malformed proof.",
+            "fixtureFormat": "verify_signatures_test"
+        }
+    }
+}

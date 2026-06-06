@@ -17,7 +17,7 @@
             "hash": "0x9cab7eece74a5c9ffba5971020c945e620eaf5a7e65011ca8d03fdcf20320d1b",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/api/test_api_post_genesis.py::test_finalized_state_at_slot_3[fork_Lstar]",
-            "description": "Finalized-state response returns the SSZ-encoded anchor state after chain advance.\n\n    Finalization has not yet moved past genesis (no attestations have\n    been injected), but the served state now carries non-empty\n    historical_block_hashes because the chain has processed three empty\n    blocks. Pins the exact SSZ bytes at that configuration.",
+            "description": "Finalized-state response returns the SSZ-encoded anchor state after chain advance.\n\nFinalization has not yet moved past genesis (no attestations have\nbeen injected), but the served state now carries non-empty\nhistorical_block_hashes because the chain has processed three empty\nblocks. Pins the exact SSZ bytes at that configuration.",
             "fixtureFormat": "api_endpoint"
         }
     }

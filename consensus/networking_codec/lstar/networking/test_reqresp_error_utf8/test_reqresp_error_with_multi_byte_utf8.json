@@ -14,7 +14,7 @@
             "hash": "0x46383f78652c04d5b3e2a43c076f79482884e01552fea56056f144ea1a01dd63",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_reqresp_error_utf8.py::test_reqresp_error_with_multi_byte_utf8[fork_Lstar]",
-            "description": "Error response carrying multi-byte UTF-8 text roundtrips byte-for-byte.\n\n    The codec treats the payload as opaque bytes. A multi-byte UTF-8\n    payload verifies that compression, length framing, and decode\n    preserve the original bytes even when they are not ASCII-only.",
+            "description": "Error response carrying multi-byte UTF-8 text roundtrips byte-for-byte.\n\nThe codec treats the payload as opaque bytes. A multi-byte UTF-8\npayload verifies that compression, length framing, and decode\npreserve the original bytes even when they are not ASCII-only.",
             "fixtureFormat": "networking_codec"
         }
     }

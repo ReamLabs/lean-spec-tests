@@ -1,0 +1,26 @@
+{
+    "tests/consensus/lstar/ssz/test_xmss_containers.py::test_single_message_aggregate_empty[fork_Lstar][fork_Lstar-ssz]": {
+        "network": "Lstar",
+        "leanEnv": "prod",
+        "typeName": "SingleMessageAggregate",
+        "value": {
+            "participants": {
+                "data": [
+                    true
+                ]
+            },
+            "proof": {
+                "data": "0x"
+            }
+        },
+        "serialized": "0x080000000900000003",
+        "root": "0x7b8f873321942f6475483d1c91706d6eab26c897bff969548fbde5baf83825b1",
+        "_info": {
+            "hash": "0x86d692437a57ce19363e3b8c9e09f457b8f02ac1acb5f05a8c464fd172079dac",
+            "comment": "`leanSpec` generated test",
+            "testId": "tests/consensus/lstar/ssz/test_xmss_containers.py::test_single_message_aggregate_empty[fork_Lstar]",
+            "description": "SSZ roundtrip for a single-message aggregate proof with empty proof bytes.",
+            "fixtureFormat": "ssz"
+        }
+    }
+}

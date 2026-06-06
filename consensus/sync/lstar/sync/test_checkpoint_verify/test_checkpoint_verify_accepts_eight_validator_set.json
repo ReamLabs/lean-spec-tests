@@ -16,7 +16,7 @@
             "hash": "0xa242e012dc622598a62585e7d16c0984773fb9f13dd219598dcde2b43eb407c6",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/sync/test_checkpoint_verify.py::test_checkpoint_verify_accepts_eight_validator_set[fork_Lstar]",
-            "description": "Eight-validator anchor state is accepted at the key-manager limit.\n\n    Matches the maximum-validator setup used by the existing fork-choice\n    and signature-verification suites. Pins the verdict at the upper\n    end of the practical test envelope.",
+            "description": "Eight-validator anchor state is accepted at the key-manager limit.\n\nMatches the maximum-validator setup used by the existing fork-choice\nand signature-verification suites. Pins the verdict at the upper\nend of the practical test envelope.",
             "fixtureFormat": "sync"
         }
     }

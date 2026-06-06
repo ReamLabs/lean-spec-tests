@@ -23,7 +23,7 @@
             "hash": "0x4f28f7385aacb69e1c7627bde12ead4b0689436babcf4d7c2b4d3aa9d2da2419",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_reqresp_response_stream.py::test_stream_two_success_chunks[fork_Lstar]",
-            "description": "Stream with two SUCCESS chunks carrying distinct payload bytes.\n\n    Pins the concatenation of two independent response frames. Clients\n    must read both records before signalling EOF, so a receiver that\n    stops after the first chunk drops half the response.",
+            "description": "Stream with two SUCCESS chunks carrying distinct payload bytes.\n\nPins the concatenation of two independent response frames. Clients\nmust read both records before signalling EOF, so a receiver that\nstops after the first chunk drops half the response.",
             "fixtureFormat": "networking_codec"
         }
     }

@@ -17,7 +17,7 @@
             "hash": "0x8ec44b5083a369e19d0320ae0d1f0d10bab4ac77ec5220f4540cfa8547a18477",
             "comment": "`leanSpec` generated test",
             "testId": "tests/consensus/lstar/networking/test_reqresp_rejections.py::test_reqresp_decode_rejects_declared_length_above_max[fork_Lstar]",
-            "description": "A request whose declared length exceeds the ten-mebibyte cap is rejected.\n\n    The varint 0x81 0x80 0x80 0x05 declares 10,485,761 bytes, one over the\n    ten-mebibyte protocol cap. Refusing before decompression prevents a\n    sender from forcing resource allocation proportional to a claimed size.",
+            "description": "A request whose declared length exceeds the ten-mebibyte cap is rejected.\n\nThe varint 0x81 0x80 0x80 0x05 declares 10,485,761 bytes, one over the\nten-mebibyte protocol cap. Refusing before decompression prevents a\nsender from forcing resource allocation proportional to a claimed size.",
             "fixtureFormat": "networking_codec"
         }
     }
